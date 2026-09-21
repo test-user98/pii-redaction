@@ -14,6 +14,16 @@ and tries to preserve the original layout.
 
 **Evaluation report:** [View the full Claude report](https://claude.ai/artifact/5xUfowKhS8MqsAhhFP5rCJ)
 
+**Detection model:** GLiNER2-PII instead of Presidio/spaCy — its PII labels come from our config at run time (a new
+type needs no model training), it is trained on PII specifically, and it runs locally on CPU; regex/validators, an
+address finder and an optional LLM run alongside it.
+
+**Built to keep improving:** every run writes `spans.csv`, `review.csv` (uncertain findings for a human to accept or
+reject) and `audit.jsonl` (every decision with its rule, backend and confidence). Those files are the training data for
+the self-learning loop — reviewed misses and false hits retune thresholds and word lists and fine-tune the model, gated
+on the fixed benchmark in `eval/RUNS.md` so a change never lowers recall. The loop's automation is the next step; the
+data capture and the benchmark gate are in place today.
+
 ## Simple workflow
 
 ![PII redaction workflow](docs/architecture.svg)
