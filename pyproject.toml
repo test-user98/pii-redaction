@@ -4,11 +4,11 @@ version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
   "pymupdf", "python-docx", "pyyaml", "faker", "rapidocr-onnxruntime",
-  "requests", "gliner2", "torch", "transformers", "peft",
+  "requests", "gliner2", "torch", "transformers", "peft", "fastapi", "uvicorn[standard]", "python-multipart",
 ]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = ["pytest", "httpx"]
 
 [project.scripts]
 pii-redact = "pii_redact.cli:main"
