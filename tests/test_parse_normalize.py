@@ -52,7 +52,7 @@ def test_pdf_words_and_images(pdf_doc):
     assert all(w.source == "text" and len(w.loc["bbox"]) == 4 for w in p1.words)
     assert len(p1.images) == 2
     assert all(im.xref and im.png.startswith(b"\x89PNG") for im in p1.images)
-    assert len(pdf_doc.pages[127].images) == 2  # PAN card front + back
+    assert len(pdf_doc.pages[127].images) == 1  # the card is embedded twice on the same spot; deduped
 
 
 def test_signals_and_hard_flag(pdf_doc):

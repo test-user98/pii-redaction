@@ -13,3 +13,5 @@ Per-type columns are F1. Full report per run in `out/<doc_id>/EVAL_REPORT.md`; l
 | 2026-09-21 15:15 | 5e5545f | same code as 15:06 row + ORG single_token_needs_context knob (default on); reproducibility rerun | 0.880 | 0.884 | 0.882 | 0.9392 | 0.964 | 0.769 | 0.952 | 0.952 | 0.772 | 1.000 | 0.667 | 1.000 | 103.7 |
 | 2026-09-21 15:18 | 9c77159 | all precision fixes + address boundary order fix (Ollama) | 0.910 | 0.960 | 0.934 | 0.9827 | 0.964 | 0.903 | 0.952 | 0.952 | 0.912 | 1.000 | 0.667 | 0.667 | 105.6 |
 | 2026-09-21 15:20 | 9c77159 | all precision fixes + address boundary order fix (Ollama) | 0.905 | 0.960 | 0.932 | 0.9782 | 0.964 | 0.895 | 0.952 | 0.952 | 0.912 | 1.000 | 0.667 | 0.667 | 105.5 |
+| 2026-09-21 15:22 | afc9e68 | same code, LLM finder = claude-haiku-4-5 | 0.906 | 0.965 | 0.934 | 0.9834 | 0.973 | 0.895 | 0.952 | 0.952 | 0.912 | 1.000 | 0.667 | 0.667 | 82.4 |
+| 2026-09-21 15:23 | afc9e68 | same code, LLM finder = claude-haiku-4-5 | 0.906 | 0.965 | 0.934 | 0.9836 | 0.973 | 0.895 | 0.952 | 0.952 | 0.912 | 1.000 | 0.667 | 0.667 | 80.2 |

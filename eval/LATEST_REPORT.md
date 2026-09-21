@@ -14,11 +14,11 @@ pages: 1, 2, 3, 4, 5, 6, 110, 111, 112, 114, 115, 116, 128
 | EMAIL | 30 | 2 | 1 | 0.938 | 0.968 | 0.952 |
 | ORG | 51 | 9 | 3 | 0.850 | 0.944 | 0.895 |
 | PAN | 1 | 1 | 0 | 0.500 | 1.000 | 0.667 |
-| PERSON | 54 | 3 | 1 | 0.947 | 0.982 | 0.964 |
+| PERSON | 55 | 3 | 0 | 0.948 | 1.000 | 0.973 |
 | PHONE | 20 | 1 | 1 | 0.952 | 0.952 | 0.952 |
-| **micro** | 191 | 20 | 8 | 0.905 | 0.960 | 0.932 |
+| **micro** | 192 | 20 | 7 | 0.906 | 0.965 | 0.934 |
 
-Token accuracy: **0.9782** (5196/5312 tokens); pages without extractable text skipped: [128]
+Token accuracy: **0.9836** (5225/5312 tokens); pages without extractable text skipped: [128]
 
 ## Misses (FN)
 
@@ -26,7 +26,6 @@ Token accuracy: **0.9782** (5196/5312 tokens); pages without extractable text sk
 |---|---|---|---|
 | 6 | Link Intime India Private Limited | ORG |  |
 | 114 | ICICI Venture House | ADDRESS |  |
-| 115 | Abhijit Diwan | PERSON |  |
 | 116 | Link Intime India Private Limited | ORG |  |
 | 116 | HDFC Bank Limited | ORG |  |
 | 128 | 4th Floor, Mantri Sterling, Plot No. 341, Survey No. 997/8, Model Colony, Near Deep Bungalow Chowk, Pune - 411 016 | ADDRESS |  |
@@ -37,7 +36,7 @@ Token accuracy: **0.9782** (5196/5312 tokens); pages without extractable text sk
 
 | page | text | type | reason |
 |---|---|---|---|
-| 3 | PromoterSellingShareholder | ORG |  |
+| 1 | U28129PN1979PLC141032 | ORG |  |
 | 4 | nuvama iICICI Securities | ORG |  |
 | 5 | FINANCIAL EXPRESS | ORG |  |
 | 5 | nuvama iICICI Securities G | ORG |  |
@@ -47,7 +46,7 @@ Token accuracy: **0.9782** (5196/5312 tokens); pages without extractable text sk
 | 112 | Appasaheb Marathe | PERSON |  |
 | 114 | ICICI Venture House | ORG |  |
 | 128 | INCOMETAXDEPARTMENT GOVT.OFINDLA | ORG |  |
-| 128 | NSDL 4th Floor,Mantri Sterling. Plot No.34!,SurveyNo.997/8 Model Coleay,Near Deep Bungalow Chowk, Pune-411016 | ADDRESS |  |
+| 128 | Plot No.34!,SurveyNo.997/8 Model Coleay,Near Deep Bungalow Chowk, Pune-411016 | ADDRESS |  |
 | 128 | tininfo@nsdLco.in | EMAIL |  |
 | 128 | INCOMETAXDEPARTMENT GOVT.OFINDLA | ORG |  |
 | 128 | NBWPS1951N | PAN |  |

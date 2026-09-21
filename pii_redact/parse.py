@@ -56,6 +56,9 @@ def _parse_pdf_page(page: pymupdf.Page, routing: dict) -> Page:
             clip = rect & page.rect  # images can hang off the page; OCR coords map from the visible part
             if clip.is_empty:
                 continue
+            # the same picture placed twice (or two xrefs on the same spot) is one region: OCR it once
+            if any(_overlap(clip, pymupdf.Rect(im.bbox)) > 0.9 for im in images):
+                continue
             png = page.get_pixmap(clip=clip, dpi=RENDER_DPI).tobytes("png")
             images.append(Image(page=page_no, bbox=tuple(clip), xref=xref, png=png))
 
@@ -157,3 +160,11 @@ def _parse_docx(path: str) -> list[Page]:
                     png=para.part.related_parts[rid].blob,
                 ))
     return pages
+
+
+def _overlap(a: "pymupdf.Rect", b: "pymupdf.Rect") -> float:
+    """Intersection over the smaller rect: 1.0 when one image lies fully on top of the other."""
+    inter = a & b
+    if inter.is_empty:
+        return 0.0
+    return inter.get_area() / min(a.get_area(), b.get_area())

@@ -15,8 +15,8 @@ ner:
   threshold: 0.4
 
 llm:
-  provider: ollama         # ollama | anthropic | none
-  model: qwen2.5:7b        # anthropic: claude-haiku-4-5
+  provider: anthropic      # ollama | anthropic | none
+  model: claude-haiku-4-5  # ollama: qwen2.5:7b
   base_url: http://localhost:11434
   chunk_chars: 4000
   overlap_chars: 300
@@ -33,5 +33,5 @@ surrogates:
 
 review:                    # step 10b: LLM re-reads each redacted page and flags problems (no auto-edit)
   enabled: true
-  provider: ollama
-  model: qwen2.5:7b
+  provider: anthropic
+  model: claude-haiku-4-5
