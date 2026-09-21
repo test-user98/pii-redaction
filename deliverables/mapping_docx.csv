@@ -1,0 +1,422 @@
+entity_id,type,real,surrogate,mention_count,pages
+ORG1,ORG,KSH INTERNATIONAL LIMITED,Baldwin-Fischer LIMITED,8,1;3;5;81;82
+ADDR1,ADDRESS,"11/3, 11/4 and 11/5 Village Birdewadi Chakan Taluka - Khed Pune – 410 501
+Maharashtra, India","82267 William Street Suite 143
+Martinbury, South Carolina 35112, Christmas Island",7,1;3;5;7;8;82
+ADDR2,ADDRESS,"201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045
+Maharashtra, India","61396 Boyle Light Apt. 268
+North Alejandra, Arizona 15889, Brunei Darussalam",4,1;3;5;6
+P1,PERSON,Sarthak Malvadkar,Valerie Randolph,6,1;3;6;36;65;83
+EMAIL1,EMAIL,cs.connect@kshinternational.com,martinezjeremy@example.com,2,1;3
+PHONE1,PHONE,+ 91 20 45053237,+ 91 90 65395416,2,1;3
+P2,PERSON,KUSHAL SUBBAYYA HEGDE,CALVIN RANDALL SHAW,31,1;2;3;6;7;12;25;26;29;36;40;41;42;44;61;62;63;65;77;79;81;82
+P3,PERSON,PUSHPA KUSHAL HEGDE,JACOB CALVIN SHAW,18,1;2;3;7;12;25;26;29;40;42;43;62;77;79;81
+P4,PERSON,RAJESH KUSHAL HEGDE,ANTHONY CALVIN SHAW,26,1;2;3;6;7;12;25;26;29;36;40;42;43;61;62;65;77;81;82
+P5,PERSON,ROHIT KUSHAL HEGDE,MANUEL CALVIN SHAW,26,1;2;3;6;7;12;25;26;29;36;40;42;43;61;62;65;77;81;82
+P6,PERSON,RAKHI GIRIJA SHETTY,SAMUEL THOMAS SNYDER,16,1;3;7;8;25;26;30;36;40;42;43;65;77;82
+ORG2,ORG,DHAULAGIRI FAMILY TRUST,Underwood-Reynolds TRUST,12,1;3;7;25;27;30;40;42;43;44
+ORG3,ORG,EVEREST FAMILY TRUST,Little-French TRUST,12,1;3;7;25;27;30;40;42;43;44
+ORG4,ORG,MAKALU FAMILY TRUST,Preston-Nelson TRUST,12,1;3;7;25;27;30;41;42;43;44
+ORG5,ORG,BROAD FAMILY TRUST,Scott-Peters TRUST,11,1;3;7;25;27;30;41;42;43
+ORG6,ORG,ANNAPURNA FAMILY TRUST,Hubbard-Thomas TRUST,11,1;3;7;25;27;30;41;42;43
+ORG7,ORG,KANCHENJUNGA FAMILY TRUST,Livingston-Smith TRUST,11,1;3;7;25;27;30;41;42;44
+ORG8,ORG,WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED,"Armstrong, Strong and Bradley PRIVATE LIMITED",7,1;3;6;7;25;78
+P7,PERSON,台 口 K H,Jim Jane K H,1,1
+ORG9,ORG,Kirtane & Pandit LLP,Bradley-Miller LLP,9,2;5;41;42;44;87
+ORG10,ORG,Chartered Accountants,"Rivas, Garcia and Hill",8,2;41;42;44;87
+ORG11,ORG,Nuvama Wealth Management Limited,"Brown, Ball and Garcia Limited",7,2;4;10;12;14;83;85
+P8,PERSON,Lokesh Shah,William Peck,3,2;4;83
+P9,PERSON,Soumavo Sarkar,Marvin Hebert,3,2;4;83
+EMAIL2,EMAIL,ksh.ipo@nuvama.com,ygrant@example.com,4,2;4;83;85
+PHONE2,PHONE,+91 22 4009 4400,+91 97 6046 9497,3,2;4;85
+ORG12,ORG,ICICI Securities Limited,Strickland-Carroll Limited,6,2;4;10;14;83;85
+ORG13,ORG,"nuvama
+jIcICI Securities","Jordan, Waters and Phillips",2,2;4
+P10,PERSON,Kishan Rastogi,Ronald Davidson,4,3;4;83;85
+P11,PERSON,Abhijit Diwan,Jennifer Avery,4,3;4;83;85
+EMAIL3,EMAIL,ksh@icicisecurities.com,klinewilliam@example.com,4,3;4;83;85
+PHONE3,PHONE,+91 22 6807 7100,+91 08 5051 9860,4,3;4;83;85
+ORG14,ORG,MUFG Intime India Private Limited,Bridges-Bryant Private Limited,5,3;4;13;85
+ORG15,ORG,Link Intime India Private Limited,Brennan-Maynard Private Limited,5,3;4;13;85
+P12,PERSON,Shanti Gopalkrishnan,Vincent Hernandez,3,3;4;85
+PHONE4,PHONE,+91 81081 14949,+91 74628 14754,3,3;4;85
+EMAIL4,EMAIL,kshinternational.ipo@in.mpms.mufg.com,dsantos@example.com,5,3;4;85
+ORG16,ORG,Bhandary Metal Extrusion Private Limited,"Harper, Smith and Lawrence Private Limited",3,3;61
+ORG17,ORG,KSH International Private Limited,Cortez-Dickerson Private Limited,3,3;60;61
+ORG18,ORG,FINANCIAL EXPRESS,Jacobson-Wagner,5,3;9;12;89
+ADDR3,ADDRESS,"801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India","4311 Nancy Parks, Amandahaven, Alabama 46695",2,4;85
+EMAIL5,EMAIL,customerservice.mb@nuvama.com,eowens@example.com,2,4;83
+ORG19,ORG,ICICI Venture House,Roberts-Anderson,3,4;83;85
+ADDR4,ADDRESS,"Marg, Prabhadevi, Mumbai 400025, Maharashtra, India","8108 Robinson Dale Suite 670, Lake Max, Utah 03920",3,4;83;85
+EMAIL6,EMAIL,customercare@icicisecurities.com,carrillojeffrey@example.com,3,4;83;85
+ADDR5,ADDRESS,"C-101, Embassy 247, 1st Floor, L B S Marg, Vikhroli (West), Mumbai 400083, (Maharashtra), India","34568 Freeman Street, Gonzalezside, Iowa 63222",1,4
+ORG20,ORG,MUFG Intime,Glover-Martin,1,4
+ORG21,ORG,Audit Committee,Conley-Allen,3,5;79
+ORG22,ORG,"Chartered Accountants
+Board","Perez, Gonzalez and Brooks",1,5
+ORG23,ORG,CARE Report,Hernandez,29,5;23;24;25;45;56;63
+ORG24,ORG,CARE Analytics and Advisory Private Limited,"Russell, Hayes and Lopez Private Limited",6,5;6;23;45;63
+P13,PERSON,Sandesh Bhagwat,Patrick Chapman,3,6;36;65
+P14,PERSON,Amod Joshi,Erik Green,3,6;36;65
+ORG25,ORG,CSR Committee,Ramirez-Garcia,1,6
+ORG26,ORG,Corporate Social Responsibility Committee,"Thompson, Anderson and Edwards",1,6
+ORG27,ORG,Rohit Branch,Wong-Mendoza,2,6;7
+ORG28,ORG,Waterloo Motors Private Limited,Pope-Shields Private Limited,2,6;78
+ORG29,ORG,KSH Project Management Services Private Limited,"Brock, Valencia and Martin Private Limited",2,6;78
+ORG30,ORG,KSH Infra Park 5 Private Limited,Cochran-Benitez Private Limited,2,6;78
+ORG31,ORG,KSH Infra Park VI Private Limited,Rodriguez-Acosta Private Limited,2,6;78
+ORG32,ORG,KSH Distriparks Private Limited,Evans-Daugherty Private Limited,2,6;78
+ORG33,ORG,KSH Integrated Logistics Private Limited,"Hale, Sanders and Lopez Private Limited",2,6;78
+ORG34,ORG,Kushal Motors and Electricals Private Limited,"Holland, Sloan and Barber Private Limited",2,6;78
+ORG35,ORG,Waterloo Industrial Park I Private Limited,"Brown, Miller and Ortega Private Limited",2,6;78
+ORG36,ORG,Waterloo Industrial Park II Private Limited,"Stephens, Bonilla and Palmer Private Limited",2,6;78
+ORG37,ORG,Waterloo Industrial Park III Private Limited,"Reynolds, Francis and Thomas Private Limited",2,6;78
+ORG38,ORG,Waterloo Industrial Park IV Private Limited,"West, Wheeler and Smith Private Limited",2,6;78
+ORG39,ORG,Waterloo Industrial Park V Private Limited,"Reyes, Howard and Robinson Private Limited",2,6;78
+ORG40,ORG,Waterloo Industrial Park VIII Private Limited,"Brown, Garcia and Wilson Private Limited",2,6;78
+ORG41,ORG,Waterloo Industrial Park IX Private Limited,"Greene, Ford and Martin Private Limited",2,6;78
+ORG42,ORG,Waterloo Industrial Park IX B Private Limited,"Smith, Martinez and Harris Private Limited",2,6;78
+ORG43,ORG,"Waterloo Industrial Park IX A Private
+Limited","Rodriguez, Trujillo and Jones
+Limited",2,6;78
+ORG44,ORG,KSH Infra Park IV Private Limited,Lucero-Clements Private Limited,2,6;78
+P15,PERSON,Lalit Muljibhai Sarvaiya,Julie Stephanie Jackson,2,6;87
+ORG45,ORG,CareEdge Research,Robinson-Hughes,6,6;23;63
+ORG46,ORG,IPO Committee,Fisher-Cole,4,6;81;91
+ORG47,ORG,Nomination and Remuneration Committee,"Johnson, Schaefer and Stanley",1,7
+ORG48,ORG,Risk Management Committee,"Oliver, Williams and Scott",1,7
+P16,PERSON,Sangeeta Ramprasad Rai,Stephen Jennifer Wood,1,7
+ORG49,ORG,Stakeholders Relationship Committee,"Armstrong, Murphy and Richmond",1,7
+ORG50,ORG,Supa Facility,Sutton-Chavez,20,7;24;25;58;59;60;70;78;79
+ADDR6,ADDRESS,"J-25, Taloja Industrial Area, Village Padghe, Taluka Panvel, Raigad – 410 208, Maharashtra, India","2105 Villegas Drive, Heatherview, North Carolina 04316",1,8
+ADDR7,ADDRESS,"5, Chakan Industrial Area, Phase II, Village Khalumbre, Taluka Khed, Pune – 410 501, Maharashtra, India","0207 Shelly Lights, South Matthewtown, Arizona 04879",1,8
+ORG51,ORG,HDFC Bank Limited,Fitzgerald Limited,10,11;13;85;86;88
+ORG52,ORG,ICICI Securities,Roman-Williams,2,11
+ORG53,ORG,Insurance Regulatory and Development Authority of India,"Bright, Meyer and Coleman",1,11
+ORG54,ORG,CARE Ratings Limited,Clark-Fowler Limited,3,11;75;89
+ORG55,ORG,Pension Fund Regulatory and Development Authority,"Ramirez, Pollard and Delgado",2,12
+ORG56,ORG,ICICI Bank Limited,Richards Limited,4,12;13;86;88
+ORG57,ORG,Systemically Important Non-Banking Financial Company,"Wallace, Matthews and Beard",2,14
+PHONE5,PHONE,20220803-40,82552331-97,1,14
+ORG58,ORG,Department for Promotion of Industry and Internal Trade,"Willis, Washington and Jones",1,15
+ORG59,ORG,President of India,Allen-Fernandez,1,15
+ORG60,ORG,Lok Sabha,Hamilton,1,16
+ORG61,ORG,Hindu undivided family,"Price, Olson and Gonzalez",1,16
+ORG62,ORG,International Automotive Task Force,"Ramirez, Thompson and Harris",1,16
+ORG63,ORG,The Institute of Chartered Accountants of India,"Cooke, Saunders and Vasquez",1,16
+ORG64,ORG,Ind AS,Duncan,12,16;23;34;37;79
+ORG65,ORG,Indian GAAP,Trujillo-Cole,4,16;23
+ORG66,ORG,Indian Standard Time,Alvarado-Pearson,2,16;24
+ORG67,ORG,"IT
+Information technology","Esparza, Fox and Alvarez",1,16
+ORG68,ORG,"NACH
+National Automated Clearing House","Wright, Washington and Oneill",1,17
+ORG69,ORG,National electronic fund transfer,"Edwards, Briggs and Gutierrez",1,17
+ORG70,ORG,National Payments Corporation of India,"Mcgee, Garrison and Collins",1,17
+ORG71,ORG,"SCRA
+Securities Contracts (Regulation) Act","Crawford, Daugherty and Howard",1,17
+ORG72,ORG,"SCRR
+Securities Contracts (Regulation) Rules","Schultz, Howard and Thompson",1,17
+ORG73,ORG,Government of a state of India,"Gentry, Rivers and Hawkins",1,18
+ORG74,ORG,US GAAP,Espinoza,9,18;23
+ORG75,ORG,Bureau of Indian Standards,"Howe, Richard and Sherman",1,19
+ORG76,ORG,"CEA
+Central Electricity Authority","Rivas, Clark and Stephenson",1,19
+ORG77,ORG,"CERC
+Central Electricity Regulatory Commission","Hernandez, Adams and Burgess",1,19
+ORG78,ORG,"DFI
+Development Finance Institution","Wilson, Kaiser and Fernandez",1,19
+ORG79,ORG,Export Promotion Capital Goods,"Cross, Boyd and Humphrey",1,19
+ORG80,ORG,"FSA
+Fuel Supply Agreements","Soto, Johnson and Oliver",1,20
+ORG81,ORG,"FTA
+Free Trade Agreements","Miller, Lee and Thompson",1,20
+ORG82,ORG,"IATF
+International Automotive Task Force","Cherry, Melton and Matthews",1,20
+ORG83,ORG,International Energy Agency,"Hensley, Pacheco and Smith",1,20
+ORG84,ORG,"IEC
+International Electrotechnical Commission","Williams, Williams and Richardson",1,20
+ORG85,ORG,"Index of Industrial Production
+IMF
+International Monetary Fund","Payne, Thompson and Phillips",1,20
+ORG86,ORG,National Electric Mobility Mission Plan,"Larsen, Valencia and Wilson",1,21
+ORG87,ORG,"NEP
+National Electricity Plan","Turner, Nelson and Robinson",1,21
+ORG88,ORG,"NIP
+National Infrastructure Pipeline","Harrison, Morales and Holland",1,21
+ORG89,ORG,"NMP
+National Monetization Pipeline","Smith, Vargas and Hernandez",1,21
+P17,PERSON,PMAY Pradhan Mantri Awas Yojana,JOHN Regina Kevin John Henry,2,21
+ORG90,ORG,Regional rapid transit systems,"Lee, Cherry and Zimmerman",1,22
+ORG91,ORG,"Solar Energy Corporation of India Limited
+TIES","Alexander, Thompson and Sanders",1,22
+ORG92,ORG,Trade Infrastructure for Export Scheme,"Obrien, Greer and Anderson",1,22
+ORG93,ORG,"UL
+Underwriters Laboratories","Holland, Sandoval and Armstrong",1,22
+ORG94,ORG,"W&C
+Wires and cables","Butler, Diaz and Lozano",1,22
+ORG95,ORG,Indian Government,Whitney-Murray,1,23
+ORG96,ORG,European Union,Chen-Raymond,2,23;24
+P18,PERSON,Maithili Rajesh Hegde,Jennifer Anthony Shaw,4,27;31;44
+P19,PERSON,Katyayani Balasubramanian,Francisco Bradford,4,28;31;44
+ORG97,ORG,Malabar India Fund Limited,Wheeler-Peterson Limited,1,31
+P20,PERSON,Rupal K. Sancheti,Megan K. Hancock,1,31
+P21,PERSON,Salil Ajay Bhargava,Eric Dana Ferrell,1,32
+P22,PERSON,Jabeen Ajay Menon,Susan Dana Ruiz,2,32
+P23,PERSON,Sunil Nagayya Shetty,Ebony Martha Snyder,1,32
+ORG98,ORG,Executive Directors,"Lee, Mueller and Terry",9,35;36;64;65;77
+P24,PERSON,Ganesh Prasad,Amanda Stanley,2,36;65
+ORG99,ORG,Power Sector,Pena-Jackson,9,36;56;57
+ORG100,ORG,"Kushal Electricals
+Promoters","Campos, Cook and Jackson",1,37
+ORG101,ORG,Waterloo Motors,Tanner-Perry,1,38
+ORG102,ORG,"KSH
+Distriparks
+Private Limited
+Common control","Davis, Mitchell and Hopkins",1,38
+ORG103,ORG,Parijat Foundation,Carter-Mclaughlin,1,38
+ORG104,ORG,"KSH Infra Park 4 Private
+Limited
+Common control","Howard, Robinson and Zimmerman",1,38
+P25,PERSON,relatives of Key Managerial Personnel,nicholas amy Pam Christopher Mitchell,2,39
+ORG105,ORG,"Kanchenjunga Family Trust
+Pushpa Kushal Hegde","Rodriguez, Aguirre and Lawson",1,45
+ORG106,ORG,"Annapurna Family Trust
+Pushpa Kushal Hegde","Cowan, Morrison and Estrada",1,45
+ORG107,ORG,"Broad Family Trust
+Pushpa Kushal Hegde","Rivera, Garza and Johnson",1,45
+ORG108,ORG,"S. N
+o.",Thomas,1,46
+ORG109,ORG,Al-Ahleia Switchgear Co.,"Haney, Smith and Webb",1,48
+ORG110,ORG,Bharat Bijlee Limited,Parker-Riley Limited,1,48
+ORG111,ORG,CG Power and Industrial Solutions Limited,"Campbell, Gordon and Anderson Limited",1,48
+ORG112,ORG,Emirates Transformer & Switchgear Limited,"Gonzalez, Martinez and Zimmerman Limited",1,48
+ORG113,ORG,Georgia Transformer Corporation,"Lopez, Thomas and Burns Corporation",1,48
+ORG114,ORG,Nidec Industrial Automation India Private Limited,"Mills, Rodriguez and Wright Private Limited",1,48
+ORG115,ORG,Transformers & Rectifiers (India) Limited,"Jones, Peters and Rodriguez Limited",1,48
+ORG116,ORG,Virginia Transformer Corporation,"Bullock, Hays and Wolfe Corporation",1,48
+ORG117,ORG,Ahlstrom Sweden AB,Underwood-Rodgers,1,52
+ORG118,ORG,Cindus Corporation,Norris Corporation,1,52
+ORG119,ORG,Elantas Beck India Limited,Bailey-Villanueva Limited,1,52
+ORG120,ORG,Hindalco Industries Limited,"Lara, Pacheco and Smith Limited",1,52
+ORG121,ORG,Polycom Associates,Campbell-Strong,1,52
+ORG122,ORG,Savli Copper Products Private Limited,"Young, Smith and Thomas Private Limited",1,52
+ORG123,ORG,Union Copper Rod LLC,"Lopez, Dunn and Berry",1,52
+ORG124,ORG,Vedanta Limited Sterlite Copper,"Frost, Browning and Harmon",1,52
+ORG125,ORG,London Metal Exchange,"Payne, Howard and Carter",1,52
+ORG126,ORG,Manufacturing Facilities,"Potter, Rhodes and Wood",3,58;70
+ORG127,ORG,KSH International Chakan Internal Kamgar Sangathna,"Williams, Brown and Torres",1,58
+ORG128,ORG,"Supa, Ahilyanagar",Nicholson-Rivera,1,59
+ORG129,ORG,Director General of Foreign Trade,"Higgins, Fitzpatrick and Chapman",1,60
+ORG130,ORG,Maharashtra Sales Tax Department,"Andrews, Mclaughlin and Sanchez",1,60
+ORG131,ORG,Pune Metropolitan Region Development Authority,"Calhoun, Hendricks and Mcmahon",1,60
+ADDR8,ADDRESS,"Unit 2 in Chakan, Pune in Maharashtra","42456 Baker Radial Suite 180, Barkerhaven, Illinois 96991",1,60
+ORG132,ORG,MCA Portal,Anderson,1,60
+P26,PERSON,shal Hegde,jose Shaw,1,61
+ORG133,ORG,DM Shetty,Richards,1,61
+P27,PERSON,Gopal BO.,Joseph KOCH.,1,61
+ORG134,ORG,Karunakar Bhandary,"Young, Garcia and Lee",1,61
+P28,PERSON,SA Shetty,DALE Snyder,1,61
+P29,PERSON,Jayaram Shetty,Thomas Snyder,1,61
+P30,PERSON,Karunakar Hegde HUF,Nicholas Shaw KIM,3,61
+P31,PERSON,Narayana B. Shetty,Jessica B. Snyder,1,62
+ORG135,ORG,Shubhkamal Leasing and Investment Private Limited,"Wiggins, Daniels and Travis Private Limited",2,62
+ORG136,ORG,Karunakar Hegde HUF.,Alvarado-Morrison,1,62
+P32,PERSON,Vijay Hegde,Daniel Shaw,2,62
+ORG137,ORG,Kanj and Co LLP,Sims-Wright LLP,1,62
+P33,PERSON,Karunakar N. Bhandary,Nicholas N. Sanchez,1,63
+P34,PERSON,Narayna B. Shetty,Carrie B. Snyder,1,63
+P35,PERSON,Jayaram N. Shetty,Thomas N. Snyder,1,63
+ORG138,ORG,m CareEdge Research business process services division,"Stanley, Johnson and Massey",1,63
+ORG139,ORG,Indian winding wires industry,"Burgess, Sanchez and Shelton",1,70
+ADDR9,ADDRESS,"Plot No. F-223, Supa Parner Industrial Park, Mauje Palve Khurd, Taluka Parner, Dist – Ahmednagar, Maharashtra – 414 301","9066 Baxter Forge, Lawrenceshire, Maine 50804",1,70
+ORG140,ORG,Maharashtra Pollution Control Board,"Freeman, Phillips and Austin",1,70
+ADDR10,ADDRESS,"Taloja (Raigad), Maharashtra","15498 Bennett Flats Suite 264, Pinedaville, Minnesota 91519",1,70
+ADDR11,ADDRESS,"Supa, Ahilyanagar (formerly Ahmednagar)","46619 Paige Cape Suite 656, Nathanfurt, New York 48593",2,70
+ORG141,ORG,u/s 192B,Schmidt,1,72
+ORG142,ORG,"Labour Welfare
+Fund",Rodriguez-Jackson,1,73
+ORG143,ORG,Goods and Services Tax&,"Lowe, Young and Powers",1,73
+P36,PERSON,Dinesh Hirachand Munot,Sheena Jennifer Harvey,2,77;82
+P37,PERSON,Ajay Shriram Patil,Dana Nicole Mills,2,77;82
+ORG144,ORG,Maharashtra State Government,"Berger, Richardson and Stone",1,78
+ORG145,ORG,Directorate General of Foreign Trade,"Brown, Gonzalez and Harmon",1,78
+ORG146,ORG,IT team,Robbins,1,79
+ORG147,ORG,Cloud Services Vendor,"Davis, Warren and Marquez",2,79
+ORG148,ORG,estic Mutual Funds,Mclaughlin-Cruz,1,81
+ORG149,ORG,"GENERAL INFORMATION
+Registered Office","Baxter, Melendez and Preston",1,81
+ADDR12,ADDRESS,"201, Tower-2, Montreal Business Centre Off Pallod Farms, Baner
+Pune 411 045 Maharashtra, India
+Company registration number and corporate identity number
+Registration number: 141032","9833 Xavier Views
+North Andrewtown
+Oklahoma 42288
+Mayotte",1,82
+ADDR13,ADDRESS,"PCNTDA Green Building Block A 1st and 2nd floor Near Akurdi Railway Station Akurdi, Pune – 411 044 Maharashtra, India","31373 Kirby Loop, East Cindy, Iowa 06837",1,82
+DIN1,DIN,00135070,86877085,1,82
+ADDR14,ADDRESS,"3 Prabhat Road, opposite PYC basketball court, Deccan Gymkhana, Pune – 411 004 Maharashtra, India","280 Wells Tunnel Apt. 281, Millerborough, Maryland 26856",1,82
+DIN2,DIN,00114193,22535425,1,82
+ADDR15,ADDRESS,"12 Buena Monte, NCL co-operative housing society, Panchvati, Pashan, Pune – 411 008, Maharashtra, India","3831 Amy Estates Apt. 365, Port Heidiburgh, Delaware 90795",1,82
+DIN3,DIN,00134926,15561054,1,82
+ADDR16,ADDRESS,"3, Shivaji Nagar, Deccan Gymkhana, Pune – 411 004, Maharashtra, India","90809 Harrison Mountain Apt. 459, Piercetown, Nebraska 73081",1,82
+DIN4,DIN,03124510,57152722,1,82
+ADDR17,ADDRESS,S. no. 245/ 104,"90664 Holt Locks, South Reneeborough, Idaho 95678",1,82
+ADDR18,ADDRESS,"3 Prabhat Road, opposite PYC basketball court, Erandawane, Deccan Gymkhana, Pune – 411 004 Maharashtra, India","38172 Stephanie Harbor, Port Jennifer, Washington 64726",1,82
+DIN5,DIN,00049801,14059308,1,82
+ADDR19,ADDRESS,"Pratik Bunglow, Senapati Bapat Road, behind Sahara Hotel, Shivajinagar, Model Colony, Pune – 411 016, Maharashtra, India","273 Randy Turnpike, Josephstad, New Jersey 47750",1,82
+PHONE6,PHONE,"01217000
+602","19706616
+870",1,82
+ADDR20,ADDRESS,"Gopalkrupa Apartment, Bhonde colony, Prabhat Road, Erandawane, Pune – 411 004, Maharashtra, India","627 Amanda Haven Apt. 831, Markport, Indiana 11238",1,82
+P38,PERSON,Ram Kumar Tiwari,John Joseph Howell,1,82
+DIN6,DIN,10938958,10938523,1,82
+ADDR21,ADDRESS,"A-259, JK Road, Minal Residency, Huzur, Govindpura, Bhopal – 462 023, Madhya Pradesh, India","9124 Michael Alley Apt. 001, Bakermouth, New Jersey 09090",1,82
+DIN7,DIN,05293084,86939984,1,83
+ADDR22,ADDRESS,"11/3, 11/4, 11/5, Village Birdewadi
+Taluka Khed, District Pune – 410 501
+Maharashtra, India","47766 Jamie Crossing Apt. 848
+Lindseyside
+Louisiana 02377, Netherlands Antilles",1,83
+DIN8,DIN,45053237,24012580,1,83
+EMAIL7,EMAIL,Sarthak.malvadkar@kshinterantional.com,valerie.randolph@example.com,1,83
+ADDR23,ADDRESS,"3 Inspire BKC G Block, Bandra Kurla Complex
+Bandra East, Mumbai – 400 051 Maharashtra, India","4096 Morgan Turnpike
+East Melissa, Illinois 91555, Trinidad and Tobago",1,83
+DIN9,DIN,40094400,18172030,1,83
+P39,PERSON,Appasaheb Marathe,Katherine Williams,2,83;85
+ORG150,ORG,"BRLMs
+Nuvama",Harris-Garcia,3,83;84
+ORG151,ORG,"BRLMs
+I-Sec",Robinson-Peck,7,84;85
+ORG152,ORG,"BRLMs
+Nuvama
+9",Cline-Meyers,1,84
+EMAIL8,EMAIL,prakash.boricha@nuvama.com,brenda.taylor@example.com,1,85
+EMAIL9,EMAIL,sheetal.parab@nuvama.com,andersonjessica@example.com,1,85
+P40,PERSON,Prakash Boricha,Brenda Taylor,1,85
+ORG153,ORG,Trilegal,Daniels,1,85
+ADDR24,ADDRESS,"10th Floor, Tower 2A & 2B
+Senapati Bapat Marg, Lower Parel (West) Mumbai – 400 013
+Maharashtra, India","0645 Rebecca Walk Apt. 158
+Clarkshire
+Texas 94970, Niue",1,85
+EMAIL10,EMAIL,ipo@trilegal.com,belldaniel@example.com,1,85
+PHONE7,PHONE,+91 22 4079 1000,+91 13 8852 3331,1,85
+ADDR25,ADDRESS,"1st Floor, L B S Marg, Vikhroli (West) Mumbai 400083, (Maharashtra), India","5575 Ellis Valleys Apt. 707, Lewischester, Arizona 63776",1,85
+ADDR26,ADDRESS,"FIG-OPS Department – Lodha I Think Techno Campus, O-3 Level
+Next to Kanjurmarg Railway Station, Kanjurmarg (East) Mumbai – 400042, Maharashtra, India","399 Simmons Centers Suite 665
+Perryton, Delaware 27529, El Salvador",3,85;86
+PHONE8,PHONE,+91 22 30752929,+91 26 72830932,3,86
+PHONE9,PHONE,+91 22 30752928,+91 82 26273618,3,86
+PHONE10,PHONE,+91 22 30752914,+91 90 21718823,3,86
+EMAIL11,EMAIL,siddharth.jadhav@hdfcbank.com,patricia.brown@example.com,3,86
+EMAIL12,EMAIL,sachin.gawade@hdfcbank.com,jeffrey.terry@example.com,3,86
+EMAIL13,EMAIL,eric.bacha@hdfcbank.com,gary.weaver@example.com,3,86
+EMAIL14,EMAIL,tushar.gavankar@hdfcbank.com,joseph.farrell@example.com,3,86
+EMAIL15,EMAIL,pravin.teli2@hdfcbank.com,jeremy.young2@example.com,3,86
+P41,PERSON,Eric Bacha,Gary Weaver,3,86
+P42,PERSON,Sachin Gawade,Jeffrey Terry,3,86
+P43,PERSON,Pravin Teli,Jeremy Young,3,86
+P44,PERSON,Siddharth Jadhav,Patricia Brown,3,86
+P45,PERSON,Tushar Gavankar,Joseph Farrell,3,86
+ADDR27,ADDRESS,"163, 5th Floor, H.T.Parekh Marg Backbay Reclamation Churchgate, Mumbai – 400020","323 Patel Unions, Skinnerside, Pennsylvania 77395",2,86
+PHONE11,PHONE,022-68052182,979-51749530,2,86
+EMAIL16,EMAIL,Ipocmg@icicibank.com,kconrad@example.com,2,86
+P46,PERSON,Varun Badai,Isaiah Price,2,86
+ORG154,ORG,"ICICI Bank Limited
+Capital Market Division","Gutierrez, Jacobson and Rogers",1,86
+ADDR28,ADDRESS,postal address,"7035 David Turnpike Suite 401, Emilybury, Virginia 28717",1,86
+ORG155,ORG,Kanj & Co. LLP,Williams LLP,1,87
+ADDR29,ADDRESS,"127/1B/1, Plot A1 Opp Harshal Hall Kothrud
+Pune – 411 038
+Maharashtra, India","72801 Haas Pines
+New Donald
+New Mexico 61443, Grenada",1,87
+EMAIL17,EMAIL,parag.pansare@kirtanepandit.com,walshjorge@example.com,2,87
+PHONE12,PHONE,+ 91 (20) 6729 5100,+ 91 (66) 0915 9237,2,87
+ADDR30,ADDRESS,"5th Floor, Gopal House
+Opposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038
+Maharashtra, India","2979 Hamilton Islands
+New Josephfort
+Alabama 85946, Angola",1,87
+ORG156,ORG,Hingne Tare & Associates,"Brown, Turner and Kline",1,87
+ADDR31,ADDRESS,"102, Sai Complex Shaniwar Peth, Pune – 411 030 Maharashtra, India","08548 Jeffery Tunnel Suite 961, Evansberg, Minnesota 22317",1,87
+EMAIL18,EMAIL,hingnetare@gmail.com,suzannehancock@example.com,1,87
+ORG157,ORG,Citibank N.A.,Jackson-Jones,1,87
+ADDR32,ADDRESS,"8th Floor, Onyx Tower North Main Road
+Koregaon Park, Pune – 411 001 Maharashtra, India","64211 Swanson Fields Apt. 634
+Grantview, Oregon 07790, Albania",1,87
+PHONE13,PHONE,+91 20 6606 4494,+91 04 6899 5546,1,87
+P47,PERSON,Hitesh Ramani,Olivia Stokes,1,87
+EMAIL19,EMAIL,hitesh.ramani@citi.com,olivia.stokes@example.com,1,87
+ORG158,ORG,Export-Import Bank of India,"Davis, Foster and Peterson",1,88
+ADDR33,ADDRESS,"& 402, 402(A), 402(B), 4th Floor
+Signature Building, Bhandarkar road Shivaji Nagar, Pune – 411 004 Maharashtra, India","7862 Moody Wall
+Brendafort, Arizona 66938, Christmas Island",1,88
+PHONE14,PHONE,+91 20 2640 3100,+91 71 9061 6885,1,88
+P48,PERSON,Chitra Raste,Suzanne Miller,1,88
+EMAIL20,EMAIL,pro@eximbankindia.in,rachelreeves@example.com,1,88
+ORG159,ORG,IndusInd Bank Limited,Cooper-Griffin Limited,1,88
+ADDR34,ADDRESS,"2401 Gen Thimmayya Road, Cantonment
+Pune – 411 001
+Maharashtra, India","111 Diaz Streets
+New Ryan
+Idaho 73994, Ethiopia",1,88
+PHONE15,PHONE,+91-20-26234000,+91-51-67738638,1,88
+P49,PERSON,Sharmila Joshi,Darlene Green,1,88
+EMAIL21,EMAIL,sharmila.joshi@indusind.com,darlene.green@example.com,1,88
+ORG160,ORG,ICICI Bank,Berg Bank,1,88
+ADDR35,ADDRESS,"30
+Bund Garden Road, Pune – 411 001 Maharashtra, India","870 Ricky Hill
+Port Gregory, South Carolina 10357, Isle of Man",1,88
+PHONE16,PHONE,+ 91 8879770456,+ 91 5925562829,1,88
+P50,PERSON,Cherag Gyara,Carrie Keller,1,88
+EMAIL22,EMAIL,cherag.gyara@icicibank.com,carrie.keller@example.com,1,88
+ADDR36,ADDRESS,"5th Floor, Marathon IT Park Bund Garden Road
+Pune – 411 001
+Maharashtra, India","52904 Lisa Overpass Apt. 608
+Smithburgh
+Maine 56893, Falkland Islands (Malvinas)",1,88
+PHONE17,PHONE,+91 20 6769 4648,+91 17 7351 9416,1,88
+P51,PERSON,Manisha Shukla,Brittany Schultz,1,88
+EMAIL23,EMAIL,manisha.shukla@hdfcbank.com,brittany.schultz@example.com,1,88
+ORG161,ORG,State Bank of India,Gonzalez-Petersen,1,88
+ADDR37,ADDRESS,"Industrial Finance Branch
+Tara Chambers, Mumbai-Pune Road, Wakdewadi
+Pune – 411 003
+Maharashtra, India","53181 Paul Junction Suite 698
+Lake Sophiamouth
+Idaho 51766
+Niue",1,88
+PHONE18,PHONE,+91 20 2561 8211,+91 50 8927 4304,1,88
+P52,PERSON,Tushar Wakhele,Joseph Gilbert,1,88
+EMAIL24,EMAIL,rm6.ifbpune@sbi.co.in,navarrotheodore@example.com,1,88
+ORG162,ORG,The Federal Bank Limited,Coleman-Moore Limited,1,88
+ADDR38,ADDRESS,Kubera Chambers Opp. Sancheti Hospital,"85642 Jennings Trafficway Suite 522, New Jason, Alabama 32629",1,88
+PHONE19,PHONE,+ 91 91586 40360,+ 91 32863 89030,1,88
+P53,PERSON,Ashish Mathew Pulloor,Joseph Lance Sanchez,1,88
+EMAIL25,EMAIL,ashishmp@federalbank.co.in,oconnellsteven@example.com,1,88
+ORG163,ORG,Bajaj Finance Limited,Morrow-Coleman Limited,1,88
+PHONE20,PHONE,+91 20 7157 6403,+91 84 4427 3520,1,88
+P54,PERSON,Anand Soni,Brian Pugh,1,88
+EMAIL26,EMAIL,anand.soni@bajajfinserv.in,brian.pugh@example.com,1,88
+ORG164,ORG,Finance Department,Miller-Hernandez,1,89
+ADDR39,ADDRESS,"C4 A, ‘G’ Block
+Bandra Kurla Complex, Bandra (E) Mumbai – 400 051, Maharashtra, India","6526 Lopez Rest
+Johnsontown, Ohio 46485, Sweden",1,89
+ORG165,ORG,Stock Exchange(s),Briggs-Bradshaw,1,89
+ORG166,ORG,INCOMETAX DEPARTMENT,Gonzalez-Curtis,1,91
+PAN1,PAN,NBWPS1951N,NYIPU4844U,1,91
+P55,PERSON,VISHAL SINGH,HALEY CURRY,1,91
+P56,PERSON,SUGRIV SINGH,MICHAEL CURRY,1,91
+DOB1,DOB,06/05/2000,01/04/2000,1,91
+ORG167,ORG,Income Tax PAN Services Unit,"Decker, Hernandez and Brown",1,91
+ADDR40,ADDRESS,"Plot No.34!,Survey No.997/8, Model Coleay,Near Deep Bungalow Chowk, Pune-411 016","7933 Emily Expressway Suite 288, Johnburgh, Maryland 58414",1,91
+PHONE21,PHONE,20-27218080,65-12943645,1,91
+EMAIL27,EMAIL,tininfo@nsdLco.in,kroberson@example.com,1,91
+P57,PERSON,Sudhdan Khan,Anthony Cook,1,91
+DOB2,DOB,12/12/1988,05/11/1989,1,91
+AADHAAR1,AADHAAR,294365933461,875939708262,2,91
+ORG168,ORG,Unique Identification Authority of India,"Thomas, Peterson and Bryant",1,91
+EMAIL28,EMAIL,help@uidai.gov.in,fchapman@example.com,1,91
