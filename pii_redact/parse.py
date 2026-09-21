@@ -7,14 +7,19 @@ from pathlib import Path
 
 import docx
 import pymupdf
+from docx.oxml.ns import qn
 from docx.table import Table, _Cell
+from docx.text.hyperlink import Hyperlink
 from docx.text.paragraph import Paragraph
+from docx.text.run import Run
 
 from .model import Doc, Image, Page, Word
 
 RENDER_DPI = 300
 DOCX_PARAS_PER_PAGE = 50
 EMU_PER_PT = 12700
+# A hyperlink target worth scanning: mailto:/tel: schemes, or an email / phone-looking string in the URL.
+LINK_PII = re.compile(r"^(mailto|tel):|[\w.+-]+@[\w-]+\.[\w.-]+|\d[\d\s().-]{7,}\d", re.I)
 
 
 def parse_document(path: str, cfg: dict) -> Doc:
@@ -93,6 +98,16 @@ def iter_docx_paragraphs(document) -> list[Paragraph]:
     return out
 
 
+def iter_docx_runs(paragraph: Paragraph) -> list[Run]:
+    """Every run of a paragraph in document order, including runs nested inside
+    w:hyperlink (which `Paragraph.runs` skips). Parser and writer share this so a
+    run index means the same run in both."""
+    out: list[Run] = []
+    for item in paragraph.iter_inner_content():
+        out.extend(item.runs if isinstance(item, Hyperlink) else [item])
+    return out
+
+
 def _parse_docx(path: str) -> list[Page]:
     paragraphs = iter_docx_paragraphs(docx.Document(path))
     n_pages = max(1, -(-len(paragraphs) // DOCX_PARAS_PER_PAGE))
@@ -104,7 +119,7 @@ def _parse_docx(path: str) -> list[Page]:
         # one whitespace-delimited token (e.g. "Email" + ":" in two runs) share the same
         # `line` number so normalize can glue them back together.
         token_no, prev_ended_in_space = -1, True
-        for run_idx, run in enumerate(para.runs):
+        for run_idx, run in enumerate(iter_docx_runs(para)):
             text = run.text
             for m in re.finditer(r"\S+", text):
                 if prev_ended_in_space or m.start() > 0:
@@ -117,13 +132,28 @@ def _parse_docx(path: str) -> list[Page]:
             if text:
                 prev_ended_in_space = text[-1].isspace()
 
+        # Hyperlink targets (mailto:, tel:, URLs carrying an email/phone) are text too. One Word per
+        # link; the writer rewrites the relationship target via loc["rel"].
+        for hl in para._p.xpath("./w:hyperlink[@r:id]"):
+            rid = hl.get(qn("r:id"))
+            rel = para.part.rels[rid]
+            if rel.is_external and LINK_PII.search(rel.target_ref):
+                target = rel.target_ref
+                token_no += 1
+                page.words.append(Word(
+                    id=len(page.words), page=page.page_no, text=re.sub(r"^(mailto|tel):", "", target, flags=re.I),
+                    loc={"para": para_idx, "rel": rid}, block=para_idx, line=token_no,
+                ))
+
         for drawing in para._p.xpath(".//w:drawing"):
             for rid in drawing.xpath(".//a:blip/@r:embed"):
                 extent = drawing.xpath(".//wp:extent")
                 w = int(extent[0].get("cx")) / EMU_PER_PT if extent else 0.0
                 h = int(extent[0].get("cy")) / EMU_PER_PT if extent else 0.0
+                # rIds are per part (body, each header/footer); "@<para>" lets the writer resolve the
+                # owning part through the shared paragraph traversal.
                 page.images.append(Image(
-                    page=page.page_no, bbox=(0.0, 0.0, w, h), ref=rid,
+                    page=page.page_no, bbox=(0.0, 0.0, w, h), ref=f"{rid}@{para_idx}",
                     png=para.part.related_parts[rid].blob,
                 ))
     return pages

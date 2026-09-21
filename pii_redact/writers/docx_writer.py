@@ -1,6 +1,8 @@
 """DOCX -> DOCX: replace PII inside runs in place, keeping run formatting."""
 from __future__ import annotations
 
+import re
+
 import docx
 
 from pii_redact.model import Doc, Word
@@ -11,7 +13,7 @@ TO_END = 10**9  # slice end meaning "through the end of the run"
 
 
 def write_docx(doc: Doc, src_path: str, out_path: str, cfg: dict) -> None:
-    from pii_redact.parse import iter_docx_paragraphs
+    from pii_redact.parse import iter_docx_paragraphs, iter_docx_runs
 
     document = docx.Document(src_path)
     paragraphs = iter_docx_paragraphs(document)
@@ -20,6 +22,7 @@ def write_docx(doc: Doc, src_path: str, out_path: str, cfg: dict) -> None:
 
     edits = []  # (para, run, start, end, replacement)
     image_boxes: dict[str, list] = {}  # image ref -> [(bbox_px, surrogate)]
+    rel_edits: dict[tuple[int, str], tuple[str, str]] = {}  # (para, rId) -> (span text, surrogate)
     for page_no, mentions in mentions_by_page(doc).items():
         for span, surrogate in mentions:
             span_words = [words[(page_no, i)] for i in span.word_ids if (page_no, i) in words]
@@ -28,16 +31,30 @@ def write_docx(doc: Doc, src_path: str, out_path: str, cfg: dict) -> None:
                 bb = [w.loc["bbox"] for w in ocr_words]
                 box = (min(b[0] for b in bb), min(b[1] for b in bb), max(b[2] for b in bb), max(b[3] for b in bb))
                 image_boxes.setdefault(ocr_words[0].loc["image_ref"], []).append((box, surrogate))
-            text_words = [w for w in span_words if w.source != "ocr"]
+            for w in span_words:
+                if "rel" in w.loc:
+                    rel_edits[(w.loc["para"], w.loc["rel"])] = (span.text, surrogate)
+            text_words = [w for w in span_words if w.source != "ocr" and "rel" not in w.loc]
             edits.extend(_run_edits(text_words, keep_punctuation(span, text_words, surrogate)))
 
     for para, run, start, end, repl in sorted(edits, reverse=True):
-        r = paragraphs[para].runs[run]
+        r = iter_docx_runs(paragraphs[para])[run]
         r.text = r.text[:start] + repl + r.text[end:]
 
+    for (para, rid), (real, surrogate) in rel_edits.items():
+        # Hyperlink target: swap the PII inside the URL, keeping the scheme (mailto:, tel:, https://...).
+        rel = paragraphs[para].part.rels[rid]
+        target = rel.target_ref
+        m = re.match(r"^(mailto|tel):", target, re.I)
+        rel._target = target.replace(real, surrogate) if real in target else (m.group(0) if m else "") + surrogate
+
+    by_part: dict[int, tuple] = {}  # one redaction per image part, even when several paragraphs embed it
     for ref, boxes in image_boxes.items():
-        part = document.part.related_parts[ref]
-        part._blob = redact_image(images[ref].png, boxes)
+        rid, para = ref.split("@")  # "<rId>@<para>": the image belongs to that paragraph's part (body/header/footer)
+        part = paragraphs[int(para)].part.related_parts[rid]
+        by_part.setdefault(id(part), (part, images[ref].png, []))[2].extend(boxes)
+    for part, png, boxes in by_part.values():
+        part._blob = redact_image(png, boxes)
         part._content_type = "image/png"
 
     cp = document.core_properties

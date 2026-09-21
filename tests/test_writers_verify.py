@@ -125,7 +125,8 @@ def docx_doc(tmp_path, monkeypatch):
         return list(document.paragraphs)
 
     monkeypatch.setitem(sys.modules, "pii_redact.parse",
-                        types.SimpleNamespace(iter_docx_paragraphs=iter_docx_paragraphs))
+                        types.SimpleNamespace(iter_docx_paragraphs=iter_docx_paragraphs,
+                                              iter_docx_runs=lambda para: para.runs))
 
     words, wid = [], 0
     for pi, para in enumerate(iter_docx_paragraphs(docx.Document(src))):
