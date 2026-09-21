@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TRUTH = ROOT / "eval/ground_truth/rhp_pages.csv"
 RUNS = ROOT / "eval/RUNS.md"
 HEADER = ("| when | commit | note | micro P | micro R | micro F1 | token acc | PERSON | ORG | EMAIL | PHONE | ADDRESS | "
-          "DIN | PAN | DOB | secs |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n")
+          "DIN | PAN | DOB | secs | det P | det R | det F1 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n")
 
 
 def main():
@@ -51,9 +51,11 @@ def main():
     micro = re.search(r"\| \*\*micro\*\* \| \d+ \| \d+ \| \d+ \| ([\d.]+) \| ([\d.]+) \| ([\d.]+) \|", text)
     tok = re.search(r"Token accuracy: \*\*([\d.]+)\*\*", text)
     commit = subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    det = re.search(r"precision ([\d.]+) · recall ([\d.]+) · F1 ([\d.]+)", text)
     row = (f"| {dt.datetime.now():%Y-%m-%d %H:%M} | {commit} | {a.note}{' (no LLM)' if a.no_llm else ''} | {micro.group(1)} | "
            f"{micro.group(2)} | {micro.group(3)} | {tok.group(1) if tok else '-'} | {f1('PERSON')} | {f1('ORG')} | {f1('EMAIL')} | "
-           f"{f1('PHONE')} | {f1('ADDRESS')} | {f1('DIN')} | {f1('PAN')} | {f1('DOB')} | {secs.group(1) if secs else '-'} |\n")
+           f"{f1('PHONE')} | {f1('ADDRESS')} | {f1('DIN')} | {f1('PAN')} | {f1('DOB')} | {secs.group(1) if secs else '-'} | "
+           f"{det.group(1) if det else '-'} | {det.group(2) if det else '-'} | {det.group(3) if det else '-'} |\n")
     if not RUNS.exists():
         RUNS.write_text("# Eval runs (labelled pages of samples/rhp.pdf)\n\nPer-type columns are F1. Full report per run in `out/<doc_id>/EVAL_REPORT.md`.\n\n" + HEADER)
     RUNS.write_text(RUNS.read_text() + row)

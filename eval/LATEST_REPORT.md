@@ -12,11 +12,14 @@ pages: 1, 2, 3, 4, 5, 6, 110, 111, 112, 114, 115, 116, 128
 | DIN | 8 | 0 | 0 | 1.000 | 1.000 | 1.000 |
 | DOB | 1 | 0 | 0 | 1.000 | 1.000 | 1.000 |
 | EMAIL | 30 | 1 | 1 | 0.968 | 0.968 | 0.968 |
-| ORG | 51 | 6 | 3 | 0.895 | 0.944 | 0.919 |
+| ORG | 54 | 7 | 0 | 0.885 | 1.000 | 0.939 |
 | PAN | 1 | 0 | 0 | 1.000 | 1.000 | 1.000 |
 | PERSON | 55 | 2 | 0 | 0.965 | 1.000 | 0.982 |
 | PHONE | 20 | 0 | 1 | 1.000 | 0.952 | 0.976 |
-| **micro** | 192 | 11 | 7 | 0.946 | 0.965 | 0.955 |
+| **micro** | 195 | 12 | 4 | 0.942 | 0.980 | 0.961 |
+
+Detection (any type, OCR-tolerant): TP=197 FP=10 FN=2 → **precision 0.952 · recall 0.990 · F1 0.970**  
+(strict table above also requires the same type and exact/contained text)
 
 Token accuracy: **0.9838** (5226/5312 tokens); pages without extractable text skipped: [128]
 
@@ -24,10 +27,7 @@ Token accuracy: **0.9838** (5226/5312 tokens); pages without extractable text sk
 
 | page | text | type | reason |
 |---|---|---|---|
-| 6 | Link Intime India Private Limited | ORG |  |
 | 114 | ICICI Venture House | ADDRESS |  |
-| 116 | Link Intime India Private Limited | ORG |  |
-| 116 | HDFC Bank Limited | ORG |  |
 | 128 | 4th Floor, Mantri Sterling, Plot No. 341, Survey No. 997/8, Model Colony, Near Deep Bungalow Chowk, Pune - 411 016 | ADDRESS |  |
 | 128 | 91-20-2721 8081 | PHONE |  |
 | 128 | tininfo@nsdl.co.in | EMAIL |  |
@@ -36,6 +36,7 @@ Token accuracy: **0.9838** (5226/5312 tokens); pages without extractable text sk
 
 | page | text | type | reason |
 |---|---|---|---|
+| 1 | U28129PN1979PLC141032 | ORG |  |
 | 4 | nuvama iICICI Securities | ORG |  |
 | 5 | FINANCIAL EXPRESS | ORG |  |
 | 5 | nuvama iICICI Securities G | ORG |  |

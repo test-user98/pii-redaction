@@ -32,8 +32,10 @@ def read_rows(path: str) -> list[dict]:
     return rows
 
 
-def match(pred: list[dict], truth: list[dict]) -> tuple[list[tuple[int, int]], list[int], list[int]]:
-    """Return (pairs of (truth_idx, pred_idx), unmatched truth idxs, unmatched pred idxs)."""
+def match(pred: list[dict], truth: list[dict], fuzzy: float = 0.0) -> tuple[list[tuple[int, int]], list[int], list[int]]:
+    """Return (pairs of (truth_idx, pred_idx), unmatched truth idxs, unmatched pred idxs).
+    fuzzy > 0 also accepts pairs whose normalised texts have difflib similarity >= fuzzy."""
+    from difflib import SequenceMatcher
     cands = []
     by_key = defaultdict(list)
     for j, p in enumerate(pred):
@@ -44,6 +46,8 @@ def match(pred: list[dict], truth: list[dict]) -> tuple[list[tuple[int, int]], l
             np_ = norm(pred[j]["text"])
             if nt and np_ and (nt == np_ or nt in np_ or np_ in nt):
                 cands.append((min(len(nt), len(np_)), nt == np_, i, j))
+            elif fuzzy and nt and np_ and SequenceMatcher(None, nt, np_).ratio() >= fuzzy:
+                cands.append((min(len(nt), len(np_)), False, i, j))
     cands.sort(key=lambda c: (-c[0], not c[1], c[2], c[3]))
     used_t, used_p, pairs = set(), set(), []
     for _, _, i, j in cands:
@@ -149,8 +153,12 @@ def evaluate(pred: list[dict], truth: list[dict], pages: list[int], page_texts: 
         fn_ = sum(1 for i in fn if truth[i]["type"] == ty)
         per_type[ty] = (tp_, fp_, fn_, *prf(tp_, fp_, fn_))
     tp, fpn, fnn = len(pairs), len(fp), len(fn)
+    # Detection view: was the value caught at all? Type is ignored and OCR spelling differences are
+    # tolerated (similarity >= 0.85), so "ORG vs ADDRESS" and "nsdLco" vs "nsdl.co" do not count as errors.
+    d_pairs, d_fn, d_fp = match([{**r, "type": "*"} for r in pred], [{**r, "type": "*"} for r in truth], fuzzy=0.85)
     res = {
         "pages": pages, "per_type": per_type, "micro": (tp, fpn, fnn, *prf(tp, fpn, fnn)),
+        "detection": (len(d_pairs), len(d_fp), len(d_fn), *prf(len(d_pairs), len(d_fp), len(d_fn))),
         "misses": [truth[i] for i in fn], "false_hits": [pred[j] for j in fp], "token": None,
     }
     if page_texts is not None:
@@ -166,6 +174,9 @@ def write_report(res: dict, out: str, pred_path: str, truth_path: str) -> None:
         L.append(f"| {ty} | {tp} | {fp} | {fn} | {p:.3f} | {r:.3f} | {f:.3f} |")
     tp, fp, fn, p, r, f = res["micro"]
     L.append(f"| **micro** | {tp} | {fp} | {fn} | {p:.3f} | {r:.3f} | {f:.3f} |")
+    dtp, dfp, dfn, dp, dr, df = res["detection"]
+    L += ["", f"Detection (any type, OCR-tolerant): TP={dtp} FP={dfp} FN={dfn} → **precision {dp:.3f} · recall {dr:.3f} · F1 {df:.3f}**  ",
+          "(strict table above also requires the same type and exact/contained text)"]
     L.append("")
     if res["token"]:
         c, n, skipped = res["token"]

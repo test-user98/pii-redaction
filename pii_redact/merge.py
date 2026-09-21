@@ -74,10 +74,13 @@ def _trim(spans: list[Span], page: Page) -> None:
         if a.type != "ADDRESS" or "regex" not in a.finder or a.view not in page.views:
             continue
         cut = a.start
+        first_digit = next((i for i, ch in enumerate(a.text) if ch.isdigit()), len(a.text))
         for s in spans:
             if s is a or s.view != a.view or s.start < a.start or s.end > a.end - 8 or s.confidence < 0.7:
                 continue
-            if s.type in ("PERSON", "DIN") or (s.type == "ORG" and s.start == a.start):
+            # a firm name in the head of its own address block ("MUFG Intime ... (Formerly Link Intime ...) C-101, ...")
+            # stays an ORG; the address starts after it
+            if s.type in ("PERSON", "DIN") or (s.type == "ORG" and s.start - a.start < first_digit):
                 cut = max(cut, s.end)
         if cut > a.start:
             _set_start(a, cut, page)
