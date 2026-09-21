@@ -1,0 +1,2757 @@
+{
+  "doc_id": "a894a147d0cd55c5",
+  "fmt": "pdf",
+  "pages": 13,
+  "hard_pages": [],
+  "llm_pages": [],
+  "entities": 125,
+  "spans": 253,
+  "review_items": 23,
+  "verify": {
+    "ok": false,
+    "leaks": [
+      {
+        "page": 6,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 6,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 6,
+        "text": "Corporate Social Responsibility Committee",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 7,
+        "text": "\u2018B\u2019 Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat \u2013\n380058, India",
+        "entity_id": "ADDR1"
+      },
+      {
+        "page": 7,
+        "text": "B\u2019 Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat \u2013 380058, India",
+        "entity_id": "ADDR1"
+      },
+      {
+        "page": 7,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 7,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 7,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 7,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 7,
+        "text": "Non-Executive Director",
+        "entity_id": "ADDR5"
+      },
+      {
+        "page": 7,
+        "text": "Ambli-Bopal Road",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 7,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 7,
+        "text": "Hardik Jetani & Associates",
+        "entity_id": "ORG18"
+      },
+      {
+        "page": 7,
+        "text": "Rakholiya Sanjay Jaysukhbhai",
+        "entity_id": "P13"
+      },
+      {
+        "page": 8,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 8,
+        "text": "Designated Intermediary(ies)",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 9,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 10,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 10,
+        "text": "Motilal Oswal Investment Advisors Limited",
+        "entity_id": "ORG4"
+      },
+      {
+        "page": 10,
+        "text": "Depositories Act",
+        "entity_id": "ORG10"
+      },
+      {
+        "page": 11,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 12,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 12,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 13,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 13,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 14,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 14,
+        "text": "KFin Technologies Limited",
+        "entity_id": "ORG5"
+      },
+      {
+        "page": 15,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 16,
+        "text": "Depositories Act",
+        "entity_id": "ORG10"
+      },
+      {
+        "page": 24,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 24,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 24,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 24,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 25,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 25,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 25,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 25,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 26,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 28,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 28,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 28,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 29,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 31,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 31,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 31,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 31,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 32,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 32,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 32,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 32,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 33,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 50,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 50,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 51,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 51,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 51,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 53,
+        "text": "Audit Committee",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 56,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 58,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 58,
+        "text": "Rajnikant Chimanlal Diwan",
+        "entity_id": "P10"
+      },
+      {
+        "page": 58,
+        "text": "Vijayalakshmi Suvarna",
+        "entity_id": "P11"
+      },
+      {
+        "page": 59,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 61,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 62,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 63,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 64,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 66,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 67,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 67,
+        "text": "INDIAN SECURITIES",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 68,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 69,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 70,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 70,
+        "text": "INDIAN SECURITIES",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 71,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 71,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 72,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 73,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 74,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 75,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 75,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 75,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 76,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 80,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 82,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 89,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 90,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 91,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 91,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 91,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 91,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 92,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 92,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 92,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 92,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 93,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 93,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 93,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 93,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 94,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 94,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 94,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 95,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 96,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 97,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 98,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 98,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 98,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 98,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 99,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 100,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 101,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 104,
+        "text": "State Bank of India",
+        "entity_id": "ORG27"
+      },
+      {
+        "page": 116,
+        "text": "Kotak Mahindra Bank Limited",
+        "entity_id": "ORG25"
+      },
+      {
+        "page": 116,
+        "text": "YES Bank Limited",
+        "entity_id": "ORG29"
+      },
+      {
+        "page": 119,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 119,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 120,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 121,
+        "text": "Audit Committee",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 122,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 122,
+        "text": "Audit Committee",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 123,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 124,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 124,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 125,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 125,
+        "text": "Audit Committee",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 127,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 128,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 130,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 131,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 131,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 131,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 132,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 132,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 132,
+        "text": "M/s Surana Maloo & Co",
+        "entity_id": "ORG3"
+      },
+      {
+        "page": 132,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 132,
+        "text": "Ambli-Bopal Road",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 133,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 188,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 188,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 194,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 199,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 199,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 203,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 220,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 220,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 221,
+        "text": "\u2018B\u2019 Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat \u2013\n380058, India",
+        "entity_id": "ADDR1"
+      },
+      {
+        "page": 221,
+        "text": "B\u2019 Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat \u2013 380058, India",
+        "entity_id": "ADDR1"
+      },
+      {
+        "page": 221,
+        "text": "Ambli-Bopal Road",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 226,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 226,
+        "text": "\u2018B\u2019 Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat \u2013\n380058, India",
+        "entity_id": "ADDR1"
+      },
+      {
+        "page": 226,
+        "text": "B\u2019 Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat \u2013 380058, India",
+        "entity_id": "ADDR1"
+      },
+      {
+        "page": 226,
+        "text": "M/s. Laxmi Construction Co.",
+        "entity_id": "ORG6"
+      },
+      {
+        "page": 226,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 226,
+        "text": "Ambli-Bopal Road",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 227,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 227,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 227,
+        "text": "M/s. Laxmi Construction Co.",
+        "entity_id": "ORG6"
+      },
+      {
+        "page": 227,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 230,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 230,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 230,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 230,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 230,
+        "text": "Ambli-Bopal Road",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 231,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 231,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 232,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 233,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 234,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 235,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 236,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 236,
+        "text": "Gramang Hydel Projects LLP",
+        "entity_id": "ORG11"
+      },
+      {
+        "page": 237,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 238,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 238,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 238,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 238,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 238,
+        "text": "07794582",
+        "entity_id": "DIN1"
+      },
+      {
+        "page": 238,
+        "text": "B Wing, 15th Floor, Privilon Building, Vikram Nagar, Behind Iskcon Temple, Ambli-Bopal Road, Ahmedabad \u2013 380 058, Gujarat, India",
+        "entity_id": "ADDR4"
+      },
+      {
+        "page": 238,
+        "text": "07794599",
+        "entity_id": "DIN2"
+      },
+      {
+        "page": 238,
+        "text": "Non-Executive Director",
+        "entity_id": "ADDR5"
+      },
+      {
+        "page": 238,
+        "text": "Ambli-Bopal Road",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 239,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 239,
+        "text": "10834742",
+        "entity_id": "DIN3"
+      },
+      {
+        "page": 239,
+        "text": "Rajnikant Chimanlal Diwan",
+        "entity_id": "P10"
+      },
+      {
+        "page": 239,
+        "text": "10062916",
+        "entity_id": "DIN4"
+      },
+      {
+        "page": 239,
+        "text": "Vijayalakshmi Suvarna",
+        "entity_id": "P11"
+      },
+      {
+        "page": 239,
+        "text": "01722538",
+        "entity_id": "DIN5"
+      },
+      {
+        "page": 239,
+        "text": "Mirtunjay Singh",
+        "entity_id": "P12"
+      },
+      {
+        "page": 239,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 239,
+        "text": "Shantipura Sanand Highway",
+        "entity_id": "ADDR10"
+      },
+      {
+        "page": 240,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 240,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 240,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 240,
+        "text": "Non-Executive Director",
+        "entity_id": "ADDR5"
+      },
+      {
+        "page": 240,
+        "text": "Rajnikant Chimanlal Diwan",
+        "entity_id": "P10"
+      },
+      {
+        "page": 240,
+        "text": "Vijayalakshmi Suvarna",
+        "entity_id": "P11"
+      },
+      {
+        "page": 240,
+        "text": "Mirtunjay Singh",
+        "entity_id": "P12"
+      },
+      {
+        "page": 240,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 241,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 241,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 241,
+        "text": "Non-Executive Director",
+        "entity_id": "ADDR5"
+      },
+      {
+        "page": 241,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 242,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 242,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 242,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 242,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 242,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 242,
+        "text": "Non-Executive Director",
+        "entity_id": "ADDR5"
+      },
+      {
+        "page": 242,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 243,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 243,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 243,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 243,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 243,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 243,
+        "text": "Audit Committee",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 243,
+        "text": "Corporate Social Responsibility Committee",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 243,
+        "text": "Non-Executive Director",
+        "entity_id": "ADDR5"
+      },
+      {
+        "page": 243,
+        "text": "Rajnikant Chimanlal Diwan",
+        "entity_id": "P10"
+      },
+      {
+        "page": 243,
+        "text": "Vijayalakshmi Suvarna",
+        "entity_id": "P11"
+      },
+      {
+        "page": 243,
+        "text": "Mirtunjay Singh",
+        "entity_id": "P12"
+      },
+      {
+        "page": 243,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 244,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 244,
+        "text": "Audit Committee",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 245,
+        "text": "Audit Committee",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 245,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 246,
+        "text": "Audit Committee",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 246,
+        "text": "Rajnikant Chimanlal Diwan",
+        "entity_id": "P10"
+      },
+      {
+        "page": 246,
+        "text": "Vijayalakshmi Suvarna",
+        "entity_id": "P11"
+      },
+      {
+        "page": 246,
+        "text": "Mirtunjay Singh",
+        "entity_id": "P12"
+      },
+      {
+        "page": 246,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 247,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 247,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 248,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 248,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 248,
+        "text": "CSR Committee",
+        "entity_id": "ORG13"
+      },
+      {
+        "page": 248,
+        "text": "Corporate Social Responsibility Committee",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 248,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 249,
+        "text": "CSR Committee",
+        "entity_id": "ORG13"
+      },
+      {
+        "page": 249,
+        "text": "Corporate Social Responsibility Committee",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 249,
+        "text": "Rajnikant Chimanlal Diwan",
+        "entity_id": "P10"
+      },
+      {
+        "page": 249,
+        "text": "Vijayalakshmi Suvarna",
+        "entity_id": "P11"
+      },
+      {
+        "page": 249,
+        "text": "Mirtunjay Singh",
+        "entity_id": "P12"
+      },
+      {
+        "page": 249,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 250,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 250,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 250,
+        "text": "Mirtunjay Singh",
+        "entity_id": "P12"
+      },
+      {
+        "page": 250,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 253,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 253,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 253,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 253,
+        "text": "Artiba Narpatsinh Jadeja",
+        "entity_id": "P9"
+      },
+      {
+        "page": 254,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 255,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 255,
+        "text": "Artiba Narpatsinh Jadeja",
+        "entity_id": "P9"
+      },
+      {
+        "page": 256,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 256,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 256,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 256,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 256,
+        "text": "B Wing, 15th Floor, Privilon Building, Vikram Nagar, Behind Iskcon Temple, Ambli-Bopal Road, Ahmedabad \u2013 380 058, Gujarat, India",
+        "entity_id": "ADDR4"
+      },
+      {
+        "page": 256,
+        "text": "Ambli-Bopal Road",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 257,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 257,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 257,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 257,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 257,
+        "text": "B Wing, 15th Floor, Privilon Building, Vikram Nagar, Behind Iskcon Temple, Ambli-Bopal Road, Ahmedabad \u2013 380 058, Gujarat, India",
+        "entity_id": "ADDR4"
+      },
+      {
+        "page": 257,
+        "text": "Non-Executive Director",
+        "entity_id": "ADDR5"
+      },
+      {
+        "page": 257,
+        "text": "Ambli-Bopal Road",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 258,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 258,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 258,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 259,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 260,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 260,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 262,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 262,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 262,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 263,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 268,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 269,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 269,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 269,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 269,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 269,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 269,
+        "text": "Artiba Narpatsinh Jadeja",
+        "entity_id": "P9"
+      },
+      {
+        "page": 270,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 270,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 270,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 270,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 270,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 270,
+        "text": "Artiba Narpatsinh Jadeja",
+        "entity_id": "P9"
+      },
+      {
+        "page": 271,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 271,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 272,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 272,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 272,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 272,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 272,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 272,
+        "text": "Artiba Narpatsinh Jadeja",
+        "entity_id": "P9"
+      },
+      {
+        "page": 273,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 273,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 273,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 273,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 273,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 273,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 273,
+        "text": "Artiba Narpatsinh Jadeja",
+        "entity_id": "P9"
+      },
+      {
+        "page": 274,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 274,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 274,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 277,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 280,
+        "text": "Gramang Hydel Projects LLP",
+        "entity_id": "ORG11"
+      },
+      {
+        "page": 293,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 295,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 295,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 296,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 296,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 297,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 297,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 298,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 298,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 298,
+        "text": "Gramang Hydel Projects LLP",
+        "entity_id": "ORG11"
+      },
+      {
+        "page": 299,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 299,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 300,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 300,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 301,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 301,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 302,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 302,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 302,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 302,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 303,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 303,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 303,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 304,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 304,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 305,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 305,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 305,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 305,
+        "text": "Kotak Mahindra Bank Limited",
+        "entity_id": "ORG25"
+      },
+      {
+        "page": 305,
+        "text": "YES Bank Limited",
+        "entity_id": "ORG29"
+      },
+      {
+        "page": 306,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 306,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 306,
+        "text": "Bank of Baroda",
+        "entity_id": "ORG19"
+      },
+      {
+        "page": 306,
+        "text": "CSB Bank Limited",
+        "entity_id": "ORG20"
+      },
+      {
+        "page": 306,
+        "text": "IDFC First Bank Limited",
+        "entity_id": "ORG23"
+      },
+      {
+        "page": 306,
+        "text": "Kotak Mahindra Bank Limited",
+        "entity_id": "ORG25"
+      },
+      {
+        "page": 306,
+        "text": "Punjab National Bank",
+        "entity_id": "ORG26"
+      },
+      {
+        "page": 306,
+        "text": "State Bank of India",
+        "entity_id": "ORG27"
+      },
+      {
+        "page": 306,
+        "text": "YES Bank Limited",
+        "entity_id": "ORG29"
+      },
+      {
+        "page": 307,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 307,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 307,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 307,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 308,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 308,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 309,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 309,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 310,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 310,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 311,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 311,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 312,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 312,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 313,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 313,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 314,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 314,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 315,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 315,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 315,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 316,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 316,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 317,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 317,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 318,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 318,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 319,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 319,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 320,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 320,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 321,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 321,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 321,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 321,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 321,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 321,
+        "text": "Gramang Hydel Projects LLP",
+        "entity_id": "ORG11"
+      },
+      {
+        "page": 321,
+        "text": "Rajnikant Chimanlal Diwan",
+        "entity_id": "P10"
+      },
+      {
+        "page": 321,
+        "text": "Vijayalakshmi Suvarna",
+        "entity_id": "P11"
+      },
+      {
+        "page": 321,
+        "text": "Mirtunjay Singh",
+        "entity_id": "P12"
+      },
+      {
+        "page": 321,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 322,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 322,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 322,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 323,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 323,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 324,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 324,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 324,
+        "text": "Gramang Hydel Projects LLP",
+        "entity_id": "ORG11"
+      },
+      {
+        "page": 325,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 325,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 325,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 325,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 326,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 326,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 327,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 327,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 328,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 328,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 328,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 329,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 329,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 330,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 330,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 331,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 331,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 332,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 332,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 333,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 333,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 334,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 334,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 335,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 335,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 336,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 336,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 337,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 337,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 338,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 338,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 338,
+        "text": "Gramang Hydel Projects LLP",
+        "entity_id": "ORG11"
+      },
+      {
+        "page": 339,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 339,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 340,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 340,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 340,
+        "text": "Gramang Hydel Projects LLP",
+        "entity_id": "ORG11"
+      },
+      {
+        "page": 341,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 341,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 342,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 342,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 342,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 342,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 342,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 342,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 342,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 342,
+        "text": "Artiba Narpatsinh Jadeja",
+        "entity_id": "P9"
+      },
+      {
+        "page": 343,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 350,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 350,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 356,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 358,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 360,
+        "text": "Gramang Hydel Projects LLP",
+        "entity_id": "ORG11"
+      },
+      {
+        "page": 371,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 383,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 383,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 384,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 385,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 391,
+        "text": "M/s. Laxmi Construction Co.",
+        "entity_id": "ORG6"
+      },
+      {
+        "page": 392,
+        "text": "Rajnikant Chimanlal Diwan",
+        "entity_id": "P10"
+      },
+      {
+        "page": 392,
+        "text": "State Bank of India",
+        "entity_id": "ORG27"
+      },
+      {
+        "page": 395,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 398,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 399,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 399,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 399,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 400,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 401,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 401,
+        "text": "Motilal Oswal Investment Advisors Limited",
+        "entity_id": "ORG4"
+      },
+      {
+        "page": 402,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 403,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 404,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 404,
+        "text": "M/s. Surana Maloo & Co",
+        "entity_id": "ORG3"
+      },
+      {
+        "page": 404,
+        "text": "Hardik Jetani & Associates",
+        "entity_id": "ORG18"
+      },
+      {
+        "page": 404,
+        "text": "Rakholiya Sanjay Jaysukhbhai",
+        "entity_id": "P13"
+      },
+      {
+        "page": 405,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 406,
+        "text": "Motilal Oswal Investment Advisors Limited",
+        "entity_id": "ORG4"
+      },
+      {
+        "page": 407,
+        "text": "Motilal Oswal Investment Advisors Limited",
+        "entity_id": "ORG4"
+      },
+      {
+        "page": 408,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 408,
+        "text": "Motilal Oswal Investment Advisors Limited",
+        "entity_id": "ORG4"
+      },
+      {
+        "page": 409,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 410,
+        "text": "Gayatri Desai",
+        "entity_id": "P1"
+      },
+      {
+        "page": 410,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 411,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 411,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 412,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 412,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 413,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 414,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 416,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 417,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 417,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 418,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 419,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 420,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 421,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 423,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 424,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 425,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 427,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 428,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 429,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 430,
+        "text": "INDIAN SECURITIES",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 431,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 432,
+        "text": "INDIAN SECURITIES",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 433,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 433,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 434,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 435,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 438,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 439,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 440,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 441,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 442,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 443,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 443,
+        "text": "INDIAN SECURITIES",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 444,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 445,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 445,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 445,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 445,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 448,
+        "text": "Equity Shares",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 457,
+        "text": "Depositories Act",
+        "entity_id": "ORG10"
+      },
+      {
+        "page": 458,
+        "text": "Depositories Act",
+        "entity_id": "ORG10"
+      },
+      {
+        "page": 463,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 463,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 464,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 471,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 479,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 487,
+        "text": "LCC PROJECTS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 487,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 487,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 487,
+        "text": "LCC Projects Private Limited",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 487,
+        "text": "ARTICLES OF ASSOCIATION",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 487,
+        "text": "Audit Committee",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 488,
+        "text": "Hardik Jetani & Associates",
+        "entity_id": "ORG18"
+      },
+      {
+        "page": 488,
+        "text": "Rakholiya Sanjay Jaysukhbhai",
+        "entity_id": "P13"
+      },
+      {
+        "page": 489,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 490,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      },
+      {
+        "page": 491,
+        "text": "MAYA ARJAN RABARI",
+        "entity_id": "P4"
+      },
+      {
+        "page": 491,
+        "text": "Non-Executive Director",
+        "entity_id": "ADDR5"
+      },
+      {
+        "page": 492,
+        "text": "Rajnikant Chimanlal Diwan",
+        "entity_id": "P10"
+      },
+      {
+        "page": 492,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 493,
+        "text": "Vijayalakshmi Suvarna",
+        "entity_id": "P11"
+      },
+      {
+        "page": 493,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 494,
+        "text": "Mirtunjay Singh",
+        "entity_id": "P12"
+      },
+      {
+        "page": 494,
+        "text": "Independent Director",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 495,
+        "text": "Artiba Narpatsinh Jadeja",
+        "entity_id": "P9"
+      },
+      {
+        "page": 496,
+        "text": "ARJAN SUJA RABARI",
+        "entity_id": "P2"
+      },
+      {
+        "page": 497,
+        "text": "LALJIBHAI ARJANBHAI AHIR",
+        "entity_id": "P3"
+      }
+    ]
+  },
+  "output": "out_other/a894a147d0cd55c5/1740641405340_706.redacted.pdf",
+  "seconds": 193.7
+}

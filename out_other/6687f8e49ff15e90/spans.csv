@@ -1,0 +1,256 @@
+page,text,type,entity_id,finder,confidence,surrogate
+1,CJ DARCL LOGISTICS LIMITED,ORG,ORG1,gliner,0.99,BAUTISTA-REYNOLDS LIMITED
+1,"55P, Sector – 44, Institutional Area, Gurugram – 122003",ADDRESS,ADDR1,regex,0.85,"437 Robert Groves, East Joelmouth, South Carolina 60839"
+1,Apoorva Kumar,PERSON,P1,gliner,0.98,Ashley Baker
+1,Aarti Bhargava,PERSON,P2,gliner,0.97,Grant Ferrell
+1,KRISHAN KUMAR AGARWAL,PERSON,P3,gliner,0.98,JESSICA BAKER GARCIA
+1,DARSHAN KUMAR AGARWAL,PERSON,P4,gliner,0.97,YOLANDA BAKER GARCIA
+1,"NARENDER
+KUMAR AGARWAL",PERSON,P5,gliner,0.99,CHRISTINA BAKER GARCIA
+1,NITESH AGARWAL,PERSON,P6,gliner,0.99,HEATHER GARCIA
+1,CJ LOGISTICS CORPORATION,ORG,ORG2,gliner,0.96,BRADLEY-LEE CORPORATION
+1,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+1,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+1,Krishan Kumar Agarwal,PERSON,P3,gliner,0.72,Jessica Baker Garcia
+1,Nitesh Agarwal,PERSON,P6,gliner+propagate,0.9,Heather Garcia
+1,Narender Kumar Agarwal,PERSON,P5,propagate,0.9,Christina Baker Garcia
+1,Darshan Kumar Agarwal,PERSON,P4,propagate,0.9,Yolanda Baker Garcia
+1,Vineet Aggarwal Promoter Group,ORG,ORG3,gliner+propagate,0.9,"Anderson, Cook and Herman"
+1,Puneet Agarwal Promoter Group,ORG,ORG4,gliner+propagate,0.9,"Gomez, Campbell and Ryan"
+1,Agarwal,PERSON,P3,propagate,0.9,Garcia
+1,Aggarwal,PERSON,P8,propagate,0.9,Merritt
+1,Aggarwal,PERSON,P8,propagate,0.9,Merritt
+1,Darcl CJ TISIT CS,ORG,ORG5,gliner,0.77,Jackson-Oneill
+2,Nikhil Agarwal Promoter Group,ORG,ORG6,gliner,0.78,"Hoffman, Tucker and Wheeler"
+2,"Manian & Rao, Chartered Accountants",ORG,ORG7,gliner+propagate,0.9,"Berger, Mcclure and Phillips"
+2,Shareholders,PERSON,P7,propagate,0.9,Stevenson
+2,Shareholders,PERSON,P7,propagate,0.9,Stevenson
+2,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+2,Shareholders,PERSON,P7,propagate,0.9,Stevenson
+2,ICICI Securities Limited,ORG,ORG8,gliner,1.0,Strickland-Carroll Limited
+2,Kishan Rastogi,PERSON,P9,gliner,0.96,Ronald Davidson
+2,"Ashik
+Joisar",PERSON,P10,gliner,0.96,Bryce Miller
+2,+91 22 6807 7100,PHONE,PHONE1,regex+gliner,1.0,+91 08 5051 9860
+2,cjdarclipo@icicisecurities.com,EMAIL,EMAIL1,regex+gliner,1.0,sherri25@example.com
+2,"DAM Capital Advisors
+Limited",ORG,ORG9,gliner,0.99,"Fox, Mann and Tucker
+Limited"
+2,Chintan Hefa,PERSON,P11,gliner,0.96,Deanna Peck
+2,Jay Shah,PERSON,P12,gliner,0.88,Amy Peck
+2,+91 22 4202 2500,PHONE,PHONE2,regex+gliner,1.0,+91 66 7623 4374
+2,cjdarcl.ipo@damcapital.in,EMAIL,EMAIL2,regex+gliner,1.0,cgeorge@example.com
+2,MUFG Intime India Private Limited,ORG,ORG10,gliner,1.0,Bridges-Bryant Private Limited
+2,"Link Intime India Private
+Limited",ORG,ORG11,gliner,0.98,"Newton, Gibson and Wallace
+Limited"
+2,Shanti Gopalkrishnan,PERSON,P13,gliner,0.98,Vincent Hernandez
+2,+91 810 811 4949,PHONE,PHONE3,regex+gliner,1.0,+91 746 281 4754
+2,cjdarcl.ipo@in.mpms.mufg.com,EMAIL,EMAIL3,regex+gliner,1.0,qrodriguez@example.com
+4,DARCL LOGISTICS LIMITED,ORG,ORG12,gliner,0.96,ROBERTS-DAVIS LIMITED
+4,Delhi Assam Roadways Corporation Private Limited,ORG,ORG13,gliner,0.94,"Smith, Carpenter and Wolfe Private Limited"
+4,Delhi Assam Roadways Corporation,ORG,ORG14,gliner,0.79,"Lewis, Brown and Luna Corporation"
+4,Shareholders,PERSON,P7,propagate,0.9,Stevenson
+4,Darcl Logistics Limited,ORG,ORG12,gliner,0.99,Roberts-Davis LIMITED
+4,CJ Darcl Logistics Limited,ORG,ORG1,gliner,0.99,Bautista-Reynolds LIMITED
+4,CJ Logistics Corporation,ORG,ORG2,gliner,0.88,Bradley-Lee CORPORATION
+4,"55P, Sector – 44, Institutional Area, Gurugram – 122003",ADDRESS,ADDR1,regex,0.85,"437 Robert Groves, East Joelmouth, South Carolina 60839"
+4,Apoorva Kumar,PERSON,P1,gliner,0.97,Ashley Baker
+4,Aarti Bhargava,PERSON,P2,gliner,0.96,Grant Ferrell
+4,investors@cjdarcl.com,EMAIL,EMAIL4,regex+gliner,1.0,ruben83@example.com
+4,KRISHAN KUMAR AGARWAL,PERSON,P3,gliner,0.99,JESSICA BAKER GARCIA
+4,DARSHAN KUMAR AGARWAL,PERSON,P4,gliner,0.99,YOLANDA BAKER GARCIA
+4,NARENDER KUMAR AGARWAL,PERSON,P5,gliner,0.99,CHRISTINA BAKER GARCIA
+4,NITESH AGARWAL,PERSON,P6,gliner,0.99,HEATHER GARCIA
+4,"CJ LOGISTICS
+CORPORATION",ORG,ORG2,gliner,0.89,BRADLEY-LEE CORPORATION
+4,CJ DARCL LOGISTICS LIMITED,ORG,ORG1,gliner,0.98,BAUTISTA-REYNOLDS LIMITED
+4,KRISHAN KUMAR AGARWAL,PERSON,P3,gliner,0.99,JESSICA BAKER GARCIA
+4,DARSHAN KUMAR AGARWAL,PERSON,P4,gliner,0.99,YOLANDA BAKER GARCIA
+4,NARENDER KUMAR AGARWAL,PERSON,P5,gliner,0.99,CHRISTINA BAKER GARCIA
+4,NITESH AGARWAL,PERSON,P6,gliner,0.99,HEATHER GARCIA
+4,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+4,PROMOTER SELLING SHAREHOLDERS,PERSON,P7,gliner+propagate,0.9,DOMINIQUE CLAUDIA STEVENSON
+4,PROMOTER GROUP SELLING SHAREHOLDERS,PERSON,P7,gliner,0.82,DOMINIQUE CHAD CLAUDIA STEVENSON
+4,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+4,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+4,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+4,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+4,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+4,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+4,ENGLISH NATIONAL DAILY NEWSPAPER,ORG,ORG15,gliner+propagate,0.9,"WALSH, MCDANIEL AND JOHNSON"
+4,rice Band,ORG,ORG16,gliner,0.8,Hernandez
+4,Self- Certified Syndicate Banks,ORG,ORG17,gliner,0.91,"Jackson, Ellis and Johnson"
+5,Shareholders,PERSON,P7,propagate,0.9,Stevenson
+5,"Herring Prospectus up to the Bid/ Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 547.
+BOOK RUNNING LEAD MANAGERS REGISTRAR TO THE OFFER
+ICICI Securities Limited ICICI Venture House Appasaheb Marathe Marg, Prabhadevi Mumbai – 400025 Maharashtra, India",ADDRESS,ADDR2,regex+gliner,0.99,"77099 Allen Valley Suite 214
+Clarkfort
+Nebraska 78079, Georgia"
+5,+91 22 6807 7100,PHONE,PHONE1,regex+gliner,1.0,+91 08 5051 9860
+5,cjdarclipo@icicisecurities.com,EMAIL,EMAIL1,regex+gliner,1.0,sherri25@example.com
+5,customercare@icicisecurities.com,EMAIL,EMAIL5,regex+gliner,0.99,carrillojeffrey@example.com
+5,Kishan Rastogi,PERSON,P9,gliner,0.91,Ronald Davidson
+5,Ashik Joisar,PERSON,P10,gliner,0.75,Bryce Miller
+5,DAM Capital Advisors Limited,ORG,ORG9,gliner,0.99,"Fox, Mann and Tucker
+Limited"
+5,"Altimus 2202, Level 22, Pandurang Budhkar Marg, Worli, Mumbai - 400018 Maharashtra, India",ADDRESS,ADDR3,regex+gliner,0.85,"94571 Randy Mission Suite 932, East Brentton, New Hampshire 19171"
+5,+91 22 4202 2500,PHONE,PHONE2,regex+gliner,1.0,+91 66 7623 4374
+5,cjdarcl.ipo@damcapital.in,EMAIL,EMAIL2,regex+gliner,1.0,cgeorge@example.com
+5,complaint@damcapital.in,EMAIL,EMAIL6,regex+gliner,0.99,amy04@example.com
+5,Chintan Hefa,PERSON,P11,gliner,0.83,Deanna Peck
+5,Jay Shah,PERSON,P12,gliner,0.76,Amy Peck
+5,MUFG Intime India Private Limited,ORG,ORG10,gliner,0.99,Bridges-Bryant Private Limited
+5,"Intime India Private Limited) C-101, Embassy 247, L.B.S. Marg, Vikhroli (West), Mumbai 400 083, Maharashtra, India",ADDRESS,ADDR4,regex+gliner,0.92,"67456 Jill Station, New Christopherport, New Jersey 29835"
+5,+91 810 811 4949,PHONE,PHONE3,regex+gliner,1.0,+91 746 281 4754
+5,cjdarcl.ipo@in.mpms.mufg.com,EMAIL,EMAIL3,regex+gliner,1.0,qrodriguez@example.com
+5,cjdarcl.ipo@in.mpms.mufg.com,EMAIL,EMAIL3,regex+gliner,1.0,qrodriguez@example.com
+5,Shanti Gopalkrishnan,PERSON,P13,gliner,0.96,Vincent Hernandez
+5,"CAPITAL
+MUFG",ORG,ORG18,gliner,0.82,SMITH-LAMBERT
+6,SHAREHOLDERS,PERSON,P7,propagate,0.9,STEVENSON
+91,"55P, Sector-44, Institutional Area Gurugram – 122003",ADDRESS,ADDR1,regex,0.85,"437 Robert Groves, East Joelmouth, South Carolina 60839"
+91,"4th Floor, IFCI Tower 61, Nehru Place New Delhi – 110019 Delhi, India",ADDRESS,ADDR5,regex,0.85,"01225 Davidson Knoll Apt. 955, Taylorhaven, Arizona 92594"
+91,Apoorva Kumar,PERSON,P1,gliner,0.96,Ashley Baker
+91,Aarti Bhargava,PERSON,P2,gliner,0.98,Grant Ferrell
+91,"55P Sector – 44, Institutional Area Gurugram – 122003",ADDRESS,ADDR1,regex,0.85,"437 Robert Groves, East Joelmouth, South Carolina 60839"
+91,investors@cjdarcl.com,EMAIL,EMAIL4,regex+gliner,1.0,ruben83@example.com
+91,Krishan Kumar Agarwal,PERSON,P3,gliner,1.0,Jessica Baker Garcia
+91,00151179,DIN,DIN1,regex,1.0,02071205
+91,Sahara Grace,PERSON,P14,gliner,0.9,Rebecca Jones
+91,Darshan Kumar Agarwal,PERSON,P4,gliner,1.0,Yolanda Baker Garcia
+91,Joint Managing Director,ADDRESS,ADDR6,regex,0.85,"057 Joy Inlet Suite 457, Port Raymondmouth, Mississippi 40004"
+91,00151560,DIN,DIN2,regex+gliner,1.0,89214161
+91,Narender Kumar Agarwal,PERSON,P5,gliner,0.99,Christina Baker Garcia
+91,00052456,DIN,DIN3,regex,1.0,97733728
+91,Sahara Grace,PERSON,P14,propagate,0.9,Rebecca Jones
+91,"M. G Road, near Sahara Mall, Gurugram- 122002",ADDRESS,ADDR7,regex,0.85,"750 Walters Mills, Raymondchester, Mississippi 61420"
+91,Nitesh Agarwal,PERSON,P6,gliner,0.98,Heather Garcia
+91,00170777 824,PHONE,PHONE4,regex+gliner,1.0,64911181 196
+91,Junghun Baig,PERSON,P15,gliner,0.96,Briana Shaw
+91,09268841,DIN,DIN4,regex+gliner,1.0,64381304
+91,Hyun Chul Yoo,PERSON,P16,gliner,0.96,Lori Dawn Haas
+91,10667938,DIN,DIN5,regex,1.0,76459593
+91,Gwon Wong Kim,PERSON,P17,gliner,0.98,John Sara Hill
+91,10669349,DIN,DIN6,regex,1.0,45352097
+91,Tae Gyun Kim,PERSON,P18,gliner,0.98,John Mark Hill
+91,10947317,DIN,DIN7,regex,1.0,52711397
+91,Jae Man Kwak,PERSON,P19,gliner,0.99,John Sean Allen
+91,11164689,DIN,DIN8,regex+gliner,1.0,96844689
+91,377-dong 1004-ho 148 Crystal-ro,ADDRESS,ADDR8,gliner,0.97,"35572 Wright Pass, Evansshire, Massachusetts 51730"
+91,Yun Young Kwak,PERSON,P20,gliner,0.99,Joe Andrew Allen
+91,11176887,DIN,DIN9,regex+gliner,1.0,11852157
+91,"923-dong, 1101-ho, 311 Hwasin-ro",ADDRESS,ADDR9,gliner,0.92,"2440 Davis Skyway, East Kimchester, Oklahoma 16357"
+92,Hyun Chul Maeng,PERSON,P21,gliner,0.99,Lori Dawn Harris
+92,10218711,DIN,DIN10,regex,1.0,83586578
+92,Nidhi Aggarwal,PERSON,P8,gliner,0.98,Tonya Merritt
+92,10218762,DIN,DIN11,regex,1.0,66260330
+92,"E-501, Uniworld City East, Sector 30, Gurgaon-122001, India",ADDRESS,ADDR10,regex,0.85,"7258 Dawn Mountains, North Benjamin, Wyoming 30219"
+92,Yong Hwan Choung,PERSON,P22,gliner,0.98,Mark Mary Glass
+92,11153187,DIN,DIN12,regex,1.0,62951390
+92,"F-1, Second floor, Flat no.4, OP Jindal Global University, Sonipat, Haryana – 131001, India",ADDRESS,ADDR11,regex+gliner,0.85,"046 Thomas Cove, Latoyafurt, Connecticut 12542"
+92,Guydeuk Yeon,PERSON,P23,gliner,0.94,Jennifer Sims
+92,10551356,DIN,DIN13,regex,1.0,90828145
+92,"1, 1st Floor, 1st Main, 8th Cross, S. G. Palya, DRC Post, Hosur Road, Bangalore South, Bengaluru, Karnataka, India 560029",ADDRESS,ADDR12,regex+gliner,0.85,"712 Rogers Manor, New Marybury, Florida 97645"
+92,Sanjiv Garg,PERSON,P24,gliner,0.96,Heather Ruiz
+92,00682084,DIN,DIN14,regex,1.0,09450327
+92,"A-14/1 First Floor, Vasant Marg, Near A Block Market, Vasant Vihar, Vasant Vihar-1, PO: Vasant Vihar-1, DIST: South West Delhi, Delhi – 110057, India",ADDRESS,ADDR13,regex,0.85,"99150 Warren Key Apt. 648, Pachecoland, Washington 48321"
+92,CJ Logistics Corporation,ORG,ORG2,gliner,0.99,Bradley-Lee CORPORATION
+92,ICICI Securities Limited,ORG,ORG8,gliner,0.99,Strickland-Carroll Limited
+92,ICICI Venture House,ORG,ORG19,gliner,0.97,Roberts-Anderson
+92,Appasaheb Marathe Marg Prabhadevi,ADDRESS,ADDR14,gliner,0.82,"3157 Brittany Valley, Lake Alyssaland, Alaska 19686"
+92,+91 22 6807 7100,PHONE,PHONE1,regex+gliner,1.0,+91 08 5051 9860
+92,cjdarclipo@icicisecurities.com,EMAIL,EMAIL1,regex+gliner,1.0,sherri25@example.com
+92,customercare@icicisecurities.com,EMAIL,EMAIL5,regex+gliner,0.99,carrillojeffrey@example.com
+92,Kishan Rastogi,PERSON,P9,gliner,0.76,Ronald Davidson
+92,Ashik Joisar,PERSON,P10,gliner,0.73,Bryce Miller
+92,DAM Capital Advisors Limited,ORG,ORG9,gliner,0.99,"Fox, Mann and Tucker
+Limited"
+92,"Altimus 2202, Level 22, Pandurang Budhkar Marg, Worli, Mumbai – 400018 Maharashtra, India",ADDRESS,ADDR3,regex+gliner,0.85,"94571 Randy Mission Suite 932, East Brentton, New Hampshire 19171"
+92,+91 22 4202 2500,PHONE,PHONE2,regex+gliner,1.0,+91 66 7623 4374
+92,cjdarcl.ipo@damcapital.in,EMAIL,EMAIL2,regex+gliner,1.0,cgeorge@example.com
+92,complaint@damcapital.in,EMAIL,EMAIL6,regex+gliner,0.99,amy04@example.com
+92,Chintan Hefa,PERSON,P11,gliner,0.78,Deanna Peck
+92,Jay Shah,PERSON,P12,gliner,0.76,Amy Peck
+92,Trilegal,ORG,ORG20,gliner,0.93,Daniels
+92,"One World Centre 10th Floor, Tower 2A & 2B Senapati Bapat Marg, Lower Parel (West) Mumbai – 400 013 Maharashtra, India",ADDRESS,ADDR15,regex,0.85,"9986 Thompson Forks, Allenberg, Arizona 43517"
+92,ipo@trilegal.com,EMAIL,EMAIL7,regex+gliner,1.0,belldaniel@example.com
+92,+91 22 4079 1000,PHONE,PHONE5,regex+gliner,1.0,+91 13 8852 3331
+93,S.R. Batliboi & Associates LLP,ORG,ORG21,gliner,0.98,"Padilla, Gardner and Oconnor LLP"
+93,"8 IGI Airport Hospitality District, Aerocity New Delhi – 110037, India",ADDRESS,ADDR16,regex,0.85,"7307 Paul Stream, Monicaborough, Mississippi 13638"
+93,+ 91 11 4681 9500,PHONE,PHONE6,regex+gliner,1.0,+ 91 72 8205 2834
+93,srba@srb.in,EMAIL,EMAIL8,regex+gliner,1.0,charles99@example.com
+93,MUFG Intime India Private Limited,ORG,ORG10,gliner,0.98,Bridges-Bryant Private Limited
+93,"formerly Link Intime India Private Limited) C-101, Embassy 247 L.B.S. Marg, Vikhroli (West) Mumbai 400 083 Maharashtra, India",ADDRESS,ADDR17,regex+gliner,0.89,"61618 Kyle Way, New David, South Dakota 14831"
+93,+91 810 811 4949,PHONE,PHONE3,regex+gliner,1.0,+91 746 281 4754
+93,cjdarcl.ipo@in.mpms.mufg.com,EMAIL,EMAIL3,regex+gliner,1.0,qrodriguez@example.com
+93,Shanti Gopalkrisnan,PERSON,P25,gliner,0.97,Vincent Gonzalez
+93,Public Offer Account Bank(s),ORG,ORG22,gliner,0.74,"Cook, Martinez and Rubio"
+93,State Bank of India Limited,ORG,ORG23,gliner,0.89,Cummings-Williams Limited
+93,"Commercial Branch, 6th Floor, Palm Court Maharana Pratap Chowk, Near M.D.I. Gurugram – 122 001",ADDRESS,ADDR18,regex+gliner,0.85,"766 Williams Manor Suite 840, Bishopfort, Texas 63041"
+93,0124-4544621,PHONE,PHONE7,regex+gliner,1.0,5591-7349273
+93,rm2.cbgurgaon@sbi.co.in,EMAIL,EMAIL9,regex+gliner,1.0,michaelsalas@example.com
+93,Ashok Singh,PERSON,P26,gliner,0.98,Karen Curry
+93,Axis Bank Limited,ORG,ORG24,gliner,0.99,Franklin Limited
+93,Mega Wholesale Banking Centre (MWBC),ORG,ORG25,gliner,0.86,"Barrett, Pineda and Williams"
+93,"SCO 57, Huda Market, Sector-56",ADDRESS,ADDR19,gliner,0.75,"448 Sparks Mills Apt. 010, Herreraland, Washington 75032"
+93,+91-8769521000,PHONE,PHONE8,regex+gliner,1.0,+91-0523140171
+93,mwbcgurgaon.branchhead@axisbank.com,EMAIL,EMAIL10,regex+gliner,1.0,crystalleach@example.com
+93,Sandeep Gupta,PERSON,P27,gliner,0.98,Jennifer Scott
+93,Shinhan Bank,ORG,ORG26,gliner,0.95,Deleon Bank
+93,HDFC Bank Limited,ORG,ORG27,gliner,0.99,Fitzgerald Limited
+94,011 4500 4800,PHONE,PHONE9,regex+gliner,1.0,170 7977 6404
+94,rm2.cbgurgaon@sbi.co.in,EMAIL,EMAIL9,regex+gliner,1.0,michaelsalas@example.com
+94,"Golf Course Road, Sector 53 Gurgaon – 122 002",ADDRESS,ADDR20,regex,0.85,"600 Harrell Land Apt. 382, Jeremyshire, Michigan 44424"
+94,0124 4664677,PHONE,PHONE10,regex+gliner,1.0,3056 9164585
+94,nehap.iain@hdfcbank.com,EMAIL,EMAIL11,regex+gliner,1.0,donnacooke@example.com
+94,Neha Jain,PERSON,P28,gliner,0.99,Paul Gray
+94,IDFC First Bank Limited,ORG,ORG28,gliner,0.98,Armstrong-Hill Limited
+94,Shah,PERSON,P12,propagate,0.9,Peck
+94,"Zafar Marg New Delhi – 110 002, Delhi, India",ADDRESS,ADDR21,regex,0.85,"17265 Francisco Turnpike Suite 486, Troymouth, Indiana 26758"
+94,+91 9650747778,PHONE,PHONE11,regex+gliner,1.0,+91 6004809682
+94,agam.jain@idfcfirstbank.com,EMAIL,EMAIL12,regex+gliner,1.0,kara.gray@example.com
+94,Agam Jain,PERSON,P29,gliner,0.97,Kara Gray
+94,KEB Hana Bank,ORG,ORG29,gliner,0.96,Guzman Bank
+94,"4th Floor, Oberoi Centre DLF Cyber City, Sector 25 Gurugram – 122 002",ADDRESS,ADDR22,regex,0.85,"10423 Kelly Ranch, Grantburgh, Arizona 63481"
+94,+91-124 4168230,PHONE,PHONE12,regex+gliner,1.0,+91-174 6005602
+94,karurendra.mishra@hanafn.com,EMAIL,EMAIL13,regex+gliner,1.0,jennifer.johnson@example.com
+94,Karurendra Mishra,PERSON,P30,gliner,0.97,Jennifer Johnson
+94,"Kotak Mahindra Bank Limited 1/11, First Floor, East Patel Nagar New Delhi – 110 008, Delhi, India",ADDRESS,ADDR23,regex+gliner,0.98,"97965 Scott Crescent, South Patrickport, Pennsylvania 27223"
+94,011-45056136,PHONE,PHONE13,regex+gliner,1.0,630-68191589
+94,puneet.jhuman@kotak.com,EMAIL,EMAIL14,regex+gliner,1.0,tiffany.martin@example.com
+94,Puneet Jhuman,PERSON,P31,gliner,0.92,Tiffany Martin
+94,Kookmin Bank,ORG,ORG30,gliner,0.9,Johnson Bank
+94,"Unit 2B/2, 2nd Floor, Two Horizon Centre Golf Course Road, DLF Phase 5, Sector 43 Gurugram – 122 002",ADDRESS,ADDR24,regex,0.85,"88381 Kathy Expressway Apt. 713, Lake Russellstad, Pennsylvania 88262"
+94,ketan.batra@kbfa.com,EMAIL,EMAIL15,regex+gliner,1.0,mark.kerr@example.com
+94,Ketan Batra,PERSON,P32,gliner,0.97,Mark Kerr
+94,Self-Certified Syndicate Banks,ORG,ORG17,gliner+propagate,0.9,"Jackson, Ellis and Johnson"
+95,S.R. Batliboi & Associates LLP,ORG,ORG21,gliner,0.97,"Padilla, Gardner and Oconnor LLP"
+95,U.S. Securities Act,ORG,ORG31,gliner+propagate,0.9,"Kim, Zhang and Terry"
+95,Manian & Rao,ORG,ORG32,gliner,0.95,Johnston-Smith
+95,U.S. Securities Act,ORG,ORG31,gliner+propagate,0.9,"Kim, Zhang and Terry"
+95,Deepak,PERSON,P33,gliner,0.78,Smith
+95,Council of Architecture,ORG,ORG33,gliner,0.93,"Hayes, Davis and Thomas"
+95,U.S. Securities Act,ORG,ORG31,gliner,0.82,"Kim, Zhang and Terry"
+95,Garg,PERSON,P24,propagate,0.9,Ruiz
+95,U.S. Securities Act,ORG,ORG31,gliner+propagate,0.9,"Kim, Zhang and Terry"
+96,Finance Department,ORG,ORG34,gliner,0.86,Miller-Hernandez
+96,Division of Issues and Listing,ORG,ORG35,gliner,0.71,"Armstrong, Ingram and Jackson"
+96,"C4 A, ‘G’ Block Bandra Kurla Complex, Bandra (East) Mumbai 400 051 Maharashtra, India",ADDRESS,ADDR25,regex,0.85,"972 Cameron Villages, Annbury, New Jersey 72015"
+96,All BRLMs ICICI Securities,ORG,ORG36,gliner+propagate,0.9,"Decker, Cook and Costa"
+96,All BRLMs ICICI Securities,ORG,ORG36,gliner+propagate,0.9,"Decker, Cook and Costa"
+96,All BRLMs ICICI Securities,ORG,ORG36,gliner,0.79,"Decker, Cook and Costa"
+96,All BRLMs ICICI Securities,ORG,ORG36,gliner,0.78,"Decker, Cook and Costa"
+96,All BRLMs DAM Capital,ORG,ORG37,gliner,0.79,"Johnson, Kirk and Martin"
+96,All BRLMs ICICI Securities,ORG,ORG36,gliner,0.79,"Decker, Cook and Costa"
+96,All BRLMs DAM Capital,ORG,ORG37,gliner,0.83,"Johnson, Kirk and Martin"
+96,All BRLMs DAM Capital,ORG,ORG37,gliner,0.8,"Johnson, Kirk and Martin"
+96,All BRLMs DAM Capital,ORG,ORG37,gliner,0.8,"Johnson, Kirk and Martin"
+97,BRLMs ICICI Securities,ORG,ORG38,gliner,0.76,"Wood, Allen and Torres"
+97,BRLMs ICICI Securities,ORG,ORG38,gliner,0.8,"Wood, Allen and Torres"
+97,All BRLMs DAM Capital,ORG,ORG37,gliner+propagate,0.9,"Johnson, Kirk and Martin"
+97,All BRLMs DAM Capital,ORG,ORG37,gliner+propagate,0.9,"Johnson, Kirk and Martin"
+97,All BRLMs DAM Capital,ORG,ORG37,gliner+propagate,0.9,"Johnson, Kirk and Martin"
+97,Shareholders,PERSON,P7,propagate,0.9,Stevenson
+97,All BRLMs DAM Capital,ORG,ORG37,gliner+propagate,0.9,"Johnson, Kirk and Martin"
+97,English national daily newspaper,ORG,ORG15,gliner,0.71,"Walsh, Mcdaniel and Johnson"

@@ -1,0 +1,11 @@
+page,text,type,finder,confidence,human_label
+5,uch Selling Shareholder,ORG,gliner,0.5811699628829956,
+6,INDIAN SECURITIES,ORG,gliner,0.6919118762016296,
+6,ARTICLES OF ASSOCIATION,ORG,gliner,0.5601963996887207,
+91,"gu Yongin-si, Gyeonggi-do, South Korea",ADDRESS,gliner,0.5776872038841248,
+93,Chartered Accountants,ORG,gliner,0.5199217200279236,
+93,Escrow Collection Bank(s),ORG,gliner,0.6901591420173645,
+93,Refund Bank(s),ORG,gliner,0.6544111371040344,
+93,Vatika Atrium,ADDRESS,gliner,0.5234753489494324,
+94,Broker Centres,ORG,gliner,0.6476432085037231,
+97,Hindi national daily newspaper,ORG,gliner,0.6202510595321655,

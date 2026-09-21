@@ -1,0 +1,130 @@
+entity_id,type,real,surrogate,mention_count,pages
+ORG1,ORG,LCC PROJECTS LIMITED,Davis-Henson LIMITED,6,1;3;6;82
+ADDR1,ADDRESS,"‘B’ Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat –
+380058, India","267 Howard Inlet
+Shelleyside, Pennsylvania 83851, Svalbard & Jan Mayen Islands",5,1;3;6;82
+P1,PERSON,Gayatri Desai,Joanna Deleon,5,1;3;6;82
+EMAIL1,EMAIL,cs@lccprojects.com,caleb92@example.com,4,1;3;82
+PHONE1,PHONE,+91 79 4848 4453,+91 79 6250 6494,4,1;3;82
+P2,PERSON,ARJAN SUJA RABARI,ANGELA ERIC MURPHY,6,1;3;6;82
+P3,PERSON,LALJIBHAI ARJANBHAI AHIR,NICHOLAS BENJAMIN COOK,5,1;3;82
+P4,PERSON,MAYA ARJAN RABARI,ERIN ANGELA MURPHY,3,1;3;82
+ORG2,ORG,Equity Shares,Mathews-Gill,59,1;2;3;5;6;83;87;88
+ORG3,ORG,M/s Surana Maloo & Co,Miller-Howell & Co,4,1;6;85
+ORG4,ORG,Motilal Oswal Investment Advisors Limited,"Fisher, Townsend and Edwards Limited",4,2;4;83
+ADDR2,ADDRESS,Rahimtullah Sayani Road,"61612 Nichole Street, Micheleborough, North Carolina 31713",2,2;4
+PHONE2,PHONE,+91 22 7193 4380,+91 23 8149 2961,3,2;4;83
+EMAIL2,EMAIL,lccprojects.ipo@motilaloswal.com,sarah12@example.com,3,2;4;83
+EMAIL3,EMAIL,moiaplredressal@motilaloswal.com,kennedycrystal@example.com,3,2;4;83
+P5,PERSON,Kunal Thakkar,Steven Wilson,3,2;4;83
+P6,PERSON,Sankita Ajinkya,Richard Wright,3,2;4;83
+ORG5,ORG,KFin Technologies Limited,"Bauer, Scott and Luna Limited",3,2;4;83
+ADDR3,ADDRESS,"Selenium Tower B, Plot No.31 & 32, Financial District Nanakramguda, Serilingampally Hyderabad, Rangareddi – 500 032","11332 Meyer Square, Dorisburgh, Utah 98956",2,2;4
+PHONE3,PHONE,+91 40 6716 2222,+91 60 3897 2736,3,2;4;84
+EMAIL4,EMAIL,lccpl.ipo@kfintech.com,yholmes@example.com,3,2;4;84
+EMAIL5,EMAIL,einward.risk@kfintech.com,ndavis@example.com,3,2;4;84
+P7,PERSON,M. Murali Krishna,R. Rachel Tanner,3,2;4;84
+ORG6,ORG,M/s. Laxmi Construction Co.,"Glenn, Casey and Bailey",1,3
+ORG7,ORG,LCC Projects Private Limited,Gomez-Thompson Private Limited,2,3
+P8,PERSON,HAMBFOHNA H,CHRISTOPHER C,1,4
+ORG8,ORG,INDIAN SECURITIES,Shelton-Johnson,2,5;6
+ORG9,ORG,ARTICLES OF ASSOCIATION,"Love, Mcgrath and Smith",3,5;6
+ORG10,ORG,Depositories Act,Anderson-Rice,2,6
+ORG11,ORG,Gramang Hydel Projects LLP,"Smith, Brown and Guerrero LLP",1,6
+ORG12,ORG,Audit Committee,Conley-Allen,2,6
+P9,PERSON,Artiba Narpatsinh Jadeja,Carolyn Michelle Rivera,1,6
+ORG13,ORG,CSR Committee,Ramirez-Garcia,1,6
+ORG14,ORG,Corporate Social Responsibility Committee,"Thompson, Anderson and Edwards",1,6
+ORG15,ORG,Rupal Park Society,Hayes-Hernandez,1,82
+DIN1,DIN,07794582,56531930,1,82
+ADDR4,ADDRESS,"B Wing, 15th Floor, Privilon Building, Vikram Nagar, Behind Iskcon Temple, Ambli-Bopal Road, Ahmedabad – 380 058, Gujarat, India","4534 Gary Fields, Clarkhaven, Louisiana 56737",2,82
+DIN2,DIN,07794599,67862837,1,82
+ADDR5,ADDRESS,Non-Executive Director,"247 Lucas Circle Apt. 590, Port Bryanport, Illinois 08486",1,82
+DIN3,DIN,10834742,50394429,1,82
+ADDR6,ADDRESS,Ambli-Bopal Road,"398 Foley Turnpike Suite 898, Donnaberg, Maryland 45545",1,82
+P10,PERSON,Rajnikant Chimanlal Diwan,Veronica Christina Avery,1,82
+DIN4,DIN,10062916,10237012,1,82
+ADDR7,ADDRESS,"B-504, Empire Regency, Opposite Nandini III Vip Road, Vesu Abhva, SVR College, Chorasi, Surat – 395 007, Gujarat, India","99693 Guy Road, Thomasside, Colorado 51239",1,82
+P11,PERSON,Vijayalakshmi Suvarna,Alexander Lawrence,1,82
+DIN5,DIN,01722538,79714613,1,82
+ADDR8,ADDRESS,"F 2001, Marine Enclave, Jankalyan Nagar, Near Sonata Tower, Malad West, Mumbai – 400 095, Maharashtra, India","3099 Rogers Ridge, Kennedyfurt, Virginia 48679",1,82
+P12,PERSON,Mirtunjay Singh,Patrick Curry,1,82
+ADDR9,ADDRESS,Independent Director,"7086 Vasquez Curve, South Veronica, North Dakota 41411",1,82
+PHONE4,PHONE,07947102 184,41264414 060,1,82
+ADDR10,ADDRESS,Shantipura Sanand Highway,"419 Smith Lodge, Port Andre, New Hampshire 44208",1,82
+ORG16,ORG,Designated Intermediary(ies),"Obrien, Santiago and Vaughn",3,83
+ORG17,ORG,Trilegal,Daniels,1,83
+ADDR11,ADDRESS,"One World Centre, 10th Floor, Tower 2A & 2B, Senapati Bapat Marg, Lower Parel (West), Mumbai – 400 013 Maharashtra, India","9986 Thompson Forks, Allenberg, Arizona 43517",1,83
+PHONE5,PHONE,+91 22 4079 1000,+91 13 8852 3331,1,83
+ADDR12,ADDRESS,"79
+Serilingampally","72943 Lorraine Creek
+Jordanbury, Idaho 34037, Montserrat",1,84
+ORG18,ORG,Hardik Jetani & Associates,"Miller, Reed and Humphrey",1,85
+P13,PERSON,Rakholiya Sanjay Jaysukhbhai,Jonathan Joshua Henderson,1,85
+ADDR13,ADDRESS,"Chartered Accountants 2nd Floor, Aakashganga Complex, Parimal Under Bridge, Near Suvidha Shopping Centre, Paldi, Ahmedabad – 380007","90558 Megan Squares, East John, Missouri 88570",1,85
+EMAIL6,EMAIL,audit@suranamaloo.com,dodsonvictoria@example.com,2,85;86
+ADDR14,ADDRESS,"Particulars Date of change Reason for change M/s Surana Maloo & Co, Chartered Accountants 2nd Floor, Aakashganga Complex, Parimal Under Bridge, Near Suvidha Shopping Centre, Paldi, Ahmedabad – 380007","1556 Mejia Plain Apt. 560, Richardmouth, Oregon 48439",1,86
+ADDR15,ADDRESS,132 Feet Ring Road,"68959 Susan Isle, Port Cheyenne, Mississippi 26661",1,86
+EMAIL7,EMAIL,info@anilnshahca.com,kmarsh@example.com,1,86
+PHONE6,PHONE,+91 75749 76107,+91 83851 60815,1,86
+ORG19,ORG,Bank of Baroda,Santana-Taylor,2,86
+PHONE7,PHONE,079-26594100,329-84871876,1,86
+EMAIL8,EMAIL,midahd@bankofbaroda.com,april49@example.com,1,86
+P14,PERSON,Vivek Sharma,Nancy Robbins,1,86
+ORG20,ORG,CSB Bank Limited,Watkins Limited,1,86
+P15,PERSON,Nikhil Jain,George Gray,2,86;87
+ADDR16,ADDRESS,"Deresar Temple, Navrangpura, Ahmedabad – 380 009, Gujarat, India","650 Rogers Isle, Lake Brittany, Louisiana 75461",1,86
+PHONE8,PHONE,+91 8999820651,+91 4925438131,1,86
+EMAIL9,EMAIL,arupchanda@csb.co.in,jasonchavez@example.com,1,86
+P16,PERSON,Arup Chanda,Jason Chavez,1,86
+ORG21,ORG,DCB Bank Limited,Ramirez Limited,1,86
+ORG22,ORG,DCB Bank,Chan Bank,1,86
+ADDR17,ADDRESS,Relief Road,"30278 Courtney Ways, Granttown, Wisconsin 68835",1,86
+PHONE9,PHONE,+91 7202006857,+91 2387417340,1,86
+EMAIL10,EMAIL,malikr@dcbbank.com,lori85@example.com,1,86
+P17,PERSON,Mallik Rajwani,Darryl Harris,1,86
+ADDR18,ADDRESS,"HDFC Bank Limited Astral House Navrangpura, Ahmedabad – 380 006, Gujarat, India","195 Teresa Parkways Apt. 588, Dicksonshire, Georgia 45778",1,86
+PHONE10,PHONE,+91 94284 88182,+91 32124 44279,1,86
+EMAIL11,EMAIL,keval.mehta@hdfcbank.com,brian.cook@example.com,1,86
+P18,PERSON,Keval Mehta,Brian Cook,1,86
+ADDR19,ADDRESS,"ICICI Bank Limited 8th Floor, Anam – 1, Opposite Parimal Garden, Ambawadi, Ahmedabad – 380 006, Gujarat, India","32668 Gay Track Suite 339, Mitchellmouth, Massachusetts 22237",1,86
+PHONE11,PHONE,+91 7969237015,+91 3328683623,1,86
+EMAIL12,EMAIL,divya.vishwanathan@icicibank.com,gary.christensen@example.com,1,86
+P19,PERSON,Divya Vishwanathan,Gary Christensen,1,86
+ORG23,ORG,IDFC First Bank Limited,Armstrong-Hill Limited,1,86
+ADDR20,ADDRESS,"Sun Square, 3rd Floor, Near Hotel Nest, Off CG Road, Ahmedabad – 380 006, Gujarat, India","5276 Estrada Rest Suite 387, Katrinaton, Maine 52284",1,86
+PHONE12,PHONE,+91 9825098785,+91 0980706005,1,86
+EMAIL13,EMAIL,Anand.hurkat@idfcfirstbank.com,brian.guzman@example.com,1,86
+P20,PERSON,Anand Hurkat,Brian Guzman,1,86
+ORG24,ORG,lnduslnd Bank Limited,Palmer-Smith Limited,1,86
+ADDR21,ADDRESS,"2nd & 3rd floor, A&B Wing, Parkar House, Law Garden Road, New Panchvati Circle, Ahmedabad- 380 009, Gujarat, India","032 Peter Port Apt. 409, Richardton, South Carolina 45118",1,86
+PHONE13,PHONE,+ 91 7961916900,+ 91 2130453290,1,86
+EMAIL14,EMAIL,anup.maheshwari@indusind.com,john.williams@example.com,1,86
+P21,PERSON,Anup Maheshwari,John Williams,1,86
+ORG25,ORG,Kotak Mahindra Bank Limited,Cunningham-Fletcher Limited,1,86
+PHONE14,PHONE,+91 8976903559,+91 7448179218,1,86
+EMAIL15,EMAIL,Prayag.mehta@kotak.com,donna.cook@example.com,1,86
+P22,PERSON,Prayag Mehta,Donna Cook,1,86
+ORG26,ORG,Punjab National Bank,Wright-Wright Bank,1,86
+ADDR22,ADDRESS,"2nd Floor, Shivalik Shilp, lskcon Cross Road, Ahmedabad – 380 015, Gujarat, India","4506 Lance Falls Apt. 344, South Jacob, Arkansas 67985",1,86
+ORG27,ORG,State Bank of India,Gonzalez-Petersen,1,86
+PHONE15,PHONE,+91 7600035795,+91 6023997932,1,86
+PHONE16,PHONE,079-27540206,039-59139653,1,87
+EMAIL16,EMAIL,bo4441@pnb.co.in,olee@example.com,1,87
+EMAIL17,EMAIL,rm1.ifbbrd@sbi.co.in,robert12@example.com,1,87
+P23,PERSON,Sushanto Das Gupta,Darrell Ian Scott,1,87
+ORG28,ORG,The Federal Bank Limited,Coleman-Moore Limited,1,87
+PHONE17,PHONE,+91 8238514568,+91 9335720868,1,87
+EMAIL18,EMAIL,hiteshmehta@federalbank.co.in,oliviacook@example.com,1,87
+P24,PERSON,Hitesh Mehta,Olivia Cook,1,87
+ADDR23,ADDRESS,"Union Bank of India 172/1, Ground Floor, Premchand House, Old High Court Road, Ashram Road, Ahmedabad – 380 009, Gujarat, India","69803 Reid Lodge, Lake Carlosfurt, Rhode Island 68903",1,87
+PHONE18,PHONE,+91 8982845119,+91 0102492395,1,87
+EMAIL19,EMAIL,ubin0577898@unionbankofindia.bank,shunter@example.com,1,87
+P25,PERSON,Arun Kumar Bansal,Lori Joseph Roberts,1,87
+ORG29,ORG,YES Bank Limited,Shepard Limited,1,87
+ADDR24,ADDRESS,"702 & 703, 7th Floor, Times Square Grand, Sindhu Bhavan Road, Ahmedabad – 380 059, Gujarat, India","5893 White Drive, Zacharymouth, Nebraska 69925",1,87
+PHONE19,PHONE,+ 91 7969235386,+ 91 1862857142,1,87
+EMAIL20,EMAIL,krupal.soni@yesbank.in,regina.pugh@example.com,1,87
+P26,PERSON,Krupal Soni,Regina Pugh,1,87
+ORG30,ORG,Finance Department,Miller-Hernandez,1,87
+ADDR25,ADDRESS,"C4 A, ‘G’ Block Bandra Kurla Complex, Bandra (E) Mumbai – 400 051, Maharashtra, India","6526 Lopez Rest, Johnsontown, Ohio 46485",1,87

@@ -15,3 +15,6 @@ Per-type columns are F1. Full report per run in `out/<doc_id>/EVAL_REPORT.md`; l
 | 2026-09-21 15:20 | 9c77159 | all precision fixes + address boundary order fix (Ollama) | 0.905 | 0.960 | 0.932 | 0.9782 | 0.964 | 0.895 | 0.952 | 0.952 | 0.912 | 1.000 | 0.667 | 0.667 | 105.5 |
 | 2026-09-21 15:22 | afc9e68 | same code, LLM finder = claude-haiku-4-5 | 0.906 | 0.965 | 0.934 | 0.9834 | 0.973 | 0.895 | 0.952 | 0.952 | 0.912 | 1.000 | 0.667 | 0.667 | 82.4 |
 | 2026-09-21 15:23 | afc9e68 | same code, LLM finder = claude-haiku-4-5 | 0.906 | 0.965 | 0.934 | 0.9836 | 0.973 | 0.895 | 0.952 | 0.952 | 0.912 | 1.000 | 0.667 | 0.667 | 80.2 |
+| 2026-09-21 15:37 | ae0b1cb | LLM-only ORG/ADDRESS without evidence -> review; image dedupe (Haiku) | 0.941 | 0.965 | 0.953 | 0.9836 | 0.982 | 0.911 | 0.968 | 0.976 | 0.929 | 1.000 | 1.000 | 1.000 | 79.5 |
+| 2026-09-21 15:38 | ae0b1cb | LLM-only ORG/ADDRESS without evidence -> review; image dedupe (Haiku) | 0.941 | 0.965 | 0.953 | 0.9834 | 0.982 | 0.911 | 0.968 | 0.976 | 0.929 | 1.000 | 1.000 | 1.000 | 79.4 |
+| 2026-09-21 15:40 | ae0b1cb | LLM-only ORG/ADDRESS without evidence -> review; image dedupe (Haiku) | 0.946 | 0.965 | 0.955 | 0.9836 | 0.982 | 0.919 | 0.968 | 0.976 | 0.929 | 1.000 | 1.000 | 1.000 | 75.6 |

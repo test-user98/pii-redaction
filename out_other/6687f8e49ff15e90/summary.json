@@ -1,0 +1,6292 @@
+{
+  "doc_id": "6687f8e49ff15e90",
+  "fmt": "pdf",
+  "pages": 13,
+  "hard_pages": [],
+  "llm_pages": [],
+  "entities": 138,
+  "spans": 241,
+  "review_items": 10,
+  "verify": {
+    "ok": false,
+    "leaks": [
+      {
+        "page": 1,
+        "text": "investors@cjdarcl.com",
+        "entity_id": "EMAIL4"
+      },
+      {
+        "page": 4,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 4,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 7,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 7,
+        "text": "55P, Sector \u2013 44, Institutional Area, Gurugram \u2013 122003",
+        "entity_id": "ADDR1"
+      },
+      {
+        "page": 7,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 7,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 7,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 7,
+        "text": "Yong Hwan Choung",
+        "entity_id": "P22"
+      },
+      {
+        "page": 7,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 8,
+        "text": "55P, Sector \u2013 44, Institutional Area, Gurugram \u2013 122003",
+        "entity_id": "ADDR1"
+      },
+      {
+        "page": 8,
+        "text": "Aarti Bhargava",
+        "entity_id": "P2"
+      },
+      {
+        "page": 8,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 8,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 8,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 8,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 8,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 8,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 8,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 8,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 8,
+        "text": "PROMOTER SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 8,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 8,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 8,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 8,
+        "text": "Deepak",
+        "entity_id": "P33"
+      },
+      {
+        "page": 8,
+        "text": "Council of Architecture",
+        "entity_id": "ORG33"
+      },
+      {
+        "page": 9,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 9,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 9,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 9,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 9,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 9,
+        "text": "PROMOTER SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 10,
+        "text": "ENGLISH NATIONAL DAILY NEWSPAPER",
+        "entity_id": "ORG15"
+      },
+      {
+        "page": 10,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 10,
+        "text": "Public Offer Account Bank(s)",
+        "entity_id": "ORG22"
+      },
+      {
+        "page": 11,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 11,
+        "text": "ICICI Securities Limited",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 11,
+        "text": "DAM Capital Advisors\nLimited",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 11,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 12,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 13,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 13,
+        "text": "ICICI Securities Limited",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 14,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 14,
+        "text": "MUFG Intime India Private Limited",
+        "entity_id": "ORG10"
+      },
+      {
+        "page": 14,
+        "text": "Link Intime India Private\nLimited",
+        "entity_id": "ORG11"
+      },
+      {
+        "page": 14,
+        "text": "ENGLISH NATIONAL DAILY NEWSPAPER",
+        "entity_id": "ORG15"
+      },
+      {
+        "page": 14,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 14,
+        "text": "Public Offer Account Bank(s)",
+        "entity_id": "ORG22"
+      },
+      {
+        "page": 15,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 16,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 17,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 18,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 21,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 21,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 21,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 21,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 21,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 21,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 21,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 21,
+        "text": "PROMOTER SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 21,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 21,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 21,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 27,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 28,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 28,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 28,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 28,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 28,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 28,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 28,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 29,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 29,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 29,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 29,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 29,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 29,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 29,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 30,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 30,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 30,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 30,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 30,
+        "text": "PROMOTER SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 30,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 31,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 31,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 31,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 31,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 31,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 31,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 31,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 31,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 31,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 34,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 34,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 34,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 35,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 35,
+        "text": "Aarti Bhargava",
+        "entity_id": "P2"
+      },
+      {
+        "page": 35,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 35,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 35,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 35,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 36,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 36,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 37,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 37,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 37,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 37,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 38,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 38,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 39,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 39,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 39,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 39,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 39,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 39,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 39,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 39,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 39,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 39,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 40,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 40,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 40,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 40,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 40,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 40,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 40,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 40,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 40,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 40,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 41,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 41,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 41,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 41,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 41,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 41,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 42,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 42,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 42,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 42,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 42,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 42,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 43,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 43,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 43,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 43,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 48,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 60,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 60,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 64,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 65,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 65,
+        "text": "HDFC Bank Limited",
+        "entity_id": "ORG27"
+      },
+      {
+        "page": 65,
+        "text": "KEB Hana Bank",
+        "entity_id": "ORG29"
+      },
+      {
+        "page": 65,
+        "text": "Kookmin Bank",
+        "entity_id": "ORG30"
+      },
+      {
+        "page": 67,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 70,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 72,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 72,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 73,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 74,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 74,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 75,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 78,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 80,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 81,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 82,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 83,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 84,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 84,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 85,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 91,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 94,
+        "text": "Shinhan Bank",
+        "entity_id": "ORG26"
+      },
+      {
+        "page": 97,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 98,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 99,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 100,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 100,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 101,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 101,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 101,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 101,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 101,
+        "text": "Delhi Assam Roadways Corporation",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 102,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 102,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 102,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 102,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 102,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 103,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 103,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 103,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 103,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 104,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 104,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 104,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 104,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 104,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 104,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 105,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 105,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 105,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 105,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 105,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 105,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 106,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 106,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 106,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 106,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 106,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 106,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 107,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 107,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 107,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 107,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 107,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 107,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 108,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 108,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 108,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 108,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 108,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 108,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 109,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 109,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 109,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 109,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 109,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 109,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 110,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 111,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 111,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 112,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 112,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 112,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 112,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 113,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 113,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 113,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 113,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 113,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 113,
+        "text": "Delhi Assam Roadways Corporation",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 114,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 114,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 114,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 114,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 114,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 115,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 115,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 116,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 116,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 116,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 116,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 116,
+        "text": "Delhi Assam Roadways Corporation",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 117,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 117,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 117,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 117,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 117,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 118,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 118,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 118,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 118,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 118,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 118,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 119,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 119,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 119,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 119,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 119,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 120,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 120,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 120,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 120,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 120,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 121,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 122,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 122,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 122,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 122,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 123,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 123,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 123,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 123,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 123,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 124,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 124,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 124,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 124,
+        "text": "Delhi Assam Roadways Corporation",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 125,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 125,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 125,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 126,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 126,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 127,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 127,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 127,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 127,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 127,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 127,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 128,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 128,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 129,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 129,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 129,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 129,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 129,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 130,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 130,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 130,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 130,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 130,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 130,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 131,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 131,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 131,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 131,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 131,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 132,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 132,
+        "text": "Deepak",
+        "entity_id": "P33"
+      },
+      {
+        "page": 133,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 133,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 133,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 133,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 133,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 133,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 133,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 134,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 134,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 134,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 134,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 134,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 135,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 136,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 137,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 137,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 138,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 138,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 138,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 138,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 138,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 138,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 138,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 139,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 139,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 139,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 139,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 139,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 139,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 139,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 140,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 140,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 140,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 140,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 140,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 140,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 140,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 140,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 141,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 141,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 142,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 143,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 143,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 143,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 143,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 143,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 143,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 143,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 143,
+        "text": "PROMOTER SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 143,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 144,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 147,
+        "text": "Axis Bank Limited",
+        "entity_id": "ORG24"
+      },
+      {
+        "page": 147,
+        "text": "HDFC Bank Limited",
+        "entity_id": "ORG27"
+      },
+      {
+        "page": 148,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 148,
+        "text": "Shinhan Bank",
+        "entity_id": "ORG26"
+      },
+      {
+        "page": 148,
+        "text": "KEB Hana Bank",
+        "entity_id": "ORG29"
+      },
+      {
+        "page": 148,
+        "text": "Kookmin Bank",
+        "entity_id": "ORG30"
+      },
+      {
+        "page": 148,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 152,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 153,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 154,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 155,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 155,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 156,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 157,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 157,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 159,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 162,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 162,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 162,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 162,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 163,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 163,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 163,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 163,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 163,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 163,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 164,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 164,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 164,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 165,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 165,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 165,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 165,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 167,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 168,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 168,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 168,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 170,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 172,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 173,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 173,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 210,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 210,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 211,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 211,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 214,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 216,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 219,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 220,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 222,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 226,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 228,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 242,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 242,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 242,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 242,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 242,
+        "text": "Delhi Assam Roadways Corporation Private Limited",
+        "entity_id": "ORG13"
+      },
+      {
+        "page": 242,
+        "text": "Delhi Assam Roadways Corporation",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 243,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 243,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 243,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 244,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 244,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 245,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 246,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 246,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 246,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 246,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 246,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 246,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 246,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 246,
+        "text": "PROMOTER SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 246,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 246,
+        "text": "State Bank of India Limited",
+        "entity_id": "ORG23"
+      },
+      {
+        "page": 246,
+        "text": "Axis Bank Limited",
+        "entity_id": "ORG24"
+      },
+      {
+        "page": 246,
+        "text": "Shinhan Bank",
+        "entity_id": "ORG26"
+      },
+      {
+        "page": 246,
+        "text": "HDFC Bank Limited",
+        "entity_id": "ORG27"
+      },
+      {
+        "page": 246,
+        "text": "IDFC First Bank Limited",
+        "entity_id": "ORG28"
+      },
+      {
+        "page": 247,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 247,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 247,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 247,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 247,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 247,
+        "text": "PROMOTER SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 247,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 248,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 248,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 248,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 248,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 248,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 248,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 249,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 249,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 249,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 249,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 250,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 250,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 250,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 250,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 250,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 250,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 250,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 250,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 250,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 251,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 251,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 251,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 252,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 252,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 252,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 252,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 252,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 252,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 254,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 254,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 254,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 254,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 254,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 254,
+        "text": "00151179",
+        "entity_id": "DIN1"
+      },
+      {
+        "page": 254,
+        "text": "Sahara Grace",
+        "entity_id": "P14"
+      },
+      {
+        "page": 254,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 254,
+        "text": "00151560",
+        "entity_id": "DIN2"
+      },
+      {
+        "page": 254,
+        "text": "M. G Road, near Sahara Mall, Gurugram- 122002",
+        "entity_id": "ADDR7"
+      },
+      {
+        "page": 255,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 255,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 255,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 255,
+        "text": "00052456",
+        "entity_id": "DIN3"
+      },
+      {
+        "page": 255,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 255,
+        "text": "09268841",
+        "entity_id": "DIN4"
+      },
+      {
+        "page": 255,
+        "text": "Hyun Chul Yoo",
+        "entity_id": "P16"
+      },
+      {
+        "page": 255,
+        "text": "10667938",
+        "entity_id": "DIN5"
+      },
+      {
+        "page": 256,
+        "text": "10669349",
+        "entity_id": "DIN6"
+      },
+      {
+        "page": 256,
+        "text": "Tae Gyun Kim",
+        "entity_id": "P18"
+      },
+      {
+        "page": 256,
+        "text": "10947317",
+        "entity_id": "DIN7"
+      },
+      {
+        "page": 256,
+        "text": "Jae Man Kwak",
+        "entity_id": "P19"
+      },
+      {
+        "page": 256,
+        "text": "11164689",
+        "entity_id": "DIN8"
+      },
+      {
+        "page": 256,
+        "text": "377-dong 1004-ho 148 Crystal-ro",
+        "entity_id": "ADDR8"
+      },
+      {
+        "page": 256,
+        "text": "Yun Young Kwak",
+        "entity_id": "P20"
+      },
+      {
+        "page": 256,
+        "text": "923-dong, 1101-ho, 311 Hwasin-ro",
+        "entity_id": "ADDR9"
+      },
+      {
+        "page": 257,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 257,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 257,
+        "text": "11176887",
+        "entity_id": "DIN9"
+      },
+      {
+        "page": 257,
+        "text": "Hyun Chul Maeng",
+        "entity_id": "P21"
+      },
+      {
+        "page": 257,
+        "text": "10218711",
+        "entity_id": "DIN10"
+      },
+      {
+        "page": 257,
+        "text": "10218762",
+        "entity_id": "DIN11"
+      },
+      {
+        "page": 257,
+        "text": "E-501, Uniworld City East, Sector 30, Gurgaon-122001, India",
+        "entity_id": "ADDR10"
+      },
+      {
+        "page": 257,
+        "text": "Yong Hwan Choung",
+        "entity_id": "P22"
+      },
+      {
+        "page": 257,
+        "text": "11153187",
+        "entity_id": "DIN12"
+      },
+      {
+        "page": 257,
+        "text": "F-1, Second floor, Flat no.4, OP Jindal Global University, Sonipat, Haryana \u2013 131001, India",
+        "entity_id": "ADDR11"
+      },
+      {
+        "page": 257,
+        "text": "Guydeuk Yeon",
+        "entity_id": "P23"
+      },
+      {
+        "page": 258,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 258,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 258,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 258,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 258,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 258,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 258,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 258,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 258,
+        "text": "Hyun Chul Yoo",
+        "entity_id": "P16"
+      },
+      {
+        "page": 258,
+        "text": "10551356",
+        "entity_id": "DIN13"
+      },
+      {
+        "page": 258,
+        "text": "1, 1st Floor, 1st Main, 8th Cross, S. G. Palya, DRC Post, Hosur Road, Bangalore South, Bengaluru, Karnataka, India 560029",
+        "entity_id": "ADDR12"
+      },
+      {
+        "page": 258,
+        "text": "Sanjiv Garg",
+        "entity_id": "P24"
+      },
+      {
+        "page": 258,
+        "text": "00682084",
+        "entity_id": "DIN14"
+      },
+      {
+        "page": 258,
+        "text": "A-14/1 First Floor, Vasant Marg, Near A Block Market, Vasant Vihar, Vasant Vihar-1, PO: Vasant Vihar-1, DIST: South West Delhi, Delhi \u2013 110057, India",
+        "entity_id": "ADDR13"
+      },
+      {
+        "page": 259,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 259,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 259,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 259,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 259,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 259,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 259,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 259,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 259,
+        "text": "Tae Gyun Kim",
+        "entity_id": "P18"
+      },
+      {
+        "page": 259,
+        "text": "Jae Man Kwak",
+        "entity_id": "P19"
+      },
+      {
+        "page": 259,
+        "text": "Yun Young Kwak",
+        "entity_id": "P20"
+      },
+      {
+        "page": 259,
+        "text": "Hyun Chul Maeng",
+        "entity_id": "P21"
+      },
+      {
+        "page": 259,
+        "text": "Yong Hwan Choung",
+        "entity_id": "P22"
+      },
+      {
+        "page": 259,
+        "text": "Guydeuk Yeon",
+        "entity_id": "P23"
+      },
+      {
+        "page": 259,
+        "text": "Sanjiv Garg",
+        "entity_id": "P24"
+      },
+      {
+        "page": 260,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 260,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 260,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 260,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 260,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 260,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 260,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 260,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 260,
+        "text": "Hyun Chul Yoo",
+        "entity_id": "P16"
+      },
+      {
+        "page": 260,
+        "text": "Tae Gyun Kim",
+        "entity_id": "P18"
+      },
+      {
+        "page": 260,
+        "text": "Jae Man Kwak",
+        "entity_id": "P19"
+      },
+      {
+        "page": 260,
+        "text": "Yun Young Kwak",
+        "entity_id": "P20"
+      },
+      {
+        "page": 261,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 261,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 261,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 261,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 261,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 261,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 261,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 262,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 262,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 262,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 262,
+        "text": "Hyun Chul Yoo",
+        "entity_id": "P16"
+      },
+      {
+        "page": 262,
+        "text": "Gwon Wong Kim",
+        "entity_id": "P17"
+      },
+      {
+        "page": 262,
+        "text": "Tae Gyun Kim",
+        "entity_id": "P18"
+      },
+      {
+        "page": 262,
+        "text": "Jae Man Kwak",
+        "entity_id": "P19"
+      },
+      {
+        "page": 262,
+        "text": "Yun Young Kwak",
+        "entity_id": "P20"
+      },
+      {
+        "page": 262,
+        "text": "Hyun Chul Maeng",
+        "entity_id": "P21"
+      },
+      {
+        "page": 262,
+        "text": "Yong Hwan Choung",
+        "entity_id": "P22"
+      },
+      {
+        "page": 262,
+        "text": "Guydeuk Yeon",
+        "entity_id": "P23"
+      },
+      {
+        "page": 262,
+        "text": "Sanjiv Garg",
+        "entity_id": "P24"
+      },
+      {
+        "page": 263,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 263,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 263,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 263,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 263,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 263,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 263,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 263,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 263,
+        "text": "Hyun Chul Yoo",
+        "entity_id": "P16"
+      },
+      {
+        "page": 263,
+        "text": "Hyun Chul Maeng",
+        "entity_id": "P21"
+      },
+      {
+        "page": 264,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 264,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 264,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 264,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 264,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 264,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 264,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 264,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 264,
+        "text": "Tae Gyun Kim",
+        "entity_id": "P18"
+      },
+      {
+        "page": 264,
+        "text": "Jae Man Kwak",
+        "entity_id": "P19"
+      },
+      {
+        "page": 264,
+        "text": "Yun Young Kwak",
+        "entity_id": "P20"
+      },
+      {
+        "page": 264,
+        "text": "Yong Hwan Choung",
+        "entity_id": "P22"
+      },
+      {
+        "page": 264,
+        "text": "Guydeuk Yeon",
+        "entity_id": "P23"
+      },
+      {
+        "page": 264,
+        "text": "Sanjiv Garg",
+        "entity_id": "P24"
+      },
+      {
+        "page": 266,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 267,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 267,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 267,
+        "text": "Hyun Chul Maeng",
+        "entity_id": "P21"
+      },
+      {
+        "page": 267,
+        "text": "Guydeuk Yeon",
+        "entity_id": "P23"
+      },
+      {
+        "page": 268,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 268,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 268,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 268,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 268,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 268,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 268,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 268,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 268,
+        "text": "Hyun Chul Yoo",
+        "entity_id": "P16"
+      },
+      {
+        "page": 268,
+        "text": "Jae Man Kwak",
+        "entity_id": "P19"
+      },
+      {
+        "page": 268,
+        "text": "Hyun Chul Maeng",
+        "entity_id": "P21"
+      },
+      {
+        "page": 269,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 269,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 269,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 269,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 269,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 269,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 269,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 271,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 271,
+        "text": "Aarti Bhargava",
+        "entity_id": "P2"
+      },
+      {
+        "page": 271,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 271,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 271,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 272,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 272,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 272,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 272,
+        "text": "Sandeep Gupta",
+        "entity_id": "P27"
+      },
+      {
+        "page": 273,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 273,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 274,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 274,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 274,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 275,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 275,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 275,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 275,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 275,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 275,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 275,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 275,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 276,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 276,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 276,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 276,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 276,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 276,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 277,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 277,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 277,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 277,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 277,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 278,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 278,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 278,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 278,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 279,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 279,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 279,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 279,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 279,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 283,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 284,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 284,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 285,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 285,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 287,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 289,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 289,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 289,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 292,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 292,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 293,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 293,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 293,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 293,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 293,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 293,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 293,
+        "text": "00151179",
+        "entity_id": "DIN1"
+      },
+      {
+        "page": 293,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 293,
+        "text": "00052456",
+        "entity_id": "DIN3"
+      },
+      {
+        "page": 293,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 294,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 294,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 294,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 294,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 294,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 294,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 294,
+        "text": "00151179",
+        "entity_id": "DIN1"
+      },
+      {
+        "page": 294,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 294,
+        "text": "00052456",
+        "entity_id": "DIN3"
+      },
+      {
+        "page": 294,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 295,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 295,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 295,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 295,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 295,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 295,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 295,
+        "text": "00151179",
+        "entity_id": "DIN1"
+      },
+      {
+        "page": 295,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 295,
+        "text": "00052456",
+        "entity_id": "DIN3"
+      },
+      {
+        "page": 295,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 296,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 296,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 297,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 297,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 297,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 297,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 297,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 297,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 297,
+        "text": "00151179",
+        "entity_id": "DIN1"
+      },
+      {
+        "page": 297,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 297,
+        "text": "00052456",
+        "entity_id": "DIN3"
+      },
+      {
+        "page": 297,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 298,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 298,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 298,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 298,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 299,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 299,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 300,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 300,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 301,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 301,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 302,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 302,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 303,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 303,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 304,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 304,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 305,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 305,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 306,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 306,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 307,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 307,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 308,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 308,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 309,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 309,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 310,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 310,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 311,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 311,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 312,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 312,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 312,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 313,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 313,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 314,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 314,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 315,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 315,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 315,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 316,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 316,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 317,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 317,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 318,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 318,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 318,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 319,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 319,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 319,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 320,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 320,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 321,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 321,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 321,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 321,
+        "text": "Delhi Assam Roadways Corporation",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 322,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 322,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 323,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 323,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 324,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 324,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 325,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 325,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 326,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 326,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 326,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 327,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 327,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 327,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 327,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 327,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 327,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 327,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 328,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 328,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 329,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 329,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 329,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 330,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 330,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 331,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 331,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 332,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 332,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 333,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 333,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 333,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 334,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 334,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 334,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 335,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 335,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 335,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 336,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 336,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 337,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 337,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 338,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 338,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 339,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 339,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 340,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 340,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 341,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 341,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 342,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 342,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 343,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 343,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 343,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 344,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 344,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 345,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 345,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 346,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 346,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 347,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 347,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 347,
+        "text": "Aarti Bhargava",
+        "entity_id": "P2"
+      },
+      {
+        "page": 347,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 347,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 347,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 347,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 347,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 347,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 347,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 347,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 347,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 347,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 347,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 347,
+        "text": "Hyun Chul Yoo",
+        "entity_id": "P16"
+      },
+      {
+        "page": 347,
+        "text": "Tae Gyun Kim",
+        "entity_id": "P18"
+      },
+      {
+        "page": 347,
+        "text": "Hyun Chul Maeng",
+        "entity_id": "P21"
+      },
+      {
+        "page": 348,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 348,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 348,
+        "text": "Aarti Bhargava",
+        "entity_id": "P2"
+      },
+      {
+        "page": 348,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 348,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 348,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 348,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 348,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 348,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 348,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 349,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 349,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 349,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 350,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 350,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 350,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 350,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 351,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 351,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 351,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 351,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 351,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 352,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 352,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 353,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 353,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 353,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 353,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 354,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 354,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 355,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 355,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 356,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 356,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 357,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 357,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 358,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 358,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 358,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 358,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 359,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 359,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 360,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 360,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 361,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 361,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 362,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 362,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 362,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 362,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 363,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 363,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 364,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 364,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 364,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 365,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 365,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 365,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 365,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 365,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 365,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 365,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 366,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 366,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 367,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 367,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 367,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 367,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 367,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 367,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 367,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 368,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 368,
+        "text": "Apoorva Kumar",
+        "entity_id": "P1"
+      },
+      {
+        "page": 368,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 368,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 368,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 368,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 368,
+        "text": "00151179",
+        "entity_id": "DIN1"
+      },
+      {
+        "page": 368,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 368,
+        "text": "00052456",
+        "entity_id": "DIN3"
+      },
+      {
+        "page": 368,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 369,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 372,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 374,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 378,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 378,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 378,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 390,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 390,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 390,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 392,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 400,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 405,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 405,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 405,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 406,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 409,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 409,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 415,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 415,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 415,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 415,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 415,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 416,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 417,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 417,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 417,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 417,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 418,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 418,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 419,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 419,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 420,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 420,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 420,
+        "text": "Delhi Assam Roadways Corporation Private Limited",
+        "entity_id": "ORG13"
+      },
+      {
+        "page": 420,
+        "text": "Delhi Assam Roadways Corporation",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 424,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 424,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 424,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 425,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 425,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 427,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 428,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 429,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 429,
+        "text": "ICICI Securities Limited",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 429,
+        "text": "DAM Capital Advisors\nLimited",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 430,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 430,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 431,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 431,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 432,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 432,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 432,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 432,
+        "text": "Public Offer Account Bank(s)",
+        "entity_id": "ORG22"
+      },
+      {
+        "page": 432,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 432,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 432,
+        "text": "Deepak",
+        "entity_id": "P33"
+      },
+      {
+        "page": 432,
+        "text": "Council of Architecture",
+        "entity_id": "ORG33"
+      },
+      {
+        "page": 433,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 433,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 434,
+        "text": "ICICI Securities Limited",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 435,
+        "text": "DAM Capital Advisors\nLimited",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 436,
+        "text": "DAM Capital Advisors\nLimited",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 437,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 437,
+        "text": "ICICI Securities Limited",
+        "entity_id": "ORG8"
+      },
+      {
+        "page": 437,
+        "text": "DAM Capital Advisors\nLimited",
+        "entity_id": "ORG9"
+      },
+      {
+        "page": 438,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 439,
+        "text": "Aarti Bhargava",
+        "entity_id": "P2"
+      },
+      {
+        "page": 439,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 440,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 440,
+        "text": "ENGLISH NATIONAL DAILY NEWSPAPER",
+        "entity_id": "ORG15"
+      },
+      {
+        "page": 440,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 441,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 443,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 443,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 444,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 444,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 445,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 445,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 446,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 447,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 450,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 450,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 452,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 456,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 457,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 458,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 460,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 463,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 463,
+        "text": "ENGLISH NATIONAL DAILY NEWSPAPER",
+        "entity_id": "ORG15"
+      },
+      {
+        "page": 463,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 464,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 469,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 469,
+        "text": "ENGLISH NATIONAL DAILY NEWSPAPER",
+        "entity_id": "ORG15"
+      },
+      {
+        "page": 471,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 471,
+        "text": "rice Band",
+        "entity_id": "ORG16"
+      },
+      {
+        "page": 472,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 473,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 474,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 474,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 474,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 475,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 475,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 475,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 477,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 478,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 479,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 482,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 485,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 491,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 492,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 492,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 492,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 492,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 492,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 498,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 498,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 503,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 503,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 503,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 503,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 503,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 503,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 505,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 505,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 505,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 505,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 507,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 507,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 508,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 508,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 508,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 508,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 509,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 509,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 510,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 514,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 516,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 517,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 518,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 519,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 520,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 524,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 524,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 525,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 526,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 526,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 528,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 529,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 530,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 530,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 530,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 530,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 531,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 533,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 534,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 536,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 537,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 538,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 538,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 539,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 540,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 540,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 544,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 547,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 548,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 548,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 549,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 549,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 550,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 551,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 552,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 552,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 552,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 553,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 553,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 553,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 553,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 553,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 553,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 553,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 553,
+        "text": "Delhi Assam Roadways Corporation Private Limited",
+        "entity_id": "ORG13"
+      },
+      {
+        "page": 553,
+        "text": "Delhi Assam Roadways Corporation",
+        "entity_id": "ORG14"
+      },
+      {
+        "page": 553,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 554,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 554,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 554,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 554,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 554,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 554,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 554,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 554,
+        "text": "S.R. Batliboi & Associates LLP",
+        "entity_id": "ORG21"
+      },
+      {
+        "page": 554,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 555,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 555,
+        "text": "Manian & Rao, Chartered Accountants",
+        "entity_id": "ORG7"
+      },
+      {
+        "page": 555,
+        "text": "U.S. Securities Act",
+        "entity_id": "ORG31"
+      },
+      {
+        "page": 555,
+        "text": "Manian & Rao",
+        "entity_id": "ORG32"
+      },
+      {
+        "page": 555,
+        "text": "Deepak",
+        "entity_id": "P33"
+      },
+      {
+        "page": 555,
+        "text": "Council of Architecture",
+        "entity_id": "ORG33"
+      },
+      {
+        "page": 556,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 556,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 556,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 556,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 557,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 557,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 557,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 557,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 557,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 558,
+        "text": "CJ DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG1"
+      },
+      {
+        "page": 558,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 558,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 558,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 558,
+        "text": "DARCL LOGISTICS LIMITED",
+        "entity_id": "ORG12"
+      },
+      {
+        "page": 559,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 559,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 559,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 559,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 559,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 559,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 560,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 560,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 560,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 560,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 560,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 561,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 561,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 562,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 562,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 562,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 563,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 563,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 563,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 564,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 564,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 564,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 564,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 565,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 565,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 566,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 566,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 566,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 567,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 567,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 567,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 567,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 568,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 568,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 568,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 568,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 569,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 569,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 569,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 569,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 569,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 570,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 570,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 570,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 570,
+        "text": "CJ LOGISTICS CORPORATION",
+        "entity_id": "ORG2"
+      },
+      {
+        "page": 570,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 571,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 571,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 572,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 572,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 572,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 573,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 573,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 573,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 574,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 574,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 574,
+        "text": "Joint Managing Director",
+        "entity_id": "ADDR6"
+      },
+      {
+        "page": 575,
+        "text": "Junghun Baig",
+        "entity_id": "P15"
+      },
+      {
+        "page": 576,
+        "text": "Hyun Chul Yoo",
+        "entity_id": "P16"
+      },
+      {
+        "page": 578,
+        "text": "Tae Gyun Kim",
+        "entity_id": "P18"
+      },
+      {
+        "page": 579,
+        "text": "Jae Man Kwak",
+        "entity_id": "P19"
+      },
+      {
+        "page": 580,
+        "text": "Yun Young Kwak",
+        "entity_id": "P20"
+      },
+      {
+        "page": 581,
+        "text": "Hyun Chul Maeng",
+        "entity_id": "P21"
+      },
+      {
+        "page": 582,
+        "text": "Nidhi Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 582,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 583,
+        "text": "Yong Hwan Choung",
+        "entity_id": "P22"
+      },
+      {
+        "page": 584,
+        "text": "Guydeuk Yeon",
+        "entity_id": "P23"
+      },
+      {
+        "page": 585,
+        "text": "Sanjiv Garg",
+        "entity_id": "P24"
+      },
+      {
+        "page": 587,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 587,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 588,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 588,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 589,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 589,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 590,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 590,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 591,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 591,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 591,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 591,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 592,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 592,
+        "text": "DARSHAN KUMAR AGARWAL",
+        "entity_id": "P4"
+      },
+      {
+        "page": 592,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 592,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 592,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 593,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 593,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 593,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 593,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 594,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 594,
+        "text": "NITESH AGARWAL",
+        "entity_id": "P6"
+      },
+      {
+        "page": 594,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 594,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 594,
+        "text": "Aggarwal",
+        "entity_id": "P8"
+      },
+      {
+        "page": 595,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 595,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 595,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 596,
+        "text": "KRISHAN KUMAR AGARWAL",
+        "entity_id": "P3"
+      },
+      {
+        "page": 596,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 597,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 597,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 597,
+        "text": "PROMOTER GROUP SELLING SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 597,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      },
+      {
+        "page": 598,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 599,
+        "text": "Agarwal",
+        "entity_id": "P3"
+      },
+      {
+        "page": 599,
+        "text": "NARENDER KUMAR AGARWAL",
+        "entity_id": "P5"
+      },
+      {
+        "page": 599,
+        "text": "SHAREHOLDERS",
+        "entity_id": "P7"
+      }
+    ]
+  },
+  "output": "out_other/6687f8e49ff15e90/utkarshm_01102025165739_CJ_Darcl_DRHP.redacted.pdf",
+  "seconds": 170.1
+}

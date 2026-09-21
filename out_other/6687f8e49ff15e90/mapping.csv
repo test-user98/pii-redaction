@@ -1,0 +1,148 @@
+entity_id,type,real,surrogate,mention_count,pages
+ORG1,ORG,CJ DARCL LOGISTICS LIMITED,Bautista-Reynolds LIMITED,3,1;4
+ADDR1,ADDRESS,"55P, Sector – 44, Institutional Area, Gurugram – 122003","437 Robert Groves, East Joelmouth, South Carolina 60839",4,1;4;91
+P1,PERSON,Apoorva Kumar,Ashley Baker,3,1;4;91
+P2,PERSON,Aarti Bhargava,Grant Ferrell,3,1;4;91
+P3,PERSON,KRISHAN KUMAR AGARWAL,JESSICA BAKER GARCIA,6,1;4;91
+P4,PERSON,DARSHAN KUMAR AGARWAL,YOLANDA BAKER GARCIA,5,1;4;91
+P5,PERSON,NARENDER KUMAR AGARWAL,CHRISTINA BAKER GARCIA,5,1;4;91
+P6,PERSON,NITESH AGARWAL,HEATHER GARCIA,5,1;4;91
+ORG2,ORG,CJ LOGISTICS CORPORATION,Bradley-Lee CORPORATION,4,1;4;92
+P7,PERSON,PROMOTER GROUP SELLING SHAREHOLDERS,DOMINIQUE CHAD CLAUDIA STEVENSON,19,1;2;4;5;6;97
+ORG3,ORG,Vineet Aggarwal Promoter Group,"Anderson, Cook and Herman",1,1
+ORG4,ORG,Puneet Agarwal Promoter Group,"Gomez, Campbell and Ryan",1,1
+P8,PERSON,Nidhi Aggarwal,Tonya Merritt,3,1;92
+ORG5,ORG,Darcl CJ TISIT CS,Jackson-Oneill,1,1
+ORG6,ORG,Nikhil Agarwal Promoter Group,"Hoffman, Tucker and Wheeler",1,2
+ORG7,ORG,"Manian & Rao, Chartered Accountants","Berger, Mcclure and Phillips",1,2
+ORG8,ORG,ICICI Securities Limited,Strickland-Carroll Limited,2,2;92
+P9,PERSON,Kishan Rastogi,Ronald Davidson,3,2;5;92
+P10,PERSON,Ashik Joisar,Bryce Miller,3,2;5;92
+PHONE1,PHONE,+91 22 6807 7100,+91 08 5051 9860,3,2;5;92
+EMAIL1,EMAIL,cjdarclipo@icicisecurities.com,sherri25@example.com,3,2;5;92
+ORG9,ORG,"DAM Capital Advisors
+Limited","Fox, Mann and Tucker
+Limited",3,2;5;92
+P11,PERSON,Chintan Hefa,Deanna Peck,3,2;5;92
+P12,PERSON,Jay Shah,Amy Peck,4,2;5;92;94
+PHONE2,PHONE,+91 22 4202 2500,+91 66 7623 4374,3,2;5;92
+EMAIL2,EMAIL,cjdarcl.ipo@damcapital.in,cgeorge@example.com,3,2;5;92
+ORG10,ORG,MUFG Intime India Private Limited,Bridges-Bryant Private Limited,3,2;5;93
+ORG11,ORG,"Link Intime India Private
+Limited","Newton, Gibson and Wallace
+Limited",1,2
+P13,PERSON,Shanti Gopalkrishnan,Vincent Hernandez,2,2;5
+PHONE3,PHONE,+91 810 811 4949,+91 746 281 4754,3,2;5;93
+EMAIL3,EMAIL,cjdarcl.ipo@in.mpms.mufg.com,qrodriguez@example.com,4,2;5;93
+ORG12,ORG,DARCL LOGISTICS LIMITED,Roberts-Davis LIMITED,2,4
+ORG13,ORG,Delhi Assam Roadways Corporation Private Limited,"Smith, Carpenter and Wolfe Private Limited",1,4
+ORG14,ORG,Delhi Assam Roadways Corporation,"Lewis, Brown and Luna Corporation",1,4
+EMAIL4,EMAIL,investors@cjdarcl.com,ruben83@example.com,2,4;91
+ORG15,ORG,ENGLISH NATIONAL DAILY NEWSPAPER,"Walsh, Mcdaniel and Johnson",2,4;97
+ORG16,ORG,rice Band,Hernandez,1,4
+ORG17,ORG,Self- Certified Syndicate Banks,"Jackson, Ellis and Johnson",2,4;94
+ADDR2,ADDRESS,"Herring Prospectus up to the Bid/ Offer Closing Date, see “Material Contracts and Documents for Inspection” on page 547.
+BOOK RUNNING LEAD MANAGERS REGISTRAR TO THE OFFER
+ICICI Securities Limited ICICI Venture House Appasaheb Marathe Marg, Prabhadevi Mumbai – 400025 Maharashtra, India","77099 Allen Valley Suite 214
+Clarkfort
+Nebraska 78079, Georgia",1,5
+EMAIL5,EMAIL,customercare@icicisecurities.com,carrillojeffrey@example.com,2,5;92
+ADDR3,ADDRESS,"Altimus 2202, Level 22, Pandurang Budhkar Marg, Worli, Mumbai - 400018 Maharashtra, India","94571 Randy Mission Suite 932, East Brentton, New Hampshire 19171",2,5;92
+EMAIL6,EMAIL,complaint@damcapital.in,amy04@example.com,2,5;92
+ADDR4,ADDRESS,"Intime India Private Limited) C-101, Embassy 247, L.B.S. Marg, Vikhroli (West), Mumbai 400 083, Maharashtra, India","67456 Jill Station, New Christopherport, New Jersey 29835",1,5
+ORG18,ORG,"CAPITAL
+MUFG",Smith-Lambert,1,5
+ADDR5,ADDRESS,"4th Floor, IFCI Tower 61, Nehru Place New Delhi – 110019 Delhi, India","01225 Davidson Knoll Apt. 955, Taylorhaven, Arizona 92594",1,91
+DIN1,DIN,00151179,02071205,1,91
+P14,PERSON,Sahara Grace,Rebecca Jones,2,91
+ADDR6,ADDRESS,Joint Managing Director,"057 Joy Inlet Suite 457, Port Raymondmouth, Mississippi 40004",1,91
+DIN2,DIN,00151560,89214161,1,91
+DIN3,DIN,00052456,97733728,1,91
+ADDR7,ADDRESS,"M. G Road, near Sahara Mall, Gurugram- 122002","750 Walters Mills, Raymondchester, Mississippi 61420",1,91
+PHONE4,PHONE,00170777 824,64911181 196,1,91
+P15,PERSON,Junghun Baig,Briana Shaw,1,91
+DIN4,DIN,09268841,64381304,1,91
+P16,PERSON,Hyun Chul Yoo,Lori Dawn Haas,1,91
+DIN5,DIN,10667938,76459593,1,91
+P17,PERSON,Gwon Wong Kim,John Sara Hill,1,91
+DIN6,DIN,10669349,45352097,1,91
+P18,PERSON,Tae Gyun Kim,John Mark Hill,1,91
+DIN7,DIN,10947317,52711397,1,91
+P19,PERSON,Jae Man Kwak,John Sean Allen,1,91
+DIN8,DIN,11164689,96844689,1,91
+ADDR8,ADDRESS,377-dong 1004-ho 148 Crystal-ro,"35572 Wright Pass, Evansshire, Massachusetts 51730",1,91
+P20,PERSON,Yun Young Kwak,Joe Andrew Allen,1,91
+DIN9,DIN,11176887,11852157,1,91
+ADDR9,ADDRESS,"923-dong, 1101-ho, 311 Hwasin-ro","2440 Davis Skyway, East Kimchester, Oklahoma 16357",1,91
+P21,PERSON,Hyun Chul Maeng,Lori Dawn Harris,1,92
+DIN10,DIN,10218711,83586578,1,92
+DIN11,DIN,10218762,66260330,1,92
+ADDR10,ADDRESS,"E-501, Uniworld City East, Sector 30, Gurgaon-122001, India","7258 Dawn Mountains, North Benjamin, Wyoming 30219",1,92
+P22,PERSON,Yong Hwan Choung,Mark Mary Glass,1,92
+DIN12,DIN,11153187,62951390,1,92
+ADDR11,ADDRESS,"F-1, Second floor, Flat no.4, OP Jindal Global University, Sonipat, Haryana – 131001, India","046 Thomas Cove, Latoyafurt, Connecticut 12542",1,92
+P23,PERSON,Guydeuk Yeon,Jennifer Sims,1,92
+DIN13,DIN,10551356,90828145,1,92
+ADDR12,ADDRESS,"1, 1st Floor, 1st Main, 8th Cross, S. G. Palya, DRC Post, Hosur Road, Bangalore South, Bengaluru, Karnataka, India 560029","712 Rogers Manor, New Marybury, Florida 97645",1,92
+P24,PERSON,Sanjiv Garg,Heather Ruiz,2,92;95
+DIN14,DIN,00682084,09450327,1,92
+ADDR13,ADDRESS,"A-14/1 First Floor, Vasant Marg, Near A Block Market, Vasant Vihar, Vasant Vihar-1, PO: Vasant Vihar-1, DIST: South West Delhi, Delhi – 110057, India","99150 Warren Key Apt. 648, Pachecoland, Washington 48321",1,92
+ORG19,ORG,ICICI Venture House,Roberts-Anderson,1,92
+ADDR14,ADDRESS,Appasaheb Marathe Marg Prabhadevi,"3157 Brittany Valley, Lake Alyssaland, Alaska 19686",1,92
+ORG20,ORG,Trilegal,Daniels,1,92
+ADDR15,ADDRESS,"One World Centre 10th Floor, Tower 2A & 2B Senapati Bapat Marg, Lower Parel (West) Mumbai – 400 013 Maharashtra, India","9986 Thompson Forks, Allenberg, Arizona 43517",1,92
+EMAIL7,EMAIL,ipo@trilegal.com,belldaniel@example.com,1,92
+PHONE5,PHONE,+91 22 4079 1000,+91 13 8852 3331,1,92
+ORG21,ORG,S.R. Batliboi & Associates LLP,"Padilla, Gardner and Oconnor LLP",2,93;95
+ADDR16,ADDRESS,"8 IGI Airport Hospitality District, Aerocity New Delhi – 110037, India","7307 Paul Stream, Monicaborough, Mississippi 13638",1,93
+PHONE6,PHONE,+ 91 11 4681 9500,+ 91 72 8205 2834,1,93
+EMAIL8,EMAIL,srba@srb.in,charles99@example.com,1,93
+ADDR17,ADDRESS,"formerly Link Intime India Private Limited) C-101, Embassy 247 L.B.S. Marg, Vikhroli (West) Mumbai 400 083 Maharashtra, India","61618 Kyle Way, New David, South Dakota 14831",1,93
+P25,PERSON,Shanti Gopalkrisnan,Vincent Gonzalez,1,93
+ORG22,ORG,Public Offer Account Bank(s),"Cook, Martinez and Rubio",1,93
+ORG23,ORG,State Bank of India Limited,Cummings-Williams Limited,1,93
+ADDR18,ADDRESS,"Commercial Branch, 6th Floor, Palm Court Maharana Pratap Chowk, Near M.D.I. Gurugram – 122 001","766 Williams Manor Suite 840, Bishopfort, Texas 63041",1,93
+PHONE7,PHONE,0124-4544621,5591-7349273,1,93
+EMAIL9,EMAIL,rm2.cbgurgaon@sbi.co.in,michaelsalas@example.com,2,93;94
+P26,PERSON,Ashok Singh,Karen Curry,1,93
+ORG24,ORG,Axis Bank Limited,Franklin Limited,1,93
+ORG25,ORG,Mega Wholesale Banking Centre (MWBC),"Barrett, Pineda and Williams",1,93
+ADDR19,ADDRESS,"SCO 57, Huda Market, Sector-56","448 Sparks Mills Apt. 010, Herreraland, Washington 75032",1,93
+PHONE8,PHONE,+91-8769521000,+91-0523140171,1,93
+EMAIL10,EMAIL,mwbcgurgaon.branchhead@axisbank.com,crystalleach@example.com,1,93
+P27,PERSON,Sandeep Gupta,Jennifer Scott,1,93
+ORG26,ORG,Shinhan Bank,Deleon Bank,1,93
+ORG27,ORG,HDFC Bank Limited,Fitzgerald Limited,1,93
+PHONE9,PHONE,011 4500 4800,170 7977 6404,1,94
+ADDR20,ADDRESS,"Golf Course Road, Sector 53 Gurgaon – 122 002","600 Harrell Land Apt. 382, Jeremyshire, Michigan 44424",1,94
+PHONE10,PHONE,0124 4664677,3056 9164585,1,94
+EMAIL11,EMAIL,nehap.iain@hdfcbank.com,donnacooke@example.com,1,94
+P28,PERSON,Neha Jain,Paul Gray,1,94
+ORG28,ORG,IDFC First Bank Limited,Armstrong-Hill Limited,1,94
+ADDR21,ADDRESS,"Zafar Marg New Delhi – 110 002, Delhi, India","17265 Francisco Turnpike Suite 486, Troymouth, Indiana 26758",1,94
+PHONE11,PHONE,+91 9650747778,+91 6004809682,1,94
+EMAIL12,EMAIL,agam.jain@idfcfirstbank.com,kara.gray@example.com,1,94
+P29,PERSON,Agam Jain,Kara Gray,1,94
+ORG29,ORG,KEB Hana Bank,Guzman Bank,1,94
+ADDR22,ADDRESS,"4th Floor, Oberoi Centre DLF Cyber City, Sector 25 Gurugram – 122 002","10423 Kelly Ranch, Grantburgh, Arizona 63481",1,94
+PHONE12,PHONE,+91-124 4168230,+91-174 6005602,1,94
+EMAIL13,EMAIL,karurendra.mishra@hanafn.com,jennifer.johnson@example.com,1,94
+P30,PERSON,Karurendra Mishra,Jennifer Johnson,1,94
+ADDR23,ADDRESS,"Kotak Mahindra Bank Limited 1/11, First Floor, East Patel Nagar New Delhi – 110 008, Delhi, India","97965 Scott Crescent, South Patrickport, Pennsylvania 27223",1,94
+PHONE13,PHONE,011-45056136,630-68191589,1,94
+EMAIL14,EMAIL,puneet.jhuman@kotak.com,tiffany.martin@example.com,1,94
+P31,PERSON,Puneet Jhuman,Tiffany Martin,1,94
+ORG30,ORG,Kookmin Bank,Johnson Bank,1,94
+ADDR24,ADDRESS,"Unit 2B/2, 2nd Floor, Two Horizon Centre Golf Course Road, DLF Phase 5, Sector 43 Gurugram – 122 002","88381 Kathy Expressway Apt. 713, Lake Russellstad, Pennsylvania 88262",1,94
+EMAIL15,EMAIL,ketan.batra@kbfa.com,mark.kerr@example.com,1,94
+P32,PERSON,Ketan Batra,Mark Kerr,1,94
+ORG31,ORG,U.S. Securities Act,"Kim, Zhang and Terry",4,95
+ORG32,ORG,Manian & Rao,Johnston-Smith,1,95
+P33,PERSON,Deepak,Smith,1,95
+ORG33,ORG,Council of Architecture,"Hayes, Davis and Thomas",1,95
+ORG34,ORG,Finance Department,Miller-Hernandez,1,96
+ORG35,ORG,Division of Issues and Listing,"Armstrong, Ingram and Jackson",1,96
+ADDR25,ADDRESS,"C4 A, ‘G’ Block Bandra Kurla Complex, Bandra (East) Mumbai 400 051 Maharashtra, India","972 Cameron Villages, Annbury, New Jersey 72015",1,96
+ORG36,ORG,All BRLMs ICICI Securities,"Decker, Cook and Costa",5,96
+ORG37,ORG,All BRLMs DAM Capital,"Johnson, Kirk and Martin",8,96;97
+ORG38,ORG,BRLMs ICICI Securities,"Wood, Allen and Torres",2,97

@@ -1,0 +1,262 @@
+page,text,type,entity_id,finder,confidence,surrogate
+1,LCC PROJECTS LIMITED,ORG,ORG1,gliner,0.98,DAVIS-HENSON LIMITED
+1,"‘B’ Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat –
+380058, India",ADDRESS,ADDR1,regex+gliner,0.86,"267 Howard Inlet
+Shelleyside, Pennsylvania 83851, Svalbard & Jan Mayen Islands"
+1,Gayatri Desai,PERSON,P1,gliner,0.93,Joanna Deleon
+1,cs@lccprojects.com,EMAIL,EMAIL1,regex+gliner,1.0,caleb92@example.com
+1,+91 79 4848 4453,PHONE,PHONE1,regex+gliner,1.0,+91 79 6250 6494
+1,ARJAN SUJA RABARI,PERSON,P2,gliner,0.98,ANGELA ERIC MURPHY
+1,LALJIBHAI ARJANBHAI AHIR,PERSON,P3,gliner,0.98,NICHOLAS BENJAMIN COOK
+1,MAYA ARJAN RABARI,PERSON,P4,gliner,1.0,ERIN ANGELA MURPHY
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+1,Arjan Suja Rabari,PERSON,P2,gliner,0.97,Angela Eric Murphy
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Laljibhai Arjanbhai Ahir,PERSON,P3,gliner,0.98,Nicholas Benjamin Cook
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,M/s Surana Maloo & Co,ORG,ORG3,gliner,0.82,Miller-Howell & Co
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+1,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+2,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+2,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+2,Motilal Oswal Investment Advisors Limited,ORG,ORG4,gliner,0.88,"Fisher, Townsend and Edwards Limited"
+2,Rahimtullah Sayani Road,ADDRESS,ADDR2,gliner,0.77,"61612 Nichole Street, Micheleborough, North Carolina 31713"
+2,+91 22 7193 4380,PHONE,PHONE2,regex+gliner,1.0,+91 23 8149 2961
+2,lccprojects.ipo@motilaloswal.com,EMAIL,EMAIL2,regex+gliner,1.0,sarah12@example.com
+2,moiaplredressal@motilaloswal.com,EMAIL,EMAIL3,regex+gliner,1.0,kennedycrystal@example.com
+2,Kunal Thakkar,PERSON,P5,gliner,0.97,Steven Wilson
+2,Sankita Ajinkya,PERSON,P6,gliner,0.95,Richard Wright
+2,KFin Technologies Limited,ORG,ORG5,gliner,0.96,"Bauer, Scott and Luna Limited"
+2,"Selenium Tower B, Plot No.31 & 32, Financial District Nanakramguda, Serilingampally Hyderabad, Rangareddi – 500 032",ADDRESS,ADDR3,regex,0.85,"11332 Meyer Square, Dorisburgh, Utah 98956"
+2,+91 40 6716 2222,PHONE,PHONE3,regex+gliner,1.0,+91 60 3897 2736
+2,lccpl.ipo@kfintech.com,EMAIL,EMAIL4,regex+gliner,1.0,yholmes@example.com
+2,einward.risk@kfintech.com,EMAIL,EMAIL5,regex+gliner,1.0,ndavis@example.com
+2,M. Murali Krishna,PERSON,P7,gliner,0.97,R. Rachel Tanner
+2,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,LCC PROJECTS LIMITED,ORG,ORG1,gliner,1.0,DAVIS-HENSON LIMITED
+3,M/s. Laxmi Construction Co.,ORG,ORG6,gliner,0.91,"Glenn, Casey and Bailey"
+3,LCC Projects Private Limited,ORG,ORG7,gliner,1.0,Gomez-Thompson Private Limited
+3,LCC Projects Private Limited,ORG,ORG7,gliner,1.0,Gomez-Thompson Private Limited
+3,LCC Projects Limited,ORG,ORG1,gliner,0.99,Davis-Henson LIMITED
+3,"‘B’ Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat – 380058, India",ADDRESS,ADDR1,regex+gliner,0.92,"267 Howard Inlet
+Shelleyside, Pennsylvania 83851, Svalbard & Jan Mayen Islands"
+3,+91 79 4848 4453,PHONE,PHONE1,regex+gliner,1.0,+91 79 6250 6494
+3,Gayatri Desai,PERSON,P1,gliner,0.98,Joanna Deleon
+3,cs@lccprojects.com,EMAIL,EMAIL1,regex+gliner,1.0,caleb92@example.com
+3,ARJAN SUJA RABARI,PERSON,P2,gliner,0.99,ANGELA ERIC MURPHY
+3,LALJIBHAI ARJANBHAI AHIR,PERSON,P3,gliner,1.0,NICHOLAS BENJAMIN COOK
+3,MAYA ARJAN RABARI,PERSON,P4,gliner,1.0,ERIN ANGELA MURPHY
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,LCC PROJECTS LIMITED,ORG,ORG1,gliner,1.0,DAVIS-HENSON LIMITED
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,ARJAN SUJA RABARI,PERSON,P2,gliner,0.99,ANGELA ERIC MURPHY
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,LALJIBHAI ARJANBHAI AHIR,PERSON,P3,gliner,0.99,NICHOLAS BENJAMIN COOK
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+3,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+4,Motilal Oswal Investment Advisors Limited,ORG,ORG4,gliner,0.99,"Fisher, Townsend and Edwards Limited"
+4,Rahimtullah Sayani Road,ADDRESS,ADDR2,gliner,0.7,"61612 Nichole Street, Micheleborough, North Carolina 31713"
+4,+91 22 7193 4380,PHONE,PHONE2,regex+gliner,1.0,+91 23 8149 2961
+4,lccprojects.ipo@motilaloswal.com,EMAIL,EMAIL2,regex+gliner,1.0,sarah12@example.com
+4,moiaplredressal@motilaloswal.com,EMAIL,EMAIL3,regex+gliner,0.99,kennedycrystal@example.com
+4,Kunal Thakkar,PERSON,P5,gliner,0.95,Steven Wilson
+4,Sankita Ajinkya,PERSON,P6,gliner,0.93,Richard Wright
+4,KFin Technologies Limited,ORG,ORG5,gliner,0.99,"Bauer, Scott and Luna Limited"
+4,"Selenium Tower B, Plot No.31 & 32, Financial District Nanakramguda, Serilingampally Hyderabad, Rangareddi – 500 032",ADDRESS,ADDR3,regex,0.85,"11332 Meyer Square, Dorisburgh, Utah 98956"
+4,+91 40 6716 2222,PHONE,PHONE3,regex+gliner,1.0,+91 60 3897 2736
+4,lccpl.ipo@kfintech.com,EMAIL,EMAIL4,regex+gliner,1.0,yholmes@example.com
+4,einward.risk@kfintech.com,EMAIL,EMAIL5,regex+gliner,1.0,ndavis@example.com
+4,M. Murali Krishna,PERSON,P7,gliner,0.96,R. Rachel Tanner
+4,HAMBFOHNA H,PERSON,P8,gliner,0.86,CHRISTOPHER C
+5,INDIAN SECURITIES,ORG,ORG8,gliner,0.77,SHELTON-JOHNSON
+5,EQUITY SHARES,ORG,ORG2,propagate,0.9,MATHEWS-GILL
+5,ARTICLES OF ASSOCIATION,ORG,ORG9,gliner,0.74,"LOVE, MCGRATH AND SMITH"
+6,Depositories Act,ORG,ORG10,gliner,0.76,Anderson-Rice
+6,Depositories Act,ORG,ORG10,gliner+propagate,0.9,Anderson-Rice
+6,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+6,Articles of Association,ORG,ORG9,propagate,0.9,"Love, Mcgrath and Smith"
+6,Indian Securities,ORG,ORG8,propagate,0.9,Shelton-Johnson
+6,LCC Projects Limited,ORG,ORG1,gliner,0.97,Davis-Henson LIMITED
+6,"‘B’ Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat – 380058, India",ADDRESS,ADDR1,regex+gliner,0.85,"267 Howard Inlet
+Shelleyside, Pennsylvania 83851, Svalbard & Jan Mayen Islands"
+6,Articles of Association,ORG,ORG9,gliner+propagate,0.9,"Love, Mcgrath and Smith"
+6,Gramang Hydel Projects LLP,ORG,ORG11,gliner,0.9,"Smith, Brown and Guerrero LLP"
+6,Audit Committee,ORG,ORG12,gliner,0.86,Conley-Allen
+6,Audit committee,ORG,ORG12,gliner,0.88,Conley-Allen
+6,M/s Surana Maloo & Co,ORG,ORG3,gliner+propagate,0.9,Miller-Howell & Co
+6,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+6,Arjan Suja Rabari,PERSON,P2,gliner,0.94,Angela Eric Murphy
+6,Artiba Narpatsinh Jadeja,PERSON,P9,gliner,0.96,Carolyn Michelle Rivera
+6,Gayatri Desai,PERSON,P1,gliner,0.95,Joanna Deleon
+6,CSR Committee,ORG,ORG13,gliner,0.74,Ramirez-Garcia
+6,Corporate Social Responsibility Committee,ORG,ORG14,gliner,0.85,"Thompson, Anderson and Edwards"
+6,Equity Shares,ORG,ORG2,gliner,0.87,Mathews-Gill
+82,LCC Projects Limited,ORG,ORG1,gliner,0.99,Davis-Henson LIMITED
+82,"B’ Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat – 380058, India",ADDRESS,ADDR1,regex+gliner,0.96,"267 Howard Inlet
+Shelleyside, Pennsylvania 83851, Svalbard & Jan Mayen Islands"
+82,+91 79 4848 4453,PHONE,PHONE1,regex+gliner,1.0,+91 79 6250 6494
+82,cs@lccprojects.com,EMAIL,EMAIL1,regex+gliner,1.0,caleb92@example.com
+82,Rupal Park Society,ORG,ORG15,gliner,0.88,Hayes-Hernandez
+82,Arjan Suja Rabari,PERSON,P2,gliner,0.98,Angela Eric Murphy
+82,07794582,DIN,DIN1,regex+gliner,1.0,56531930
+82,"B Wing, 15th Floor, Privilon Building, Vikram Nagar, Behind Iskcon Temple, Ambli-Bopal Road, Ahmedabad – 380 058, Gujarat, India",ADDRESS,ADDR4,regex+gliner,0.97,"4534 Gary Fields, Clarkhaven, Louisiana 56737"
+82,Laljibhai Arjanbhai Ahir,PERSON,P3,gliner,0.97,Nicholas Benjamin Cook
+82,07794599,DIN,DIN2,regex,1.0,67862837
+82,"B Wing, 15th Floor, Privilon Building, Vikram Nagar, Behind Iskcon Temple, Ambli-Bopal Road, Ahmedabad – 380 058, Gujarat, India",ADDRESS,ADDR4,regex+gliner,0.93,"4534 Gary Fields, Clarkhaven, Louisiana 56737"
+82,Maya Arjan Rabari,PERSON,P4,gliner,0.97,Erin Angela Murphy
+82,Non-Executive Director,ADDRESS,ADDR5,regex,0.85,"247 Lucas Circle Apt. 590, Port Bryanport, Illinois 08486"
+82,10834742,DIN,DIN3,regex,1.0,50394429
+82,Ambli-Bopal Road,ADDRESS,ADDR6,gliner,0.94,"398 Foley Turnpike Suite 898, Donnaberg, Maryland 45545"
+82,Rajnikant Chimanlal Diwan,PERSON,P10,gliner,0.96,Veronica Christina Avery
+82,10062916,DIN,DIN4,regex+gliner,1.0,10237012
+82,"B-504, Empire Regency, Opposite Nandini III Vip Road, Vesu Abhva, SVR College, Chorasi, Surat – 395 007, Gujarat, India",ADDRESS,ADDR7,regex+gliner,0.85,"99693 Guy Road, Thomasside, Colorado 51239"
+82,Vijayalakshmi Suvarna,PERSON,P11,gliner,0.93,Alexander Lawrence
+82,01722538,DIN,DIN5,regex+gliner,1.0,79714613
+82,"F 2001, Marine Enclave, Jankalyan Nagar, Near Sonata Tower, Malad West, Mumbai – 400 095, Maharashtra, India",ADDRESS,ADDR8,regex+gliner,0.85,"3099 Rogers Ridge, Kennedyfurt, Virginia 48679"
+82,Mirtunjay Singh,PERSON,P12,gliner,0.89,Patrick Curry
+82,Independent Director,ADDRESS,ADDR9,regex,0.85,"7086 Vasquez Curve, South Veronica, North Dakota 41411"
+82,07947102 184,PHONE,PHONE4,regex+gliner,1.0,41264414 060
+82,Shantipura Sanand Highway,ADDRESS,ADDR10,gliner,0.91,"419 Smith Lodge, Port Andre, New Hampshire 44208"
+82,Gayatri Desai,PERSON,P1,gliner,0.97,Joanna Deleon
+82,Gayatri Desai,PERSON,P1,gliner,0.97,Joanna Deleon
+82,"B’ Wing,15th Floor, Privilon Building, Vikram Nagar Ambli-Bopal Road, Behind ISKCON Temple, Ahmedabad, Gujarat – 380058, India",ADDRESS,ADDR1,regex+gliner,0.91,"267 Howard Inlet
+Shelleyside, Pennsylvania 83851, Svalbard & Jan Mayen Islands"
+82,+ 91 79 4848 4453,PHONE,PHONE1,regex+gliner,1.0,+ 91 79 6250 6494
+82,cs@lccprojects.com,EMAIL,EMAIL1,regex+gliner,1.0,caleb92@example.com
+83,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+83,Designated Intermediary(ies),ORG,ORG16,gliner+propagate,0.9,"Obrien, Santiago and Vaughn"
+83,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+83,Designated Intermediary(ies),ORG,ORG16,gliner,0.71,"Obrien, Santiago and Vaughn"
+83,Designated Intermediary(ies),ORG,ORG16,gliner+propagate,0.9,"Obrien, Santiago and Vaughn"
+83,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+83,Motilal Oswal Investment Advisors Limited,ORG,ORG4,gliner,0.95,"Fisher, Townsend and Edwards Limited"
+83,+91 22 7193 4380,PHONE,PHONE2,regex+gliner,1.0,+91 23 8149 2961
+83,lccprojects.ipo@motilaloswal.com,EMAIL,EMAIL2,regex+gliner,1.0,sarah12@example.com
+83,moiaplredressal@motilaloswal.com,EMAIL,EMAIL3,regex+gliner,1.0,kennedycrystal@example.com
+83,Kunal Thakkar,PERSON,P5,gliner,0.95,Steven Wilson
+83,Sankita Ajinkya,PERSON,P6,gliner,0.95,Richard Wright
+83,Motilal Oswal Investment Advisors Limited,ORG,ORG4,gliner,0.95,"Fisher, Townsend and Edwards Limited"
+83,Trilegal,ORG,ORG17,gliner,0.73,Daniels
+83,"One World Centre, 10th Floor, Tower 2A & 2B, Senapati Bapat Marg, Lower Parel (West), Mumbai – 400 013 Maharashtra, India",ADDRESS,ADDR11,regex,0.85,"9986 Thompson Forks, Allenberg, Arizona 43517"
+83,+91 22 4079 1000,PHONE,PHONE5,regex+gliner,1.0,+91 13 8852 3331
+83,Kfin Technologies Limited,ORG,ORG5,gliner,0.93,"Bauer, Scott and Luna Limited"
+84,"79
+Serilingampally",ADDRESS,ADDR12,gliner,1.0,"72943 Lorraine Creek
+Jordanbury, Idaho 34037, Montserrat"
+84,+91 40 6716 2222,PHONE,PHONE3,regex+gliner,1.0,+91 60 3897 2736
+84,lccpl.ipo@kfintech.com,EMAIL,EMAIL4,regex+gliner,1.0,yholmes@example.com
+84,einward.risk@kfintech.com,EMAIL,EMAIL5,regex+gliner,1.0,ndavis@example.com
+84,M. Murali Krishna,PERSON,P7,gliner,0.94,R. Rachel Tanner
+85,M/s. Surana Maloo & Co,ORG,ORG3,gliner,0.82,Miller-Howell & Co
+85,Hardik Jetani & Associates,ORG,ORG18,gliner,0.93,"Miller, Reed and Humphrey"
+85,Rakholiya Sanjay Jaysukhbhai,PERSON,P13,gliner,0.96,Jonathan Joshua Henderson
+85,M/s Surana Maloo & Co,ORG,ORG3,gliner,0.95,Miller-Howell & Co
+85,"Chartered Accountants 2nd Floor, Aakashganga Complex, Parimal Under Bridge, Near Suvidha Shopping Centre, Paldi, Ahmedabad – 380007",ADDRESS,ADDR13,regex+gliner,0.85,"90558 Megan Squares, East John, Missouri 88570"
+85,audit@suranamaloo.com,EMAIL,EMAIL6,regex+gliner,1.0,dodsonvictoria@example.com
+86,"Particulars Date of change Reason for change M/s Surana Maloo & Co, Chartered Accountants 2nd Floor, Aakashganga Complex, Parimal Under Bridge, Near Suvidha Shopping Centre, Paldi, Ahmedabad – 380007",ADDRESS,ADDR14,regex+gliner+propagate,0.9,"1556 Mejia Plain Apt. 560, Richardmouth, Oregon 48439"
+86,audit@suranamaloo.com,EMAIL,EMAIL6,regex+gliner,1.0,dodsonvictoria@example.com
+86,132 Feet Ring Road,ADDRESS,ADDR15,gliner,0.81,"68959 Susan Isle, Port Cheyenne, Mississippi 26661"
+86,info@anilnshahca.com,EMAIL,EMAIL7,regex+gliner,1.0,kmarsh@example.com
+86,+91 75749 76107,PHONE,PHONE6,regex+gliner,1.0,+91 83851 60815
+86,Bank of Baroda,ORG,ORG19,gliner,0.96,Santana-Taylor
+86,Bank of Baroda,ORG,ORG19,gliner,0.95,Santana-Taylor
+86,079-26594100,PHONE,PHONE7,regex+gliner,1.0,329-84871876
+86,midahd@bankofbaroda.com,EMAIL,EMAIL8,regex+gliner,1.0,april49@example.com
+86,Vivek Sharma,PERSON,P14,gliner,0.94,Nancy Robbins
+86,CSB Bank Limited,ORG,ORG20,gliner,0.89,Watkins Limited
+86,Jain,PERSON,P15,propagate,0.9,Gray
+86,"Deresar Temple, Navrangpura, Ahmedabad – 380 009, Gujarat, India",ADDRESS,ADDR16,regex,0.85,"650 Rogers Isle, Lake Brittany, Louisiana 75461"
+86,+91 8999820651,PHONE,PHONE8,regex+gliner,1.0,+91 4925438131
+86,arupchanda@csb.co.in,EMAIL,EMAIL9,regex+gliner,1.0,jasonchavez@example.com
+86,Arup Chanda,PERSON,P16,gliner,0.97,Jason Chavez
+86,DCB Bank Limited,ORG,ORG21,gliner,0.99,Ramirez Limited
+86,DCB Bank,ORG,ORG22,gliner,0.92,Chan Bank
+86,Relief Road,ADDRESS,ADDR17,gliner,0.81,"30278 Courtney Ways, Granttown, Wisconsin 68835"
+86,+91 7202006857,PHONE,PHONE9,regex+gliner,1.0,+91 2387417340
+86,malikr@dcbbank.com,EMAIL,EMAIL10,regex+gliner,1.0,lori85@example.com
+86,Mallik Rajwani,PERSON,P17,gliner,0.99,Darryl Harris
+86,"HDFC Bank Limited Astral House Navrangpura, Ahmedabad – 380 006, Gujarat, India",ADDRESS,ADDR18,regex+gliner,0.99,"195 Teresa Parkways Apt. 588, Dicksonshire, Georgia 45778"
+86,+91 94284 88182,PHONE,PHONE10,regex+gliner,1.0,+91 32124 44279
+86,keval.mehta@hdfcbank.com,EMAIL,EMAIL11,regex+gliner,1.0,brian.cook@example.com
+86,Keval Mehta,PERSON,P18,gliner,0.97,Brian Cook
+86,"ICICI Bank Limited 8th Floor, Anam – 1, Opposite Parimal Garden, Ambawadi, Ahmedabad – 380 006, Gujarat, India",ADDRESS,ADDR19,regex+gliner,0.99,"32668 Gay Track Suite 339, Mitchellmouth, Massachusetts 22237"
+86,+91 7969237015,PHONE,PHONE11,regex+gliner,1.0,+91 3328683623
+86,divya.vishwanathan@icicibank.com,EMAIL,EMAIL12,regex+gliner,1.0,gary.christensen@example.com
+86,Divya Vishwanathan,PERSON,P19,gliner,0.97,Gary Christensen
+86,IDFC First Bank Limited,ORG,ORG23,gliner,0.99,Armstrong-Hill Limited
+86,"Sun Square, 3rd Floor, Near Hotel Nest, Off CG Road, Ahmedabad – 380 006, Gujarat, India",ADDRESS,ADDR20,regex+gliner,0.85,"5276 Estrada Rest Suite 387, Katrinaton, Maine 52284"
+86,+91 9825098785,PHONE,PHONE12,regex+gliner,1.0,+91 0980706005
+86,Anand.hurkat@idfcfirstbank.com,EMAIL,EMAIL13,regex+gliner,1.0,brian.guzman@example.com
+86,Anand Hurkat,PERSON,P20,gliner,0.97,Brian Guzman
+86,lnduslnd Bank Limited,ORG,ORG24,gliner,0.98,Palmer-Smith Limited
+86,"2nd & 3rd floor, A&B Wing, Parkar House, Law Garden Road, New Panchvati Circle, Ahmedabad- 380 009, Gujarat, India",ADDRESS,ADDR21,regex+gliner,0.85,"032 Peter Port Apt. 409, Richardton, South Carolina 45118"
+86,+ 91 7961916900,PHONE,PHONE13,regex+gliner,1.0,+ 91 2130453290
+86,anup.maheshwari@indusind.com,EMAIL,EMAIL14,regex+gliner,1.0,john.williams@example.com
+86,Anup Maheshwari,PERSON,P21,gliner,0.97,John Williams
+86,Kotak Mahindra Bank Limited,ORG,ORG25,gliner,1.0,Cunningham-Fletcher Limited
+86,+91 8976903559,PHONE,PHONE14,regex+gliner,1.0,+91 7448179218
+86,Prayag.mehta@kotak.com,EMAIL,EMAIL15,regex+gliner,1.0,donna.cook@example.com
+86,Prayag Mehta,PERSON,P22,gliner,0.97,Donna Cook
+86,Punjab National Bank,ORG,ORG26,gliner,0.96,Wright-Wright Bank
+86,"2nd Floor, Shivalik Shilp, lskcon Cross Road, Ahmedabad – 380 015, Gujarat, India",ADDRESS,ADDR22,regex+gliner,0.85,"4506 Lance Falls Apt. 344, South Jacob, Arkansas 67985"
+86,State Bank of India,ORG,ORG27,gliner,0.96,Gonzalez-Petersen
+86,+91 7600035795,PHONE,PHONE15,regex+gliner,1.0,+91 6023997932
+87,079-27540206,PHONE,PHONE16,regex+gliner,1.0,039-59139653
+87,bo4441@pnb.co.in,EMAIL,EMAIL16,regex+gliner,1.0,olee@example.com
+87,Nikhil Jain,PERSON,P15,gliner,0.99,George Gray
+87,rm1.ifbbrd@sbi.co.in,EMAIL,EMAIL17,regex+gliner,1.0,robert12@example.com
+87,Sushanto Das Gupta,PERSON,P23,gliner,0.99,Darrell Ian Scott
+87,The Federal Bank Limited,ORG,ORG28,gliner,0.88,Coleman-Moore Limited
+87,+91 8238514568,PHONE,PHONE17,regex+gliner,1.0,+91 9335720868
+87,hiteshmehta@federalbank.co.in,EMAIL,EMAIL18,regex+gliner,1.0,oliviacook@example.com
+87,Hitesh Mehta,PERSON,P24,gliner,0.97,Olivia Cook
+87,"Union Bank of India 172/1, Ground Floor, Premchand House, Old High Court Road, Ashram Road, Ahmedabad – 380 009, Gujarat, India",ADDRESS,ADDR23,regex+gliner,0.85,"69803 Reid Lodge, Lake Carlosfurt, Rhode Island 68903"
+87,+91 8982845119,PHONE,PHONE18,regex+gliner,1.0,+91 0102492395
+87,ubin0577898@unionbankofindia.bank,EMAIL,EMAIL19,regex+gliner,1.0,shunter@example.com
+87,Arun Kumar Bansal,PERSON,P25,gliner,0.99,Lori Joseph Roberts
+87,YES Bank Limited,ORG,ORG29,gliner,0.72,Shepard Limited
+87,"702 & 703, 7th Floor, Times Square Grand, Sindhu Bhavan Road, Ahmedabad – 380 059, Gujarat, India",ADDRESS,ADDR24,regex,0.85,"5893 White Drive, Zacharymouth, Nebraska 69925"
+87,+ 91 7969235386,PHONE,PHONE19,regex+gliner,1.0,+ 91 1862857142
+87,krupal.soni@yesbank.in,EMAIL,EMAIL20,regex+gliner,1.0,regina.pugh@example.com
+87,Krupal Soni,PERSON,P26,gliner,0.97,Regina Pugh
+87,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+87,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+87,Finance Department,ORG,ORG30,gliner,0.82,Miller-Hernandez
+87,"C4 A, ‘G’ Block Bandra Kurla Complex, Bandra (E) Mumbai – 400 051, Maharashtra, India",ADDRESS,ADDR25,regex,0.85,"6526 Lopez Rest, Johnsontown, Ohio 46485"
+88,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+88,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+88,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill
+88,Equity Shares,ORG,ORG2,propagate,0.9,Mathews-Gill

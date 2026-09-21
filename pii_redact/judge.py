@@ -186,5 +186,14 @@ def judge(page: Page, types: list[dict], cfg: dict, audit=None) -> tuple[list[Sp
                           evidence=span.text, finder=span.finder)
             review.append(span)
             continue
+        # An LLM-only ORG without a corporate word nearby ("Maharashtra", "Supa Facility", committee names)
+        # or an LLM-only ADDRESS with no digit is a guess, not evidence: review, don't redact.
+        if finder_names(span) == ["llm"] and (
+                (span.type == "ORG" and not _org_context(span, page, tcfg)) or
+                (span.type == "ADDRESS" and not any(c.isdigit() for c in span.text))):
+            if audit:
+                audit.log("judge_llm_only", page.page_no, "judge", evidence=span.text, type=span.type)
+            review.append(span)
+            continue
         kept.append(span)
     return kept, review
