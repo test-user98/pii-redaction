@@ -12,7 +12,11 @@ sarthak@example.com     -> rohan.deshpande@example.com
 The same real value gets the same replacement everywhere in the document. The output keeps the original file type
 and tries to preserve the original layout.
 
+**Evaluation report:** [View the full Claude report](https://claude.ai/artifact/5xUfowKhS8MqsAhhFP5rCJ)
+
 ## Simple workflow
+
+![PII redaction workflow](docs/architecture.svg)
 
 1. **Read the document** and locate its text and images.
 2. **Detect personal information** such as names, email addresses, phone numbers, addresses, and ID numbers.
