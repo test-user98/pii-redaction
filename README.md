@@ -31,7 +31,7 @@ and tries to preserve the original layout.
 | Read Word files | python-docx | Reads and updates text, tables, headers, footers, links, and images. |
 | Read text inside images | RapidOCR | Finds text in scanned pages and document images. |
 | Detect fixed formats | Regular expressions and validators | Finds emails, phones, PAN, Aadhaar, DIN, GSTIN, IFSC, cards, SSNs, IPs, and dates of birth. |
-| Detect names and organisations | GLiNER2 | Finds personal information written in normal sentences. |
+| Detect names and organisations | GLiNER2-PII | Finds names, organisations and other PII in running text. Chosen over Presidio/spaCy because its labels come from our config at run time (a new PII type needs no model training), it is trained on PII specifically, and it runs locally on CPU. |
 | Check difficult pages | Ollama or Claude | Provides an optional second check when normal detection may miss something. |
 | Create replacements | Faker | Creates realistic fake names, companies, addresses, and other values. |
 
