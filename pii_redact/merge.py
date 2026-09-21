@@ -35,30 +35,57 @@ def _type_fits(type_: str, text: str, by_name: dict) -> bool:
     return len(text) <= 60 and any(re.search(pat, text) for pat in pats)
 
 
-def _trim_addresses(spans: list[Span], page: Page) -> None:
-    """The PIN-anchored address finder expands backwards and can swallow the row before the address
-    ("Rajesh Kushal Hegde  Managing Director  00114193  12 Buena Monte, ..."). Start the address after
-    the last PERSON / DIN / validated structured span inside it, or after an ORG that begins it."""
+def _set_start(a: Span, cut: int, page: Page) -> None:
+    v = page.views[a.view]
+    while cut < a.end and not v.text[cut].isalnum():
+        cut += 1
+    a.start, a.text, a.word_ids = cut, v.text[cut:a.end], v.word_ids(cut, a.end)
+
+
+def _set_end(a: Span, cut: int, page: Page) -> None:
+    v = page.views[a.view]
+    while cut > a.start and not v.text[cut - 1].isalnum():
+        cut -= 1
+    a.end, a.text, a.word_ids = cut, v.text[a.start:cut], v.word_ids(a.start, cut)
+
+
+def _trim(spans: list[Span], page: Page) -> None:
+    """Keep separate things separate before grouping.
+
+    1. A span that runs well past a validated identifier (DIN, PAN, email, ...) is cut at the
+       identifier's edge instead of being swallowed by it: "0011419 3 12 Buena Monte" -> "12 Buena Monte".
+    2. A PIN-anchored address that starts with the row before it ("Rajesh Kushal Hegde Managing
+       Director 00114193 12 Buena Monte, ...") starts after the last PERSON/DIN inside it, or after an
+       ORG that begins it.
+    """
+    for a in spans:
+        if a.view not in page.views or _validated(a):
+            continue
+        for v in spans:
+            if v is a or v.view != a.view or not _validated(v) or v.end <= a.start or v.start >= a.end:
+                continue
+            if a.end - a.start < v.end - v.start + 8:
+                continue                                    # mostly the identifier: let the group collapse
+            if v.start - a.start <= a.end - v.end:
+                _set_start(a, v.end, page)
+            else:
+                _set_end(a, v.start, page)
     for a in spans:
         if a.type != "ADDRESS" or "regex" not in a.finder or a.view not in page.views:
             continue
         cut = a.start
         for s in spans:
-            if s is a or s.view != a.view or s.start < a.start or s.end > a.end - 8:
+            if s is a or s.view != a.view or s.start < a.start or s.end > a.end - 8 or s.confidence < 0.7:
                 continue
-            inside = s.type in ("PERSON", "DIN") or _validated(s) or (s.type == "ORG" and s.start == a.start)
-            if inside and s.confidence >= 0.7:
+            if s.type in ("PERSON", "DIN") or (s.type == "ORG" and s.start == a.start):
                 cut = max(cut, s.end)
         if cut > a.start:
-            v = page.views[a.view]
-            while cut < a.end and not v.text[cut].isalnum():
-                cut += 1
-            a.start, a.text, a.word_ids = cut, v.text[cut:a.end], v.word_ids(cut, a.end)
+            _set_start(a, cut, page)
 
 
 def merge(page: Page, types: list[dict] | None = None) -> list[Span]:
     by_name = {t["name"]: t for t in types} if types else {}
-    _trim_addresses(page.spans, page)
+    _trim(page.spans, page)
     spans = []
     for s in page.spans:
         if not s.word_ids and s.view in page.views:

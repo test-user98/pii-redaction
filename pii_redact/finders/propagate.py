@@ -120,7 +120,10 @@ def find(doc: Doc, confirmed: list[Span], types: list[dict], cfg: dict) -> list[
             seen_variant.add(key)
             single = len(_tokens(v)) == 1
             common = single and c.type in ("PERSON", "ORG") and is_common(v) and gated
-            searches.append((c.type, _pattern(v, c.type == "PHONE"), common, 0.6 if common else 0.9))
+            # multi-token names/orgs are also matched with letters spaced or glued ("L ok esh Sh ah", "LokeshShah"):
+            # narrow table cells break them that way, and a 2+ token name can't match by accident
+            loose = c.type == "PHONE" or (c.type in ("PERSON", "ORG") and not single and len(v) >= 8)
+            searches.append((c.type, _pattern(v, loose), common, 0.6 if common else 0.9))
 
     out = []
     for page in doc.pages:
