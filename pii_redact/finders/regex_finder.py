@@ -7,7 +7,7 @@ from pii_redact.model import Page, Span
 from pii_redact.finders import validators
 
 # identifier types: match with whitespace inside, strip it before validating
-WS_TOLERANT = {"PAN", "AADHAAR", "CREDIT_CARD", "PHONE"}
+WS_TOLERANT = {"PAN", "AADHAAR", "CREDIT_CARD", "PHONE", "DIN"}
 CONTEXT_WINDOW = 60
 
 
@@ -17,8 +17,8 @@ def make_span(page: Page, view: str, start: int, end: int, type_: str, finder: s
                 finder=finder, confidence=confidence, view=view, word_ids=v.word_ids(start, end))
 
 
-def has_context(text: str, start: int, end: int, words: list[str]) -> bool:
-    window = text[max(0, start - CONTEXT_WINDOW):end + CONTEXT_WINDOW].lower()
+def has_context(text: str, start: int, end: int, words: list[str], scope: str = "window") -> bool:
+    window = (text if scope == "page" else text[max(0, start - CONTEXT_WINDOW):end + CONTEXT_WINDOW]).lower()
     return any(re.search(r"\b" + re.escape(w.lower()) + r"\b", window) for w in words)
 
 
@@ -47,7 +47,7 @@ def find(page: Page, types: list[dict], cfg: dict) -> list[Span]:
                         conf = 1.0
                     else:
                         conf = 0.8
-                    if t.get("requires_context") and not has_context(text, s, e, t.get("context_words", [])):
+                    if t.get("requires_context") and not has_context(text, s, e, t.get("context_words", []), t.get("context_scope", "window")):
                         continue
                     spans.append(make_span(page, view_name, s, e, name, "regex", conf))
     return spans

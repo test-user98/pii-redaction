@@ -81,3 +81,8 @@ def ipv4(s: str) -> bool:
             return False
     parts = s.split(".")
     return len(parts) == 4 and all(p.isdigit() and int(p) <= 255 for p in parts)
+
+
+def din(s: str) -> bool:
+    """Director Identification Number: exactly 8 digits, not all the same."""
+    return bool(re.fullmatch(r"\d{8}", s)) and len(set(s)) > 1

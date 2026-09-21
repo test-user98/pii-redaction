@@ -31,10 +31,33 @@ def pick_type(spans: list[Span]) -> str:
 
 def is_exempt(text: str, type_cfg: dict) -> bool:
     """True if any allowlist entry appears in text as a whole word/phrase (case-insensitive)."""
+    flat = " ".join(text.split())
     for entry in type_cfg.get("allowlist") or []:
-        if re.search(r"\b" + re.escape(entry) + r"\b", text, re.IGNORECASE):
+        if re.search(r"\b" + re.escape(" ".join(entry.split())) + r"\b", flat, re.IGNORECASE):
             return True
     return False
+
+
+def is_generic(text: str, type_cfg: dict) -> bool:
+    """'our Company', 'Stock Exchanges', 'Director', 'BRLMs' are document roles, not names."""
+    generic = {w.lower() for w in type_cfg.get("generic_words") or []}
+    tokens = re.findall(r"[A-Za-z][A-Za-z'&.-]*", text)
+    if not tokens:
+        return True
+    if all(t.lower() in generic for t in tokens):
+        return True
+    if len(tokens) == 1 and len(tokens[0]) <= 6 and sum(c.isupper() for c in tokens[0]) >= 2 \
+            and sum(c.islower() for c in tokens[0]) <= 1:
+        return True                                     # bare acronym: BRLMs, SCSBs, UPI
+    return False
+
+
+is_generic_org = is_generic
+
+
+def _name_shaped(span: Span) -> bool:
+    """A name or company mention has at least one capital letter ('rice', 'our' are not names)."""
+    return any(c.isupper() for c in span.text)
 
 
 def judge(page: Page, types: list[dict], cfg: dict, audit=None) -> tuple[list[Span], list[Span]]:
@@ -63,6 +86,12 @@ def judge(page: Page, types: list[dict], cfg: dict, audit=None) -> tuple[list[Sp
             continue
         if policy == "review":
             review.append(span)
+            continue
+        if span.type in ("PERSON", "ORG") and not _name_shaped(span):
+            continue
+        if span.type in ("PERSON", "ORG") and is_generic(span.text, tcfg):
+            if audit:
+                audit.log("judge_generic", page.page_no, "judge", evidence=span.text)
             continue
         if len(finder_names(span)) == 1:
             if span.confidence < drop_below:

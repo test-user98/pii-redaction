@@ -113,7 +113,9 @@ def find(doc: Doc, confirmed: list[Span], types: list[dict], cfg: dict) -> list[
     for c in confirmed:
         for v in variants(c):
             key = (c.type, v.lower())
-            if key in seen_variant:
+            if key in seen_variant or len(v) < 4:
+                continue
+            if c.type == "PHONE" and sum(ch.isdigit() for ch in v) < 7:   # an LLM span like "10" must not spread
                 continue
             seen_variant.add(key)
             single = len(_tokens(v)) == 1

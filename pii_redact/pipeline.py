@@ -14,7 +14,7 @@ from . import judge as judge_mod
 from . import surrogates, verify
 from .audit import Audit
 from .config import backends, pii_types
-from .finders import gliner_finder, llm_finder, propagate, regex_finder
+from .finders import address_finder, gliner_finder, llm_finder, propagate, regex_finder
 from .model import Doc, Page, Span
 from .normalize import build_views
 from .ocr import ocr_images
@@ -37,6 +37,7 @@ def _page_pass(page: Page, doc: Doc, types, cfg, audit: Audit, use_llm: bool, ll
 
     spans: list[Span] = []
     spans += _timed(audit, "find", page.page_no, "regex", lambda: regex_finder.find(page, types, cfg))
+    spans += _timed(audit, "find", page.page_no, "address", lambda: address_finder.find(page, types, cfg))
     spans += _timed(audit, "find", page.page_no, "gliner", lambda: gliner_finder.find(page, types, cfg))
     if use_llm and page.page_no in llm_pages:
         spans += _timed(audit, "find", page.page_no, cfg["llm"]["model"], lambda: llm_finder.find(page, types, cfg),
@@ -74,8 +75,8 @@ def run(path: str, out_dir: str, *, use_llm: bool = True, use_review: bool = Tru
     review_rows = []
     for p in pages:
         p.spans = raw.get(p.page_no, [])
-        p.spans = merge_mod.merge(p)
-        kept, review = judge_mod.judge(p, types, cfg)
+        p.spans = merge_mod.merge(p, types)
+        kept, review = judge_mod.judge(p, types, cfg, audit)
         p.spans = kept
         review_rows += [(p.page_no, s.text, s.type, s.finder, s.confidence) for s in review]
         audit.log("judge", p.page_no, "rules", count=len(kept), review=len(review))

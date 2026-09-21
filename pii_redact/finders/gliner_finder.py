@@ -1,6 +1,8 @@
 """GLiNER2-PII finder. Runs on the layout view, chunked at ~1500 chars with 200-char overlap."""
 from __future__ import annotations
 
+import threading
+
 from pii_redact.model import Page, Span
 from pii_redact.finders.regex_finder import make_span
 
@@ -10,6 +12,7 @@ OVERLAP_CHARS = 200
 
 _model = None
 _model_name = None
+_lock = threading.Lock()   # one forward pass at a time: parallel torch calls on CPU are ~10x slower
 
 
 def get_model(name: str = DEFAULT_MODEL):
@@ -51,8 +54,9 @@ def find(page: Page, types: list[dict], cfg: dict) -> list[Span]:
     labels = list(label_to_type)
     best: dict[tuple, Span] = {}
     for offset, chunk in chunk_text(view.text, CHUNK_CHARS, OVERLAP_CHARS):
-        result = model.extract_entities(chunk, labels, threshold=threshold,
-                                        include_confidence=True, include_spans=True)
+        with _lock:
+            result = model.extract_entities(chunk, labels, threshold=threshold,
+                                            include_confidence=True, include_spans=True)
         for label, ents in result.get("entities", {}).items():
             for e in ents:
                 s, en = offset + e["start"], offset + e["end"]

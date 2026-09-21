@@ -15,6 +15,11 @@ types:
     context_words: ["mr", "mrs", "ms", "smt", "shri", "dr", "name", "contact person", "director", "father"]
     faker: person
     policy: redact
+    # A PERSON span made only of role words is a title, not a name ("Managing Director", "Contact Person").
+    generic_words: [mr, mrs, ms, dr, smt, shri, kum, the, our, of, and, director, directors, chairman, managing, joint,
+                    executive, independent, whole-time, secretary, officer, person, contact, promoter, promoters, name,
+                    company, member, members, trustee, trustees, partner, partners, auditor, auditors, chief, financial,
+                    ceo, cfo, cs, compliance, key, managerial, personnel, senior, management, technical, registrar, bidder]
 
   - name: EMAIL
     enabled: true
@@ -42,6 +47,19 @@ types:
     context_words: ["limited", "ltd", "llp", "private", "trust", "bank", "corporation", "inc"]
     faker: org
     policy: redact
+    # An ORG span made only of these words is a document role, not a company ("our Company",
+    # "Book Running Lead Managers", "Stock Exchanges"); a bare acronym ("BRLMs", "UPI") is dropped too.
+    generic_words: [our, the, of, and, to, in, for, a, an, company, companies, prospectus, red, herring, draft,
+                    investor, investors, anchor, registrar, shareholder, shareholders, promoter, promoters, selling,
+                    exchange, exchanges, stock, manager, managers, lead, running, book, director, directors, board,
+                    officer, officers, secretary, compliance, offer, issue, portion, bank, bank's, banks, banker, bankers, sponsor,
+                    escrow, collection, refund, public, account, syndicate, member, members, life, insurance, pension,
+                    fund, funds, mutual, central, processing, centre, center, self, certified, regional, house, venture,
+                    qualified, institutional, buyer, buyers, retail, individual, non, designated, intermediaries,
+                    depository, participant, participants, registered, broker, brokers, agent, agents, transfer, share,
+                    group, entities, entity, trusts, management, key, managerial, personnel, senior, statutory, auditor,
+                    auditors, independent, chartered, engineer, monitoring, agency, legal, counsel, underwriter, underwriters,
+                    government, state, ministry, department, income, tax, authority, income-tax, govt, office, unit, facility]
     # Regulators, exchanges and statutes are public bodies, not PII. Case-insensitive substring match.
     allowlist: ["SEBI", "Securities and Exchange Board of India", "BSE", "NSE", "National Stock Exchange",
                 "RBI", "Reserve Bank of India", "Registrar of Companies", "RoC", "Companies Act",
@@ -50,6 +68,10 @@ types:
 
   - name: ADDRESS
     enabled: true
+    # Indian addresses end in "<City> – 411 045, Maharashtra, India"; address_finder anchors on the PIN code.
+    pin_regex: '\b[1-9]\d{2}\s?\d{3}\b'
+    end_words: [India, Maharashtra, Gujarat, Karnataka, Delhi, "Madhya Pradesh", "Tamil Nadu"]
+    max_len: 260
     ner_labels: ["street address", "postal address"]
     llm_hint: "Physical/mailing addresses incl. plot/gat/survey numbers, village, taluka, city, PIN code"
     context_words: ["office", "address", "road", "marg", "plot", "gat", "village", "taluka", "pune", "mumbai", "floor"]
@@ -111,8 +133,10 @@ types:
 
   - name: DIN
     enabled: true
-    regex: ['\b\d{8}\b']
+    regex: ['\b\d{7}\s?\d\b|\b\d\s?\d{7}\b|\b\d{8}\b']   # digits may break across a table line
+    validator: din
     requires_context: true
+    context_scope: page          # the 'DIN' column header is far from the values
     context_words: ["din", "director identification"]
     llm_hint: "8-digit Director Identification Numbers"
     faker: digits
