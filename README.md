@@ -15,7 +15,8 @@ and tries to preserve the original layout.
 **Evaluation report:** [View the full Claude report](https://claude.ai/artifact/5xUfowKhS8MqsAhhFP5rCJ)
 
 **Detection model:** GLiNER2-PII instead of Presidio/spaCy — its PII labels come from our config at run time (a new
-type needs no model training), it is trained on PII specifically, and it runs locally on CPU; regex/validators, an
+type needs no model training), it is trained on PII specifically, it runs locally on CPU, and it is a small open
+encoder we can fine-tune on our own reviewed data — the self-learning loop needs a model we own; regex/validators, an
 address finder and an optional LLM run alongside it.
 
 **Built to keep improving:** every run writes `spans.csv`, `review.csv` (uncertain findings for a human to accept or
