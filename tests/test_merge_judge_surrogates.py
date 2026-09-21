@@ -1,6 +1,8 @@
 """Hand-built Pages/Spans/Docs; no parser or finder dependency."""
 import csv
 import re
+import sys
+import threading
 
 from pii_redact.judge import is_exempt, judge
 from pii_redact.merge import merge
@@ -130,6 +132,33 @@ def test_surrogates_deterministic_and_salt_dependent():
     assert [a[k].surrogate for k in a] == [b[k].surrogate for k in b]
     assert [a[k].surrogate for k in a] != [c[k].surrogate for k in c]
     assert all(a[k].surrogate != a[k].canonical for k in a)
+
+
+def test_concurrent_assign_matches_serial():
+    """Two jobs interleaving must not perturb each other: surrogates are a function of (salt, values) only."""
+    _, serial = assigned()
+    expected = {k: (serial[k].surrogate, serial[k].name_tokens) for k in serial}
+    interval = sys.getswitchinterval()
+    sys.setswitchinterval(1e-6)                   # force thread switches inside assign_surrogates
+    try:
+        for _ in range(20):
+            barrier, results = threading.Barrier(2), [None, None]
+
+            def work(i):
+                doc = person_doc()
+                ents = cluster_entities(doc)
+                barrier.wait()
+                assign_surrogates(ents, CFG)
+                results[i] = {e.id: (e.surrogate, e.name_tokens) for e in ents}
+
+            threads = [threading.Thread(target=work, args=(i,)) for i in range(2)]
+            for t in threads:
+                t.start()
+            for t in threads:
+                t.join()
+            assert results[0] == expected and results[1] == expected
+    finally:
+        sys.setswitchinterval(interval)
 
 
 def test_token_consistency_across_entities_and_mentions():

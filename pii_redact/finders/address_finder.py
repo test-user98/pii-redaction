@@ -22,7 +22,7 @@ def _patterns(tcfg: dict) -> tuple[re.Pattern, re.Pattern]:
     puncts = [w for w in tcfg.get("starts", [":", ";"]) if not (w.isalpha() or " " in w)]
     start = re.compile(r"(?:[%s]\s*|\.\s+(?=[A-Z0-9])|\n%s)" % (
         re.escape("".join(puncts)), "".join(r"|\b" + re.escape(w) + r"\s+" for w in words)))
-    kw = re.compile(r"\b(?:%s)(?<![A-Za-z])" % "|".join(re.escape(w) for w in tcfg.get("keywords", [])), re.I)
+    kw = re.compile(r"\b(?:%s)(?![A-Za-z])" % "|".join(re.escape(w) for w in tcfg.get("keywords", [])), re.I)
     return start, kw
 
 

@@ -5,13 +5,14 @@
     curl localhost:8000/jobs/<id>                                                  -> status + summary
     curl -O localhost:8000/jobs/<id>/download                                      -> redacted file (same format)
 
-Jobs run in a background thread; state is in memory (one process). A queue + object store is the production path.
+Jobs run one at a time on a single worker thread (the GLiNER model is a shared lazy global, so the pipeline
+is not safe to run concurrently in one process); state is in memory. A queue + object store is the production path.
 """
 from __future__ import annotations
 
 import shutil
-import threading
 import uuid
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, UploadFile
@@ -22,9 +23,11 @@ from .pipeline import run
 app = FastAPI(title="pii-redact")
 JOBS: dict[str, dict] = {}
 WORK = Path("out/api")
+WORKER = ThreadPoolExecutor(max_workers=1)
 
 
 def _work(job_id: str, src: Path, llm: bool, review: bool):
+    JOBS[job_id]["status"] = "running"
     try:
         summary = run(str(src), str(WORK / job_id), use_llm=llm, use_review=review)
         JOBS[job_id]["summary"] = summary
@@ -44,8 +47,8 @@ async def redact(file: UploadFile, llm: bool = True, review: bool = False):
     src = dst / f"input{suffix}"
     with open(src, "wb") as f:
         shutil.copyfileobj(file.file, f)
-    JOBS[job_id] = {"status": "running", "file": file.filename}
-    threading.Thread(target=_work, args=(job_id, src, llm, review), daemon=True).start()
+    JOBS[job_id] = {"status": "queued", "file": file.filename}
+    WORKER.submit(_work, job_id, src, llm, review)
     return {"job_id": job_id}
 
 

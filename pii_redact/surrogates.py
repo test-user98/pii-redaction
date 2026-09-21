@@ -32,7 +32,6 @@ _ORG_SUFFIX = re.compile(
     r"trust|bank|&\s*co\.?|and co\.?)\s*$", re.IGNORECASE)
 _FAKER_SUFFIX = re.compile(r",? (Inc|LLC|PLC|Ltd|Group|and Sons)$")
 _TOKEN = re.compile(r"^(\W*)(.*?)(\W*)$", re.DOTALL)
-_faker = Faker("en_US")
 
 
 # ---------------------------------------------------------------- normalisation
@@ -180,21 +179,21 @@ def _alnum(text: str) -> str:
     return "".join(c for c in text if c.isalnum())
 
 
-def _letters(n: int) -> str:
-    return "".join(_faker.random_uppercase_letter() for _ in range(n))
+def _letters(fake: Faker, n: int) -> str:
+    return "".join(fake.random_uppercase_letter() for _ in range(n))
 
 
-def _digits(n: int) -> str:
-    return "".join(str(_faker.random_digit()) for _ in range(n))
+def _digits(fake: Faker, n: int) -> str:
+    return "".join(str(fake.random_digit()) for _ in range(n))
 
 
-def _same_shape(text: str) -> str:
+def _same_shape(fake: Faker, text: str) -> str:
     out = []
     for c in text:
         if c.isdigit():
-            out.append(str(_faker.random_digit()))
+            out.append(str(fake.random_digit()))
         elif c.isalpha():
-            out.append(_faker.random_uppercase_letter() if c.isupper() else _faker.random_lowercase_letter())
+            out.append(fake.random_uppercase_letter() if c.isupper() else fake.random_lowercase_letter())
         else:
             out.append(c)
     return "".join(out)
@@ -227,84 +226,84 @@ def _verhoeff_check(digits: str) -> str:
     return str(_VINV[c])
 
 
-def _pan_compact(holder: str) -> str:
-    return _letters(3) + holder + _letters(1) + _digits(4) + _letters(1)
+def _pan_compact(fake: Faker, holder: str) -> str:
+    return _letters(fake, 3) + holder + _letters(fake, 1) + _digits(fake, 4) + _letters(fake, 1)
 
 
-def _gen_pan(text: str) -> str:
+def _gen_pan(fake: Faker, text: str) -> str:
     s = _alnum(text).upper()
     if len(s) != 10:
-        return _same_shape(text)
-    return _fit(text, _pan_compact(s[3]))       # 4th char = holder type (P person, C company); not identifying
+        return _same_shape(fake, text)
+    return _fit(text, _pan_compact(fake, s[3]))       # 4th char = holder type (P person, C company); not identifying
 
 
-def _gen_aadhaar(text: str) -> str:
+def _gen_aadhaar(fake: Faker, text: str) -> str:
     if len(_alnum(text)) != 12:
-        return _same_shape(text)
-    body = str(_faker.random_int(2, 9)) + _digits(10)
+        return _same_shape(fake, text)
+    body = str(fake.random_int(2, 9)) + _digits(fake, 10)
     return _fit(text, body + _verhoeff_check(body))
 
 
-def _gen_card(text: str) -> str:
+def _gen_card(fake: Faker, text: str) -> str:
     n = len(_alnum(text))
-    body = _digits(n - 1)
+    body = _digits(fake, n - 1)
     return _fit(text, body + _luhn_check(body))
 
 
-def _gen_ssn(text: str) -> str:
+def _gen_ssn(fake: Faker, text: str) -> str:
     if len(_alnum(text)) != 9:
-        return _same_shape(text)
-    area = _faker.random_element([x for x in range(1, 900) if x != 666])
-    return _fit(text, f"{area:03d}{_faker.random_int(1, 99):02d}{_faker.random_int(1, 9999):04d}")
+        return _same_shape(fake, text)
+    area = fake.random_element([x for x in range(1, 900) if x != 666])
+    return _fit(text, f"{area:03d}{fake.random_int(1, 99):02d}{fake.random_int(1, 9999):04d}")
 
 
-def _gen_gstin(text: str) -> str:
+def _gen_gstin(fake: Faker, text: str) -> str:
     s = _alnum(text).upper()
     if len(s) != 15:
-        return _same_shape(text)
-    pan = _pan_compact(s[5] if s[5] in "ABCFGHLJPT" else "P")
-    return _fit(text, s[:2] + pan + s[12] + "Z" + _faker.random_element("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
+        return _same_shape(fake, text)
+    pan = _pan_compact(fake, s[5] if s[5] in "ABCFGHLJPT" else "P")
+    return _fit(text, s[:2] + pan + s[12] + "Z" + fake.random_element("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
 
 
-def _gen_ifsc(text: str) -> str:
+def _gen_ifsc(fake: Faker, text: str) -> str:
     if len(_alnum(text)) != 11:
-        return _same_shape(text)
-    return _fit(text, _letters(4) + "0" + "".join(
-        _faker.random_element("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ") for _ in range(6)))
+        return _same_shape(fake, text)
+    return _fit(text, _letters(fake, 4) + "0" + "".join(
+        fake.random_element("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ") for _ in range(6)))
 
 
-def _gen_ip(text: str) -> str:
+def _gen_ip(fake: Faker, text: str) -> str:
     if ":" in text:
-        return "2001:db8:" + ":".join(f"{_faker.random_int(0, 0xFFFF):x}" for _ in range(6))
-    return _faker.random_element(["192.0.2.", "198.51.100.", "203.0.113."]) + str(_faker.random_int(1, 254))
+        return "2001:db8:" + ":".join(f"{fake.random_int(0, 0xFFFF):x}" for _ in range(6))
+    return fake.random_element(["192.0.2.", "198.51.100.", "203.0.113."]) + str(fake.random_int(1, 254))
 
 
-def _gen_phone(text: str) -> str:
+def _gen_phone(fake: Faker, text: str) -> str:
     m = re.match(r"\+\s?\d{1,3}", text)          # keep the country code
     keep = m.end() if m else 0
-    return text[:keep] + "".join(str(_faker.random_digit()) if c.isdigit() else c for c in text[keep:])
+    return text[:keep] + "".join(str(fake.random_digit()) if c.isdigit() else c for c in text[keep:])
 
 
-def _gen_org(text: str) -> str:
+def _gen_org(fake: Faker, text: str) -> str:
     m = _ORG_SUFFIX.search(text)
     base, suffix = (text[:m.start()], text[m.start():]) if m and m.start() > 0 else (text, "")
-    return _length_match(base, lambda: _FAKER_SUFFIX.sub("", _faker.company())) + suffix
+    return _length_match(base, lambda: _FAKER_SUFFIX.sub("", fake.company())) + suffix
 
 
-def _gen_address(text: str) -> str:
+def _gen_address(fake: Faker, text: str) -> str:
     n = len(text.split("\n"))
-    pieces = [_faker.street_address(), _faker.city(), f"{_faker.state()} {_faker.postcode()}", _faker.country()]
+    pieces = [fake.street_address(), fake.city(), f"{fake.state()} {fake.postcode()}", fake.country()]
     if n == 1:
         return ", ".join(pieces[:3])
     while len(pieces) < n:
-        pieces.append(_faker.street_name())
+        pieces.append(fake.street_name())
     return "\n".join(pieces[:n - 1] + [", ".join(pieces[n - 1:])])
 
 
-def _gen_dob(text: str) -> str:
+def _gen_dob(fake: Faker, text: str) -> str:
     m = re.fullmatch(r"(\d{1,2})([/-])(\d{1,2})\2(\d{4})", text.strip())
     if not m:
-        return _same_shape(text)
+        return _same_shape(fake, text)
     a, sep, b, y = int(m[1]), m[2], int(m[3]), int(m[4])
     day_first = True
     try:
@@ -312,7 +311,7 @@ def _gen_dob(text: str) -> str:
     except ValueError:
         date = datetime(y, a, b)
         day_first = False
-    date += timedelta(days=_faker.random_int(30, 400) * _faker.random_element([-1, 1]))
+    date += timedelta(days=fake.random_int(30, 400) * fake.random_element([-1, 1]))
     first, second = (date.day, date.month) if day_first else (date.month, date.day)
     return f"{first:02d}{sep}{second:02d}{sep}{date.year}"
 
@@ -320,7 +319,7 @@ def _gen_dob(text: str) -> str:
 _GENERATORS = {
     "PHONE": _gen_phone, "ORG": _gen_org, "ADDRESS": _gen_address, "DOB": _gen_dob,
     "SSN": _gen_ssn, "CREDIT_CARD": _gen_card, "IP": _gen_ip, "PAN": _gen_pan,
-    "AADHAAR": _gen_aadhaar, "DIN": lambda t: _fit(t, _digits(len(_alnum(t)))),
+    "AADHAAR": _gen_aadhaar, "DIN": lambda fake, t: _fit(t, _digits(fake, len(_alnum(t)))),
     "GSTIN": _gen_gstin, "IFSC": _gen_ifsc,
 }
 
@@ -347,14 +346,16 @@ def _email_from_person(local: str, persons: list[Entity]) -> str | None:
 
 
 def assign_surrogates(entities: list[Entity], cfg: dict) -> None:
+    """Pure function of (salt, canonical values): a private Faker per call, reseeded before every draw."""
     salt = cfg["surrogates"]["salt"]
+    fake = Faker("en_US")
     token_fakes: dict[str, str] = {}             # casefolded real token -> fake, shared across entities
 
     def fake_token(tok: str, last: bool) -> str:
         key = tok.casefold()
         if key not in token_fakes:
-            _faker.seed_instance(_seed(salt, "PERSON|token|" + key))
-            token_fakes[key] = _length_match(tok, _faker.last_name if last else _faker.first_name)
+            fake.seed_instance(_seed(salt, "PERSON|token|" + key))
+            token_fakes[key] = _length_match(tok, fake.last_name if last else fake.first_name)
         return token_fakes[key]
 
     persons = [e for e in entities if e.type == "PERSON"]
@@ -370,13 +371,13 @@ def assign_surrogates(entities: list[Entity], cfg: dict) -> None:
     for e in entities:
         if e.type == "PERSON":
             continue
-        _faker.seed_instance(_seed(salt, e.type + "|" + normalize(e.type, e.canonical)))
+        fake.seed_instance(_seed(salt, e.type + "|" + normalize(e.type, e.canonical)))
         if e.type == "EMAIL":
             local, _, _domain = e.canonical.partition("@")
             derived = _email_from_person(local, persons)
-            e.surrogate = (derived or _faker.user_name()) + "@example.com"
+            e.surrogate = (derived or fake.user_name()) + "@example.com"
         else:
-            e.surrogate = _GENERATORS.get(e.type, _same_shape)(e.canonical)
+            e.surrogate = _GENERATORS.get(e.type, _same_shape)(fake, e.canonical)
 
 
 def mention_surrogate(entity: Entity, span: Span) -> str:

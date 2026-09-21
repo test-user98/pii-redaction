@@ -15,7 +15,7 @@ def test_api_roundtrip(tmp_path):
     job = c.post("/redact?llm=false&review=false", files={"file": ("a.pdf", pdf.read_bytes())}).json()["job_id"]
     for _ in range(400):   # GLiNER load + page pass; slow on a busy CPU
         s = c.get(f"/jobs/{job}").json()
-        if s["status"] != "running":
+        if s["status"] not in ("queued", "running"):
             break
         time.sleep(1)
     assert s["status"] == "done", s
