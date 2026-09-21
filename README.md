@@ -87,7 +87,9 @@ Each run creates a folder under `out/<document-id>/` containing:
 ## Quality checks
 
 The test set contains 199 manually labelled examples across 14 document pages. The latest recorded result found
-93% of the labelled personal information, and about 90% of its detections were correct.
+96.5% of the labelled personal information (recall 0.965), and 94.6% of its detections were correct (precision 0.946);
+F1 0.955, token accuracy 0.984. Every change and its score is logged in `eval/RUNS.md`.
+Full report with per-type numbers, misses and false hits: https://claude.ai/artifact/5xUfowKhS8MqsAhhFP5rCJ
 
 Run the automated tests with:
 
