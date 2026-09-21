@@ -29,7 +29,7 @@ judge:
 
 surrogates:
   salt: dev-salt           # override with PII_SALT env var in real use
-  legend: full             # none | surrogates | full  (what table is appended to the output document)
+  legend: none             # none | surrogates | full  (what table is appended to the output document)
 
 review:                    # step 10b: LLM re-reads each redacted page and flags problems (no auto-edit)
   enabled: true
