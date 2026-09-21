@@ -26,8 +26,9 @@ WORK = Path("out/api")
 
 def _work(job_id: str, src: Path, llm: bool, review: bool):
     try:
-        JOBS[job_id]["summary"] = run(str(src), str(WORK / job_id), use_llm=llm, use_review=review)
-        JOBS[job_id]["status"] = "done"
+        summary = run(str(src), str(WORK / job_id), use_llm=llm, use_review=review)
+        JOBS[job_id]["summary"] = summary
+        JOBS[job_id]["status"] = "done" if summary["verify"]["ok"] else "verify_failed"
     except Exception as e:                       # surfaced to the client; never crashes the server
         JOBS[job_id].update(status="failed", error=str(e)[:500])
 

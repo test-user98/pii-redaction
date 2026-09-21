@@ -111,6 +111,11 @@ Latest labelled-page result (commit `f2299bb`, see `eval/RUNS.md`):
 Per type F1: PERSON 0.945 · ORG 0.903 · EMAIL 0.952 · PHONE 0.930 · ADDRESS 0.852 · DIN 0.933 · PAN 0.667 · DOB 0.667
 (PAN/DOB are each 1 true mention; the "false hit" is the same value found in the second copy of the card image the PDF embeds).
 
+The full 128-page run: `deliverables/Red_Herring_Prospectus.redacted.pdf` (same format, true redaction) and
+`deliverables/Red_Herring_Prospectus.redacted.docx` (assignment deliverable), with `deliverables/mapping.csv`
+(real → fake, one row per entity; different people always get different fakes). The root `EVAL_REPORT.md` is the
+scored run.
+
 **Recall on unlabelled pages** is covered by `verify.py` (every original value from the mapping searched in the
 output; a hit fails the run) and the flag-only LLM review pass. Both are evidence, not proof; the review queue is
 where a human closes the gap.
@@ -149,6 +154,11 @@ where a human closes the gap.
   size in the same box, so a longer fake can look slightly smaller. DOCX keeps the original runs and styles.
 
 ## Known limitations
+
+Found by the independent review, not yet fixed (each is a small, isolated change):
+- DOCX hyperlink text and link targets are not scanned (`parse.py`); a PII value inside a hyperlink survives.
+- Images placed in DOCX headers/footers are resolved through the body part and stay unredacted (`docx_writer.py`).
+- Concurrent API jobs share one Faker instance; run jobs serially or give each run its own generator (`surrogates.py`).
 
 - PDF→DOCX conversion (assignment deliverable for PDF input) is approximate: paragraphs and tables, no colours,
   columns or images.

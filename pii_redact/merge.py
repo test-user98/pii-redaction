@@ -15,7 +15,7 @@ from .model import Page, Span
 
 # A validator-passed regex span of one of these types sets the boundaries and type of its group,
 # so an LLM span like "PAN NBWPS 1951N" does not drag the label word into the redaction.
-STRUCTURED = {"EMAIL", "PHONE", "PAN", "AADHAAR", "CREDIT_CARD", "SSN", "IP", "GSTIN", "IFSC", "DIN", "DOB"}
+STRUCTURED: set[str] = set()   # filled from config (types with `structured: true`) on each merge() call
 
 
 def _validated(s: Span) -> bool:
@@ -85,6 +85,11 @@ def _trim(spans: list[Span], page: Page) -> None:
 
 def merge(page: Page, types: list[dict] | None = None) -> list[Span]:
     by_name = {t["name"]: t for t in types} if types else {}
+    if types:
+        STRUCTURED.clear()
+        STRUCTURED.update(t["name"] for t in types if t.get("structured"))
+    elif not STRUCTURED:
+        STRUCTURED.update({"EMAIL", "PHONE", "PAN", "AADHAAR", "CREDIT_CARD", "SSN", "IP", "GSTIN", "IFSC", "DIN", "DOB"})
     _trim(page.spans, page)
     spans = []
     for s in page.spans:
@@ -122,10 +127,11 @@ def merge(page: Page, types: list[dict] | None = None) -> list[Span]:
         else:
             fitting = [s for s in members if _type_fits(s.type, best.text, by_name)]
             type_ = pick_type(fitting or members)
-        merged.append(replace(best,
+        words = list(best.word_ids) if validated else sorted({w for s in members for w in s.word_ids})
+        merged.append(replace(best,                       # "Alice Beth" + "Beth Carter" -> all three words redacted
                               type=type_,
                               finder=_finder_label(members),
                               confidence=max(s.confidence for s in members),
-                              word_ids=list(best.word_ids)))
+                              word_ids=words))
     merged.sort(key=lambda s: (min(s.word_ids), -len(s.word_ids)))
     return merged

@@ -13,15 +13,21 @@ from pii_redact.model import Page, Span
 from pii_redact.finders.regex_finder import make_span
 
 # Where an address can start: after a label ("Registered Office:"), a sentence, a list item, or a line.
-_START = re.compile(r"(?:[:;]\s*|\.\s+(?=[A-Z0-9])|\n|\bat\s+|\bsituated\s+at\s+|\blocated\s+at\s+)")
 
 
-_KEYWORD = re.compile(r"\b(?:Road|Marg|Street|Floor|Plot|Gat|Flat|Unit|No\.?|Building|Tower|Wing|Block|Village|Taluka|"
-                      r"Nagar|Colony|Society|Park|Complex|Centre|Center|Chambers|House|Apartment|Bunglow|Bungalow|Lane|"
-                      r"Chowk|Near|Opp\.?|Behind|Sector|Phase|Area|Estate|District|Dist\.?|Off|Industrial|Campus|Residency)\b", re.I)
+
+
+def _patterns(tcfg: dict) -> tuple[re.Pattern, re.Pattern]:
+    words = [w for w in tcfg.get("starts", [":", ";"]) if w.isalpha() or " " in w]
+    puncts = [w for w in tcfg.get("starts", [":", ";"]) if not (w.isalpha() or " " in w)]
+    start = re.compile(r"(?:[%s]\s*|\.\s+(?=[A-Z0-9])|\n%s)" % (
+        re.escape("".join(puncts)), "".join(r"|\b" + re.escape(w) + r"\s+" for w in words)))
+    kw = re.compile(r"\b(?:%s)(?<![A-Za-z])" % "|".join(re.escape(w) for w in tcfg.get("keywords", [])), re.I)
+    return start, kw
 
 
 def _expand(text: str, pin_start: int, pin_end: int, tcfg: dict) -> tuple[int, int] | None:
+    _START, _KEYWORD = _patterns(tcfg)
     max_len = tcfg.get("max_len", 260)
     lo = max(0, pin_start - max_len)
     starts = [m.end() for m in _START.finditer(text, lo, pin_start)]

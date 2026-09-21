@@ -13,6 +13,7 @@ types:
     ner_labels: ["person name", "full name"]
     llm_hint: "Full or partial names of real people, incl. with honorifics (Mr., Smt., Dr.)"
     context_words: ["mr", "mrs", "ms", "smt", "shri", "dr", "name", "contact person", "director", "father"]
+    honorifics: [Mr, Mrs, Ms, Dr, Smt, Shri, Kum, Prof]
     faker: person
     policy: redact
     # A PERSON span made only of role words is a title, not a name ("Managing Director", "Contact Person").
@@ -23,6 +24,7 @@ types:
 
   - name: EMAIL
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}']
     ner_labels: ["email address"]
     llm_hint: "Email addresses"
@@ -31,6 +33,7 @@ types:
 
   - name: PHONE
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     # digit-run tolerant: '+ 91 20 4505 3237', '020-2561 8211', '+91 81081 14949'
     regex: ['(?:\+\s?\d{1,3}[\s-]?)?(?:\(?\d{2,5}\)?[\s-]?)?\d{3,5}[\s-]?\d{3,5}(?:[\s-]?\d{2,4})?']
     validator: phone
@@ -72,6 +75,11 @@ types:
     pin_regex: '\b[1-9]\d{2}\s?\d{3}\b'
     end_words: [India, Maharashtra, Gujarat, Karnataka, Delhi, "Madhya Pradesh", "Tamil Nadu"]
     max_len: 260
+    # an address must contain one of these before the PIN; it may start after one of the `starts` markers
+    keywords: [Road, Marg, Street, Floor, Plot, Gat, Flat, Unit, "No.", Building, Tower, Wing, Block, Village, Taluka,
+               Nagar, Colony, Society, Park, Complex, Centre, Center, Chambers, House, Apartment, Bunglow, Bungalow,
+               Lane, Chowk, Near, "Opp.", Behind, Sector, Phase, Area, Estate, District, "Dist.", Off, Industrial, Campus, Residency]
+    starts: [":", ";", "at", "situated at", "located at"]
     ner_labels: ["street address", "postal address"]
     llm_hint: "Physical/mailing addresses incl. plot/gat/survey numbers, village, taluka, city, PIN code"
     context_words: ["office", "address", "road", "marg", "plot", "gat", "village", "taluka", "pune", "mumbai", "floor"]
@@ -80,6 +88,7 @@ types:
 
   - name: DOB
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['\b\d{1,2}[/-]\d{1,2}[/-]\d{4}\b']
     ner_labels: ["date of birth"]
     llm_hint: "Dates of birth only (not filing, meeting or offer dates)"
@@ -90,6 +99,7 @@ types:
 
   - name: SSN
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['\b\d{3}-\d{2}-\d{4}\b']
     validator: ssn
     llm_hint: "US Social Security Numbers"
@@ -98,6 +108,7 @@ types:
 
   - name: CREDIT_CARD
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['\b(?:\d[ -]?){13,19}\b']
     validator: luhn
     llm_hint: "Payment card numbers"
@@ -106,6 +117,7 @@ types:
 
   - name: IP
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['\b(?:\d{1,3}\.){3}\d{1,3}\b', '\b(?:[A-Fa-f0-9]{1,4}:){7}[A-Fa-f0-9]{1,4}\b']
     validator: ipv4
     llm_hint: "IPv4/IPv6 addresses"
@@ -115,6 +127,7 @@ types:
   # ---- Indian identifiers (SSN equivalents) ----
   - name: PAN
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['\b[A-Z]{5}\s?[0-9]{4}\s?[A-Z]\b']
     validator: pan
     ner_labels: ["permanent account number"]
@@ -125,6 +138,7 @@ types:
 
   - name: AADHAAR
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['\b\d{4}\s?\d{4}\s?\d{4}\b']
     validator: verhoeff
     llm_hint: "12-digit Aadhaar numbers"
@@ -133,6 +147,7 @@ types:
 
   - name: DIN
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['\b\d{7}\s?\d\b|\b\d\s?\d{7}\b|\b\d{8}\b']   # digits may break across a table line
     validator: din
     requires_context: true
@@ -144,6 +159,7 @@ types:
 
   - name: GSTIN
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['\b\d{2}[A-Z]{5}\d{4}[A-Z][1-9A-Z]Z[0-9A-Z]\b']
     llm_hint: "15-char GST identification numbers"
     faker: alnum_same_shape
@@ -151,6 +167,7 @@ types:
 
   - name: IFSC
     enabled: true
+    structured: true       # identifier: a validated match fixes span boundaries in merge
     regex: ['\b[A-Z]{4}0[A-Z0-9]{6}\b']
     llm_hint: "Bank IFSC codes"
     faker: alnum_same_shape
