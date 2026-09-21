@@ -30,7 +30,7 @@ def _expand(text: str, pin_start: int, pin_end: int, tcfg: dict) -> tuple[int, i
     _START, _KEYWORD = _patterns(tcfg)
     max_len = tcfg.get("max_len", 260)
     lo = max(0, pin_start - max_len)
-    starts = [m.end() for m in _START.finditer(text, lo, pin_start)] + [lo]
+    starts = [lo] + [m.end() for m in _START.finditer(text, lo, pin_start)]
     for start in reversed(starts):                             # nearest boundary first; "Pune –\n411 045" alone is no address
         head = text[start:pin_start]
         if re.search(r"\d", head) and len(head.split()) >= 3 and _KEYWORD.search(head):

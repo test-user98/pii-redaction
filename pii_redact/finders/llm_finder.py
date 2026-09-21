@@ -43,14 +43,13 @@ def locate(text: str, needle: str) -> list[tuple[int, int]]:
 
 
 def _parse_json(s: str) -> dict:
-    s = s.strip()
-    if s.startswith("```"):
-        s = re.sub(r"^```(?:json)?\s*|\s*```$", "", s)
-    try:
-        return json.loads(s)
-    except json.JSONDecodeError:
-        a, b = s.find("{"), s.rfind("}")
-        return json.loads(s[a:b + 1])
+    """Take the outermost {...} of the reply: models (Haiku in particular) wrap it in ```json fences
+    and may add prose before or after. Raises ValueError when there is no object at all."""
+    s = re.sub(r"```(?:json)?", "", s)
+    a, b = s.find("{"), s.rfind("}")
+    if a < 0 or b < a:
+        raise ValueError(f"no JSON object in LLM reply: {s[:120]!r}")
+    return json.loads(s[a:b + 1])
 
 
 def _call_ollama(system: str, user: str, llm: dict) -> dict:

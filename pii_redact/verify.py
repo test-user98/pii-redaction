@@ -3,17 +3,29 @@ from __future__ import annotations
 
 import re
 
+from pii_redact.config import pii_types
 from pii_redact.model import Doc
 
 LEGEND_HEADING = "Redaction legend"
 _WS = re.compile(r"\s+")
+MIN_NEEDLE_CHARS = 5       # "PAN", "mer", "Supa" match ordinary words everywhere
+MIN_DIGIT_NEEDLE = 7       # "2025", "100" are not identifiers; a phone/DIN/Aadhaar has 7+ digits
 
 
 def _norm(s: str) -> str:
     return _WS.sub("", s).casefold()
 
 
-def verify(doc: Doc, out_path: str, cfg: dict) -> dict:
+def _needle_ok(raw: str, generic: set[str]) -> bool:
+    n = _norm(raw)
+    if len(n) < MIN_NEEDLE_CHARS or (n.isdigit() and len(n) < MIN_DIGIT_NEEDLE):
+        return False
+    tokens = re.findall(r"[A-Za-z][A-Za-z'&.-]*", raw)
+    return not (tokens and all(t.lower().strip(".") in generic for t in tokens))   # "Telephone", "Tel. No."
+
+
+def verify(doc: Doc, out_path: str, cfg: dict, types: list[dict] | None = None) -> dict:
+    generic_by_type = {t["name"]: {w.lower() for w in t.get("generic_words") or []} for t in (types or pii_types())}
     skip_legend = cfg.get("surrogates", {}).get("legend") == "full"
     units = _pdf_units(out_path) if doc.fmt == "pdf" else _docx_units(out_path)
     if skip_legend:
@@ -24,9 +36,10 @@ def verify(doc: Doc, out_path: str, cfg: dict) -> dict:
     needles = []  # (entity_id, needle_text)
     for ent in doc.entities:
         seen = set()
+        generic = generic_by_type.get(ent.type, set())
         for raw in [ent.canonical] + [m.text for m in ent.mentions]:
             n = _norm(raw)
-            if len(n) >= 3 and n not in seen:
+            if n not in seen and _needle_ok(raw, generic):
                 seen.add(n)
                 needles.append((ent.id, raw))
 

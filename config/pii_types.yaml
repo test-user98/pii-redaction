@@ -5,6 +5,10 @@
 #   ner_labels    - label strings passed to GLiNER2-PII at inference time
 #   llm_hint      - one line shown to the LLM finder describing the type
 #   context_words - nearby words that raise confidence for ambiguous matches
+#   context_scope - window (60 chars) | page | doc  (doc: the previous page's context word also counts)
+#   structured    - identifier type: judge drops any span whose text does not match regex + validator
+#   min_chars     - judge drops spans shorter than this ("mer", "PAN")
+#   generic_words - role words; a span made only of these is dropped (judge) / not searched (verify)
 #   faker         - surrogate generator name in surrogates.py
 #   policy        - redact | exempt | review
 types:
@@ -14,6 +18,7 @@ types:
     llm_hint: "Full or partial names of real people, incl. with honorifics (Mr., Smt., Dr.)"
     context_words: ["mr", "mrs", "ms", "smt", "shri", "dr", "name", "contact person", "director", "father"]
     honorifics: [Mr, Mrs, Ms, Dr, Smt, Shri, Kum, Prof]
+    min_chars: 4
     faker: person
     policy: redact
     # A PERSON span made only of role words is a title, not a name ("Managing Director", "Contact Person").
@@ -40,6 +45,7 @@ types:
     ner_labels: ["phone number", "telephone number"]
     llm_hint: "Telephone / mobile / fax numbers in any spacing"
     context_words: ["tel", "telephone", "phone", "mobile", "fax", "contact"]
+    generic_words: [tel, telephone, phone, mobile, fax, contact, number, "no"]
     faker: phone
     policy: redact
 
@@ -47,7 +53,12 @@ types:
     enabled: true
     ner_labels: ["organization", "company name"]
     llm_hint: "Private companies, banks, law firms, auditors, trusts, LLPs (not regulators or laws)"
-    context_words: ["limited", "ltd", "llp", "private", "trust", "bank", "corporation", "inc"]
+    # a single-token ORG seen by one finder ("Supa", "Mega") goes to review unless one of these is nearby
+    # ("Trilegal" under "Legal Counsel"). Set single_token_needs_context: false to keep them.
+    context_words: ["limited", "ltd", "llp", "private", "trust", "bank", "corporation", "inc",
+                    "counsel", "advocates", "solicitors", "associates", "consultants"]
+    single_token_needs_context: true
+    min_chars: 4
     faker: org
     policy: redact
     # An ORG span made only of these words is a document role, not a company ("our Company",
@@ -83,6 +94,7 @@ types:
     ner_labels: ["street address", "postal address"]
     llm_hint: "Physical/mailing addresses incl. plot/gat/survey numbers, village, taluka, city, PIN code"
     context_words: ["office", "address", "road", "marg", "plot", "gat", "village", "taluka", "pune", "mumbai", "floor"]
+    min_chars: 4
     faker: address
     policy: redact
 
@@ -151,7 +163,7 @@ types:
     regex: ['\b\d{7}\s?\d\b|\b\d\s?\d{7}\b|\b\d{8}\b']   # digits may break across a table line
     validator: din
     requires_context: true
-    context_scope: page          # the 'DIN' column header is far from the values
+    context_scope: doc           # the 'DIN' column header is far from the values, or on the previous page
     context_words: ["din", "director identification"]
     llm_hint: "8-digit Director Identification Numbers"
     faker: digits

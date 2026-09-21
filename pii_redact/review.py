@@ -32,6 +32,8 @@ def review_page(original_text: str, redacted_text: str, page_mapping: list[dict]
     expected = "\n".join(f"- {m.get('real', '')} -> {m.get('surrogate', '')} ({m.get('type', '')})" for m in page_mapping) or "- (none)"
     user = (f"ORIGINAL PAGE:\n{original_text}\n\nREDACTED PAGE:\n{redacted_text}\n\n"
             f"EXPECTED REPLACEMENTS:\n{expected}\n\nReturn the JSON object.")
+    if rc.get("provider") == "anthropic":
+        return _anthropic(model, user)
     body = {"model": model, "format": "json", "stream": False, "options": {"temperature": 0},
             "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}]}
     try:
@@ -52,3 +54,17 @@ def review_page(original_text: str, redacted_text: str, page_mapping: list[dict]
         v = data.get(k, [])
         out[k] = [x if isinstance(x, str) else json.dumps(x, ensure_ascii=False) for x in (v if isinstance(v, list) else [v])]
     return out
+
+
+def _anthropic(model: str, user: str) -> dict:
+    """Same review through the Claude API (provider: anthropic in config/backends.yaml)."""
+    try:
+        from anthropic import Anthropic
+        from .finders.llm_finder import _parse_json
+        r = Anthropic().messages.create(model=model, max_tokens=1024, system=SYSTEM,
+                                        messages=[{"role": "user", "content": user}])
+        data = _parse_json("".join(b.text for b in r.content if getattr(b, "type", "") == "text"))
+    except Exception as e:                      # flag-only stage: never raise
+        return {"error": f"{type(e).__name__}: {str(e)[:200]}"}
+    return {k: [x if isinstance(x, str) else json.dumps(x, ensure_ascii=False)
+                for x in (data.get(k, []) if isinstance(data.get(k, []), list) else [data.get(k)])] for k in KEYS}

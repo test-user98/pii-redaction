@@ -1,16 +1,46 @@
 """Step 2: text views of a page with an exact char -> Word.id map (see CONTRACTS.md)."""
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 
 from .model import Page, PageText, Word
 
 MIN_COLUMN_LEN = 3  # single-letter lines needed before we call it a spaced-out word
+# "Rastogi/Abhijit": two names the text layer joined with a slash; each side is a plain word of 2+ letters
+_SLASHED = re.compile(r"([(\[]?)([A-Za-z]{2,}(?:/[A-Za-z]{2,})+)([,.;:)\]]*)")
 
 
 def build_views(page: Page) -> dict[str, PageText]:
+    _split_slashed_words(page)
     words = sorted(page.words, key=lambda w: w.id)
     return {"raw": _raw(page.page_no, words), "layout": _layout(page.page_no, words)}
+
+
+def _split_slashed_words(page: Page) -> None:
+    """Split a text-layer word like "Rastogi/Abhijit" into "Rastogi/" + "Abhijit" **at the Word level**
+    (page.words is rewritten; later ids shift up). A space in the view alone would not do: both names
+    would still share one Word id and merge would fuse them back into one span. The new Word keeps
+    block/line/source and gets a bbox cut in proportion to its characters. PDF/OCR words only (bbox)."""
+    out: list[Word] = []
+    for w in sorted(page.words, key=lambda w: w.id):
+        m = _SLASHED.fullmatch(w.text) if "bbox" in w.loc else None
+        if not m:
+            w.id = len(out)
+            out.append(w)
+            continue
+        open_, body, close = m.groups()
+        parts = body.split("/")
+        pieces = [open_ + parts[0] + "/"] + [p + "/" for p in parts[1:-1]] + [parts[-1] + close]
+        x0, y0, x1, y1 = w.loc["bbox"]
+        n, pos = len(w.text), 0
+        for k, piece in enumerate(pieces):
+            bbox = (x0 + (x1 - x0) * pos / n, y0, x0 + (x1 - x0) * (pos + len(piece)) / n, y1)
+            part = w if k == 0 else Word(id=0, page=w.page, text="", loc={}, source=w.source, block=w.block, line=w.line)
+            part.id, part.text, part.loc = len(out), piece, dict(w.loc, bbox=bbox)
+            out.append(part)
+            pos += len(piece)
+    page.words = out
 
 
 class _Buf:
