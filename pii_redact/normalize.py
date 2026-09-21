@@ -21,10 +21,11 @@ def _split_slashed_words(page: Page) -> None:
     """Split a text-layer word like "Rastogi/Abhijit" into "Rastogi/" + "Abhijit" **at the Word level**
     (page.words is rewritten; later ids shift up). A space in the view alone would not do: both names
     would still share one Word id and merge would fuse them back into one span. The new Word keeps
-    block/line/source and gets a bbox cut in proportion to its characters. PDF/OCR words only (bbox)."""
+    block/line/source and gets a bbox cut in proportion to its characters (PDF/OCR) or an offset
+    shifted inside the same run (DOCX)."""
     out: list[Word] = []
     for w in sorted(page.words, key=lambda w: w.id):
-        m = _SLASHED.fullmatch(w.text) if "bbox" in w.loc else None
+        m = _SLASHED.fullmatch(w.text) if ("bbox" in w.loc or "offset" in w.loc) else None
         if not m:
             w.id = len(out)
             out.append(w)
@@ -32,12 +33,15 @@ def _split_slashed_words(page: Page) -> None:
         open_, body, close = m.groups()
         parts = body.split("/")
         pieces = [open_ + parts[0] + "/"] + [p + "/" for p in parts[1:-1]] + [parts[-1] + close]
-        x0, y0, x1, y1 = w.loc["bbox"]
-        n, pos = len(w.text), 0
+        n, pos, orig = len(w.text), 0, dict(w.loc)     # keep the original loc: piece 0 reuses w and overwrites w.loc
         for k, piece in enumerate(pieces):
-            bbox = (x0 + (x1 - x0) * pos / n, y0, x0 + (x1 - x0) * (pos + len(piece)) / n, y1)
+            if "bbox" in orig:
+                x0, y0, x1, y1 = orig["bbox"]
+                loc = dict(orig, bbox=(x0 + (x1 - x0) * pos / n, y0, x0 + (x1 - x0) * (pos + len(piece)) / n, y1))
+            else:
+                loc = dict(orig, offset=orig["offset"] + pos)
             part = w if k == 0 else Word(id=0, page=w.page, text="", loc={}, source=w.source, block=w.block, line=w.line)
-            part.id, part.text, part.loc = len(out), piece, dict(w.loc, bbox=bbox)
+            part.id, part.text, part.loc = len(out), piece, loc
             out.append(part)
             pos += len(piece)
     page.words = out
