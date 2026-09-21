@@ -17,6 +17,12 @@ Output : out/<doc_id>/rhp.redacted.pdf     same format, layout preserved (true r
          out/<doc_id>/summary.json         run summary incl. the verify result
 ```
 
+## System design
+
+![PII redaction pipeline](docs/architecture.svg)
+
+Source: `docs/architecture.html` (self-contained, editable). Full design with the production path in `DESIGN.md`.
+
 ## Run it
 
 ```bash
@@ -98,6 +104,8 @@ pages 110–116 with directors' home addresses and DINs, and page 128, the scann
 
 **Matching:** same page, same type, case/whitespace-insensitive equality or containment; one-to-one, greedy by longest.
 Token accuracy = fraction of tokens on the labelled pages whose redact/keep decision is right.
+
+**Published report:** https://claude.ai/artifact/5xUfowKhS8MqsAhhFP5rCJ (also `deliverables/eval_report.html`, `EVAL_REPORT.md`).
 
 **Every change is logged with its score** in `eval/RUNS.md` (commit, note, per-type F1); the latest full report with
 the miss list and false-hit list is `eval/LATEST_REPORT.md`, and each run's report sits in `out/<doc_id>/EVAL_REPORT.md`.
