@@ -1,0 +1,136 @@
+# One block per PII type. Add a block to add a type; set enabled: false to remove one.
+# Fields:
+#   regex         - list of patterns (whitespace inside identifiers is tolerated by the finder)
+#   validator     - name of a checksum/format function in finders/validators.py (optional)
+#   ner_labels    - label strings passed to GLiNER2-PII at inference time
+#   llm_hint      - one line shown to the LLM finder describing the type
+#   context_words - nearby words that raise confidence for ambiguous matches
+#   faker         - surrogate generator name in surrogates.py
+#   policy        - redact | exempt | review
+types:
+  - name: PERSON
+    enabled: true
+    ner_labels: ["person name", "full name"]
+    llm_hint: "Full or partial names of real people, incl. with honorifics (Mr., Smt., Dr.)"
+    context_words: ["mr", "mrs", "ms", "smt", "shri", "dr", "name", "contact person", "director", "father"]
+    faker: person
+    policy: redact
+
+  - name: EMAIL
+    enabled: true
+    regex: ['[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}']
+    ner_labels: ["email address"]
+    llm_hint: "Email addresses"
+    faker: email
+    policy: redact
+
+  - name: PHONE
+    enabled: true
+    # digit-run tolerant: '+ 91 20 4505 3237', '020-2561 8211', '+91 81081 14949'
+    regex: ['(?:\+\s?\d{1,3}[\s-]?)?(?:\(?\d{2,5}\)?[\s-]?)?\d{3,5}[\s-]?\d{3,5}(?:[\s-]?\d{2,4})?']
+    validator: phone
+    ner_labels: ["phone number", "telephone number"]
+    llm_hint: "Telephone / mobile / fax numbers in any spacing"
+    context_words: ["tel", "telephone", "phone", "mobile", "fax", "contact"]
+    faker: phone
+    policy: redact
+
+  - name: ORG
+    enabled: true
+    ner_labels: ["organization", "company name"]
+    llm_hint: "Private companies, banks, law firms, auditors, trusts, LLPs (not regulators or laws)"
+    context_words: ["limited", "ltd", "llp", "private", "trust", "bank", "corporation", "inc"]
+    faker: org
+    policy: redact
+    # Regulators, exchanges and statutes are public bodies, not PII. Case-insensitive substring match.
+    allowlist: ["SEBI", "Securities and Exchange Board of India", "BSE", "NSE", "National Stock Exchange",
+                "RBI", "Reserve Bank of India", "Registrar of Companies", "RoC", "Companies Act",
+                "SEBI ICDR Regulations", "Income Tax Department", "Government of India", "NSDL", "CDSL",
+                "NPCI", "Ministry of", "Department of"]
+
+  - name: ADDRESS
+    enabled: true
+    ner_labels: ["street address", "postal address"]
+    llm_hint: "Physical/mailing addresses incl. plot/gat/survey numbers, village, taluka, city, PIN code"
+    context_words: ["office", "address", "road", "marg", "plot", "gat", "village", "taluka", "pune", "mumbai", "floor"]
+    faker: address
+    policy: redact
+
+  - name: DOB
+    enabled: true
+    regex: ['\b\d{1,2}[/-]\d{1,2}[/-]\d{4}\b']
+    ner_labels: ["date of birth"]
+    llm_hint: "Dates of birth only (not filing, meeting or offer dates)"
+    context_words: ["date of birth", "dob", "born", "birth"]
+    requires_context: true      # regex hit counts only if a context word is within 60 chars
+    faker: dob
+    policy: redact
+
+  - name: SSN
+    enabled: true
+    regex: ['\b\d{3}-\d{2}-\d{4}\b']
+    validator: ssn
+    llm_hint: "US Social Security Numbers"
+    faker: ssn
+    policy: redact
+
+  - name: CREDIT_CARD
+    enabled: true
+    regex: ['\b(?:\d[ -]?){13,19}\b']
+    validator: luhn
+    llm_hint: "Payment card numbers"
+    faker: credit_card
+    policy: redact
+
+  - name: IP
+    enabled: true
+    regex: ['\b(?:\d{1,3}\.){3}\d{1,3}\b', '\b(?:[A-Fa-f0-9]{1,4}:){7}[A-Fa-f0-9]{1,4}\b']
+    validator: ipv4
+    llm_hint: "IPv4/IPv6 addresses"
+    faker: ip
+    policy: redact
+
+  # ---- Indian identifiers (SSN equivalents) ----
+  - name: PAN
+    enabled: true
+    regex: ['\b[A-Z]{5}\s?[0-9]{4}\s?[A-Z]\b']
+    validator: pan
+    ner_labels: ["permanent account number"]
+    llm_hint: "Indian income-tax PAN, format AAAAA9999A"
+    context_words: ["pan", "permanent account"]
+    faker: pan
+    policy: redact
+
+  - name: AADHAAR
+    enabled: true
+    regex: ['\b\d{4}\s?\d{4}\s?\d{4}\b']
+    validator: verhoeff
+    llm_hint: "12-digit Aadhaar numbers"
+    faker: aadhaar
+    policy: redact
+
+  - name: DIN
+    enabled: true
+    regex: ['\b\d{8}\b']
+    requires_context: true
+    context_words: ["din", "director identification"]
+    llm_hint: "8-digit Director Identification Numbers"
+    faker: digits
+    policy: redact
+
+  - name: GSTIN
+    enabled: true
+    regex: ['\b\d{2}[A-Z]{5}\d{4}[A-Z][1-9A-Z]Z[0-9A-Z]\b']
+    llm_hint: "15-char GST identification numbers"
+    faker: alnum_same_shape
+    policy: redact
+
+  - name: IFSC
+    enabled: true
+    regex: ['\b[A-Z]{4}0[A-Z0-9]{6}\b']
+    llm_hint: "Bank IFSC codes"
+    faker: alnum_same_shape
+    policy: redact
+
+  # Explicitly NOT PII (documented choice): CIN, SEBI registration numbers, page numbers,
+  # order/ticket numbers, filing/offer dates. They identify companies/filings, not people.

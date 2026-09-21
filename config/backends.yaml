@@ -1,0 +1,37 @@
+parser: pymupdf            # pymupdf | (future: docling, firecrawl)
+
+routing:                   # a page is "hard" if ANY threshold trips
+  min_text_density: 0.0005     # text-layer chars per pt^2 of page area; below = scanned page
+  max_single_letter_ratio: 0.15  # share of 1-char tokens; above = broken table cells
+  max_image_area_ratio: 0.10     # share of page covered by images; above = ID cards / stamps
+  llm_easy_page_sample: 0.10     # fraction of easy pages also sent to the LLM as a spot-check
+
+ocr:
+  engine: rapidocr         # runs only on image blocks and text-less pages
+  min_confidence: 0.5
+
+ner:
+  model: fastino/gliner2-privacy-filter-PII-multi
+  threshold: 0.4
+
+llm:
+  provider: ollama         # ollama | anthropic | none
+  model: qwen2.5:7b        # anthropic: claude-haiku-4-5
+  base_url: http://localhost:11434
+  chunk_chars: 4000
+  overlap_chars: 300
+  timeout_s: 120
+
+judge:
+  drop_single_finder_below: 0.5   # a span from ONE finder with confidence below this is dropped
+  review_single_finder_below: 0.7 # ... and between this and drop threshold goes to review.csv
+  common_word_names_gated: true   # 'Broad', 'Everest', 'May' need capitalisation/title/neighbour evidence
+
+surrogates:
+  salt: dev-salt           # override with PII_SALT env var in real use
+  legend: full             # none | surrogates | full  (what table is appended to the output document)
+
+review:                    # step 10b: LLM re-reads each redacted page and flags problems (no auto-edit)
+  enabled: true
+  provider: ollama
+  model: qwen2.5:7b
