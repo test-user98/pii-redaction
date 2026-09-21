@@ -18,7 +18,7 @@ pages: 1, 2, 3, 4, 5, 6, 110, 111, 112, 114, 115, 116, 128
 | PHONE | 20 | 0 | 1 | 1.000 | 0.952 | 0.976 |
 | **micro** | 192 | 11 | 7 | 0.946 | 0.965 | 0.955 |
 
-Token accuracy: **0.9836** (5225/5312 tokens); pages without extractable text skipped: [128]
+Token accuracy: **0.9838** (5226/5312 tokens); pages without extractable text skipped: [128]
 
 ## Misses (FN)
 

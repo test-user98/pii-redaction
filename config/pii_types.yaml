@@ -25,7 +25,8 @@ types:
     generic_words: [mr, mrs, ms, dr, smt, shri, kum, the, our, of, and, director, directors, chairman, managing, joint,
                     executive, independent, whole-time, secretary, officer, person, contact, promoter, promoters, name,
                     company, member, members, trustee, trustees, partner, partners, auditor, auditors, chief, financial,
-                    ceo, cfo, cs, compliance, key, managerial, personnel, senior, management, technical, registrar, bidder]
+                    ceo, cfo, cs, compliance, key, managerial, personnel, senior, management, technical, registrar, bidder,
+                    shareholder, shareholders, investor, investors, bidders, allottee, allottees, applicant, applicants]
 
   - name: EMAIL
     enabled: true
@@ -73,7 +74,8 @@ types:
                     depository, participant, participants, registered, broker, brokers, agent, agents, transfer, share,
                     group, entities, entity, trusts, management, key, managerial, personnel, senior, statutory, auditor,
                     auditors, independent, chartered, engineer, monitoring, agency, legal, counsel, underwriter, underwriters,
-                    government, state, ministry, department, income, tax, authority, income-tax, govt, office, unit, facility]
+                    government, state, ministry, department, income, tax, authority, income-tax, govt, office, unit, facility,
+                    equity, shares, share, capital, issue, fresh, sale, price, band, lot, bid, bids, application, form, forms]
     # Regulators, exchanges and statutes are public bodies, not PII. Case-insensitive substring match.
     allowlist: ["SEBI", "Securities and Exchange Board of India", "BSE", "NSE", "National Stock Exchange",
                 "RBI", "Reserve Bank of India", "Registrar of Companies", "RoC", "Companies Act",
