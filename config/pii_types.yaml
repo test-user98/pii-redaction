@@ -78,7 +78,7 @@ types:
     # an address must contain one of these before the PIN; it may start after one of the `starts` markers
     keywords: [Road, Marg, Street, Floor, Plot, Gat, Flat, Unit, "No.", Building, Tower, Wing, Block, Village, Taluka,
                Nagar, Colony, Society, Park, Complex, Centre, Center, Chambers, House, Apartment, Bunglow, Bungalow,
-               Lane, Chowk, Near, "Opp.", Behind, Sector, Phase, Area, Estate, District, "Dist.", Off, Industrial, Campus, Residency]
+               Lane, Chowk, Near, "Opp.", Behind, Sector, Phase, Area, Estate, District, "Dist.", "Off", Industrial, Campus, Residency]
     starts: [":", ";", "at", "situated at", "located at"]
     ner_labels: ["street address", "postal address"]
     llm_hint: "Physical/mailing addresses incl. plot/gat/survey numbers, village, taluka, city, PIN code"
