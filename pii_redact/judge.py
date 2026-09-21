@@ -60,6 +60,15 @@ def _name_shaped(span: Span) -> bool:
     return any(c.isupper() for c in span.text)
 
 
+def seed_ok(span: Span, tcfg: dict) -> bool:
+    """May this span seed cross-page propagation? Same shape rules the judge applies to keep a span."""
+    if is_exempt(span.text, tcfg):
+        return False
+    if span.type in ("PERSON", "ORG") and (not _name_shaped(span) or is_generic(span.text, tcfg)):
+        return False
+    return len(span.text.strip()) >= 4
+
+
 def judge(page: Page, types: list[dict], cfg: dict, audit=None) -> tuple[list[Span], list[Span]]:
     """Return (kept, review) from page.spans.
 

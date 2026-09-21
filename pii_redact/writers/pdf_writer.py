@@ -45,6 +45,7 @@ def _redact_text_span(page: pymupdf.Page, span_words: list[Word], surrogate: str
     for w in span_words:
         lines.setdefault((w.block, w.line), []).append(w)
     groups = list(lines.values())
+    surrogate = " ".join(surrogate.split())          # a "\n" inside the fake makes PyMuPDF draw nothing
     fragments = split_proportionally(surrogate, [sum(len(w.text) for w in g) for g in groups])
     for group, frag in zip(groups, fragments):
         rect = pymupdf.Rect(group[0].loc["bbox"])

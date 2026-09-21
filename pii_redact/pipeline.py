@@ -72,7 +72,9 @@ def run(path: str, out_dir: str, *, use_llm: bool = True, use_review: bool = Tru
                        ex.map(lambda p: _page_pass(p, doc, types, cfg, audit, use_llm, llm_pages), pages)))
 
     # Step 5d: propagate confirmed mentions across the whole document.
-    confirmed = [s for spans in raw.values() for s in spans if s.confidence >= 0.7]
+    by_name = {t["name"]: t for t in types}
+    confirmed = [s for spans in raw.values() for s in spans
+                 if s.confidence >= 0.7 and judge_mod.seed_ok(s, by_name.get(s.type, {}))]
     for s in _timed(audit, "find", None, "propagate", lambda: propagate.find(doc, confirmed, types, cfg)):
         raw.setdefault(s.page, []).append(s)
 

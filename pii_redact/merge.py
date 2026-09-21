@@ -64,9 +64,9 @@ def _trim(spans: list[Span], page: Page) -> None:
         for v in spans:
             if v is a or v.view != a.view or not _validated(v) or v.end <= a.start or v.start >= a.end:
                 continue
-            if a.end - a.start < v.end - v.start + 8:
-                continue                                    # mostly the identifier: let the group collapse
-            if v.start - a.start <= a.end - v.end:
+            if a.end - a.start < v.end - v.start + 8:      # mostly the identifier ("PAN NBWPS 1951N"):
+                a.start, a.end, a.text, a.word_ids = v.start, v.end, v.text, list(v.word_ids)   # become it, keep the vote
+            elif v.start - a.start <= a.end - v.end:
                 _set_start(a, v.end, page)
             else:
                 _set_end(a, v.start, page)

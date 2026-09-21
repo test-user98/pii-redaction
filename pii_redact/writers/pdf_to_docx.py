@@ -9,6 +9,8 @@ def pdf_to_docx(redacted_pdf_path: str, out_path: str) -> None:
     document = docx.Document()
     with pymupdf.open(redacted_pdf_path) as pdf:
         for pno, page in enumerate(pdf):
+            if page.get_text().lstrip().startswith("Redaction legend"):
+                continue                                    # the real->fake legend must not travel with the DOCX
             if pno:
                 document.add_page_break()
             items = []  # (y0, x0, kind, payload)
