@@ -1,96 +1,95 @@
 # PII Redaction Tool
 
-Takes a PDF or DOCX, finds personal data, and writes back the **same file format with the same layout**, every
-value replaced by a realistic fake. The same person is always the same fake person — on every page, in every
-partial mention ("Rajesh Kushal Hegde", "Mr. Hegde"), and in their email. New PII types are added in a YAML file.
+This tool finds personal information in PDF and Word documents and replaces it with realistic fake information.
 
-**Evaluation report (public):** https://claude.ai/artifact/5xUfowKhS8MqsAhhFP5rCJ
+For example:
 
-## How it works
+```text
+Sarthak Malvadkar       -> Rohan Deshpande
+sarthak@example.com     -> rohan.deshpande@example.com
+```
 
-![PII redaction pipeline](docs/architecture.svg)
+The same real value gets the same replacement everywhere in the document. The output keeps the original file type
+and tries to preserve the original layout.
 
-1. **Parse** the file into words with exact positions (PyMuPDF / python-docx) and build a text view where table
-   cells, hyphenated lines and letter-broken names are rejoined. Every character knows its source word.
-2. **Route**: a page is "hard" if its text layer is thin, tokens are single letters, or images cover it. Only image
-   blocks get OCR (RapidOCR); only hard pages get the LLM.
-3. **Find** with independent detectors and take the **union**: regex + checksum validators (email, phone, PAN,
-   Aadhaar, DIN, GSTIN, IFSC, card, SSN, IP, DOB), a PIN-code-anchored address finder, the GLiNER2-PII encoder
-   (labels from config), an LLM on hard pages (local Ollama `qwen2.5:7b`, or Claude Haiku), and propagation of every
-   confirmed name to every page.
-4. **Judge**: validated identifiers win type; regulators/exchanges/statutes are allowlisted; generic role phrases
-   ("our Company", "Managing Director") are dropped; single-finder low-confidence spans go to `review.csv`.
-5. **Surrogates**: entities are clustered across pages; `HMAC(salt, value)` seeds Faker; names map token by token.
-6. **Write** in place: PDF true redaction (text removed, fake drawn in the same box), DOCX run-level edits, images
-   re-inserted redacted, metadata scrubbed. Then **verify** by searching the output for every original value, and an
-   LLM reviewer flags anything suspicious per page.
+## Simple workflow
 
-Every step logs backend, latency and confidence to `audit.jsonl`; `mapping.csv` is the real→fake table for the run.
+1. **Read the document** and locate its text and images.
+2. **Detect personal information** such as names, email addresses, phone numbers, addresses, and ID numbers.
+3. **Replace each detected value** with a consistent fake value.
+4. **Check the finished document** to make sure the original values are no longer present.
 
-## Run
+## Tools used
+
+| Part | Tool | What it helps with |
+|---|---|---|
+| Read PDF files | PyMuPDF | Reads text and remembers where it appears on the page. |
+| Read Word files | python-docx | Reads and updates text, tables, headers, footers, links, and images. |
+| Read text inside images | RapidOCR | Finds text in scanned pages and document images. |
+| Detect fixed formats | Regular expressions and validators | Finds emails, phones, PAN, Aadhaar, DIN, GSTIN, IFSC, cards, SSNs, IPs, and dates of birth. |
+| Detect names and organisations | GLiNER2 | Finds personal information written in normal sentences. |
+| Check difficult pages | Ollama or Claude | Provides an optional second check when normal detection may miss something. |
+| Create replacements | Faker | Creates realistic fake names, companies, addresses, and other values. |
+
+The tool combines these detection methods because no single method finds every kind of personal information.
+
+## What it detects
+
+- Names
+- Email addresses and phone numbers
+- Home and office addresses
+- Private companies, banks, law firms, auditors, and trusts
+- Dates of birth
+- PAN, Aadhaar, DIN, GSTIN, IFSC, SSN, card numbers, and IP addresses
+
+Public organisations and general document information, such as SEBI, BSE, NSE, laws, page numbers, monetary
+amounts, and filing dates, are left unchanged.
+
+## Run it
 
 ```bash
-uv venv --python 3.12 && source .venv/bin/activate && uv pip install -e ".[dev]"
-python -m pii_redact.cli samples/rhp.pdf            # → out/<doc_id>/rhp.redacted.pdf + .docx + mapping.csv
-python -m pii_redact.cli samples/rhp.docx           # DOCX in → DOCX out
-uvicorn pii_redact.api:app                          # POST /redact (file) → job id → GET /jobs/{id}/download
-pytest -q                                           # unit, end-to-end, failure paths
-python eval/run_eval.py --note "what changed"       # score on the labelled pages, appends to eval/RUNS.md
+uv venv --python 3.12
+source .venv/bin/activate
+uv pip install -e ".[dev]"
+
+python -m pii_redact.cli samples/rhp.pdf
+python -m pii_redact.cli samples/rhp.docx
 ```
 
-LLM backend is a config switch (`config/backends.yaml`): `ollama` (default, free, local) or `anthropic`
-(`ANTHROPIC_API_KEY`, ~$0.40 per 128-page document). `provider: none` runs fully offline.
+To run without the optional LLM checks:
 
-## What is treated as PII
-
-Redacted: names, emails, phones, private companies/banks/law firms/auditors/trusts, addresses, dates of birth,
-PAN, Aadhaar, DIN, GSTIN, IFSC, SSN, card numbers, IPs.
-Not redacted (explicit choice): regulators and statutes (SEBI, BSE, NSE, RBI, Companies Act), CIN and SEBI
-registration numbers, page numbers, offer/filing dates, amounts, order/ticket-style numbers. Change per type in
-`config/pii_types.yaml`.
-
-## Adding a PII type
-
-```yaml
-- name: PASSPORT
-  regex: ['\b[A-Z][0-9]{7}\b']
-  ner_labels: ["passport number"]
-  llm_hint: "Indian passport numbers"
-  context_words: ["passport"]
-  faker: alnum_same_shape
-  policy: redact          # redact | exempt | review
+```bash
+python -m pii_redact.cli samples/rhp.pdf --no-llm --no-review
 ```
 
-## Evaluation
+To start the upload API:
 
-Ground truth: 199 PII mentions hand-labelled on 14 pages (cover, general information, the scanned PAN card).
-Matching: same page and type, whitespace/case-insensitive, one-to-one. Every code change is committed with its
-score in `eval/RUNS.md`; a change that lowers recall is not kept.
-
-| precision | recall | F1 | token accuracy |
-|---|---|---|---|
-| 0.902 | 0.930 | 0.916 | 0.977 |
-
-Full report with per-type numbers, misses and false hits: the public link above, `EVAL_REPORT.md`, and
-`deliverables/` (redacted PDF, redacted DOCX, mapping).
-
-Trade-offs noticed: the LLM occasionally labels amounts as card numbers (now filtered by shape); OCR spelling on the
-scanned card differs from the transcribed truth; a building that is also a firm name is ORG to the model and ADDRESS
-to the truth — redacted either way.
-
-## Future scope
-
-- **Self-learning loop**: reviewed misses/false hits retune thresholds and gazetteers automatically, and fine-tune the
-  GLiNER judge on a schedule, gated on held-out recall.
-- **Monitoring**: per-step metrics (latency, spans, confidence, verify result) exported to Grafana; automatic
-  LLM-written run summaries and alerts per stage.
-- Upload API with object storage and a worker queue; Docling / VLM-OCR backends for scanned inputs; review UI.
-
-## Layout
-
+```bash
+uvicorn pii_redact.api:app
 ```
-pii_redact/   parse, normalize, ocr, finders/, merge, judge, surrogates, writers/, verify, review, pipeline, cli, api
-config/       pii_types.yaml (what is PII)   backends.yaml (which tools, thresholds)
-eval/         ground_truth/, eval.py, run_eval.py, RUNS.md
-docs/         architecture.html / .svg       DESIGN.md: full design and production path
+
+## Output
+
+Each run creates a folder under `out/<document-id>/` containing:
+
+- The redacted PDF or Word document
+- `mapping.csv`: the original values and their replacements
+- `review.csv`: uncertain findings that need human review
+- `summary.json`: the result of the run and the final leak check
+- `audit.jsonl`: a technical activity log
+
+`mapping.csv` contains the original personal information and must be kept private.
+
+## Quality checks
+
+The test set contains 199 manually labelled examples across 14 document pages. The latest recorded result found
+93% of the labelled personal information, and about 90% of its detections were correct.
+
+Run the automated tests with:
+
+```bash
+pytest -q
 ```
+
+Detailed architecture, evaluation, limitations, and future plans are in [DESIGN.md](DESIGN.md) and
+[eval/LATEST_REPORT.md](eval/LATEST_REPORT.md).
