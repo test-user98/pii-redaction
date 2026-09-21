@@ -8,32 +8,27 @@ pages: 1, 2, 3, 4, 5, 6, 110, 111, 112, 114, 115, 116, 128
 
 | type | TP | FP | FN | precision | recall | F1 |
 |---|---|---|---|---|---|---|
-| ADDRESS | 22 | 3 | 6 | 0.880 | 0.786 | 0.830 |
+| ADDRESS | 23 | 3 | 5 | 0.885 | 0.821 | 0.852 |
 | DIN | 7 | 0 | 1 | 1.000 | 0.875 | 0.933 |
 | DOB | 1 | 1 | 0 | 0.500 | 1.000 | 0.667 |
 | EMAIL | 30 | 2 | 1 | 0.938 | 0.968 | 0.952 |
-| ORG | 50 | 10 | 4 | 0.833 | 0.926 | 0.877 |
+| ORG | 51 | 8 | 3 | 0.864 | 0.944 | 0.903 |
 | PAN | 1 | 1 | 0 | 0.500 | 1.000 | 0.667 |
-| PERSON | 49 | 3 | 6 | 0.942 | 0.891 | 0.916 |
-| PHONE | 20 | 1 | 1 | 0.952 | 0.952 | 0.952 |
-| **micro** | 180 | 21 | 19 | 0.896 | 0.905 | 0.900 |
+| PERSON | 52 | 3 | 3 | 0.945 | 0.945 | 0.945 |
+| PHONE | 20 | 2 | 1 | 0.909 | 0.952 | 0.930 |
+| **micro** | 185 | 20 | 14 | 0.902 | 0.930 | 0.916 |
 
-Token accuracy: **0.9710** (5158/5312 tokens); pages without extractable text skipped: [128]
+Token accuracy: **0.9768** (5189/5312 tokens); pages without extractable text skipped: [128]
 
 ## Misses (FN)
 
 | page | text | type | reason |
 |---|---|---|---|
 | 1 | 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045 Maharashtra, India | ADDRESS |  |
-| 4 | Nuvama Wealth Management Limited | ORG |  |
-| 4 | Lokesh Shah | PERSON |  |
-| 4 | Soumavo Sarkar | PERSON |  |
 | 6 | Abhijit Diwan | PERSON |  |
 | 6 | Link Intime India Private Limited | ORG |  |
-| 110 | 12 Buena Monte, NCL co-operative housing society, Panchvati, Pashan, Pune – 411 008, Maharashtra, India | ADDRESS |  |
 | 110 | 602, Gopalkrupa Apartment, Bhonde colony, Prabhat Road, Erandawane, Pune – 411 004, Maharashtra, India | ADDRESS |  |
 | 110 | A-259, JK Road, Minal Residency, Huzur, Govindpura, Bhopal – 462 023, Madhya Pradesh, India | ADDRESS |  |
-| 111 | Indu Jacob | PERSON |  |
 | 111 | 05293084 | DIN |  |
 | 112 | Abhijit Diwan | PERSON |  |
 | 114 | ICICI Venture House | ADDRESS |  |
@@ -56,16 +51,15 @@ Token accuracy: **0.9710** (5158/5312 tokens); pages without extractable text sk
 | 112 | ICICI Venture House | ORG |  |
 | 112 | Appasaheb Marathe | PERSON |  |
 | 114 | ICICI Venture House | ORG |  |
+| 115 | Telephone | PHONE |  |
 | 128 | INCOMETAXDEPARTMENT GOVT.OFINDLA | ORG |  |
-| 128 | Income Tax PAN Services Unit | ORG |  |
-| 128 | 4th Floor,Mantri Sterling. Plot No.34!,SurveyNo.997/8 Model Coleay,Near Deep Bungalow Chowk, Pune-411016 | ADDRESS |  |
+| 128 | Income Tax PAN Services Unit,NSDL 4th Floor,Mantri Sterling. Plot No.34!,SurveyNo.997/8 Model Coleay,Near Deep Bungalow Chowk, Pune-411016 | ADDRESS |  |
 | 128 | tininfo@nsdLco.in | EMAIL |  |
 | 128 | INCOMETAXDEPARTMENT GOVT.OFINDLA | ORG |  |
 | 128 | NBWPS1951N | PAN |  |
 | 128 | VISHALSINGH | PERSON |  |
 | 128 | SUGRIV SINGH Visha Simgh 06072020 | PERSON |  |
 | 128 | 06/05/2000 | DOB |  |
-| 128 | Income Tax PAN Services Unit | ORG |  |
 | 128 | Plot No.34!,Survey No.997/8 Model Coleay,Near Deep Bungalow Chowk, Pune-411016 | ADDRESS |  |
 | 128 | 20-27218080 | PHONE |  |
 | 128 | tininfo@nsdLco.in | EMAIL |  |

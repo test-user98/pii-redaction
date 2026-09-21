@@ -40,8 +40,11 @@ def _page_pass(page: Page, doc: Doc, types, cfg, audit: Audit, use_llm: bool, ll
     spans += _timed(audit, "find", page.page_no, "address", lambda: address_finder.find(page, types, cfg))
     spans += _timed(audit, "find", page.page_no, "gliner", lambda: gliner_finder.find(page, types, cfg))
     if use_llm and page.page_no in llm_pages:
-        spans += _timed(audit, "find", page.page_no, cfg["llm"]["model"], lambda: llm_finder.find(page, types, cfg),
-                        unlocated=list(llm_finder.unlocated))
+        try:
+            spans += _timed(audit, "find", page.page_no, cfg["llm"]["model"], lambda: llm_finder.find(page, types, cfg),
+                            unlocated=list(llm_finder.unlocated))
+        except Exception as e:                      # LLM down/timeout: the other finders still ran; never lose the page
+            audit.log("llm_failed", page.page_no, cfg["llm"]["model"], evidence=str(e)[:300])
         llm_finder.unlocated.clear()
     return spans
 
@@ -50,6 +53,8 @@ def run(path: str, out_dir: str, *, use_llm: bool = True, use_review: bool = Tru
         only_pages: set[int] | None = None, workers: int = 4) -> dict:
     cfg, types = backends(), pii_types()
     out = Path(out_dir)
+    if Path(path).suffix.lower() not in (".pdf", ".docx"):
+        raise ValueError(f"unsupported input format: {path} (need .pdf or .docx)")
     doc: Doc = parse_document(path, cfg)
     out = out / doc.doc_id
     out.mkdir(parents=True, exist_ok=True)
